@@ -2,7 +2,7 @@ TrustedShops - It's all about trust
 ===
 
 <p align="center">
-  <img src="./banner.svg">
+  <img width="500" src="./banner.svg">
 </p>
 
 ## OpenSource at TrustedShops

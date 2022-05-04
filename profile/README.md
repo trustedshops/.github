@@ -1,9 +1,8 @@
-TrustedShops - It's all about trust
-===
-
 <p align="center">
   <img width="500" src="/banner.svg">
 </p>
+
+>  It's all about trust.
 
 ## OpenSource at TrustedShops
 

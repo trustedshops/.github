@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>PL Autoresponder</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.zz_signature_email__c</field>
+                <operation>equals</operation>
+                <value>members@trustedshops.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Herkunftsland_der_Rechtsform__c</field>
+                <operation>equals</operation>
+                <value>PL</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <replyToEmail>members@trustedshops.com</replyToEmail>
+            <senderEmail>members@trustedshops.de</senderEmail>
+            <senderName>Trusted Shops</senderName>
+            <template>unfiled$public/Auto_Response_Email_for_Poland_customer</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

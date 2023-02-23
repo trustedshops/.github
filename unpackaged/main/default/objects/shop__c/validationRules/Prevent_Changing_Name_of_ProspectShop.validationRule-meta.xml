@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Changing_Name_of_ProspectShop</fullName>
+    <active>true</active>
+    <description>You cannot change the name of prospect shops if you are not Lead Management.</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Name),
+RecordType.DeveloperName = &#39;Prospect_Shop&#39;,
+$User.ignore_validation_rules__c = false,
+$Profile.Name != &#39;Lead Manager&#39;,
+$Profile.Name != &#39;Contract Manager (new)&#39;,
+$UserRole.Name != &#39;System Administrators&#39;)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You cannot change the name of a prospect shop. Please contact Lead Management to request the change.</errorMessage>
+</ValidationRule>

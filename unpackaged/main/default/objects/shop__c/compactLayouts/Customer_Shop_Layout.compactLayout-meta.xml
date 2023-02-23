@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Shop_Layout</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>account_owner__c</fields>
+    <fields>company_id__c</fields>
+    <fields>zz_shop_info__c</fields>
+    <fields>shop_comment__c</fields>
+    <fields>Shop_Insights__c</fields>
+    <label>Customer Shop Layout</label>
+</CompactLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projected_orders_last_year_rolling__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(DATEVALUE(valid_from__c) &lt;= ADDMONTHS(TODAY(),-12),  Orders_last_year_rolling__c, IF((TODAY() - DATEVALUE(valid_from__c))&lt;=0,(TODAY() - ADDMONTHS(TODAY(),-12))*Orders_last_year_rolling__c,(TODAY() - ADDMONTHS(TODAY(),-12))/(TODAY() - DATEVALUE(valid_from__c))* Orders_last_year_rolling__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Projected orders last year (rolling)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

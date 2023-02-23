@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Customer_Shop_Update_From_NL</fullName>
+    <active>true</active>
+    <description>NL User can&#39;t update Customer Shops they don&#39;t own</description>
+    <errorConditionFormula>AND( 
+RecordTypeId = &quot;0120Y000000R2O1QAK&quot;, 
+company_id__r.Owner.ProfileId &lt;&gt; &quot;00e0Y000000dLEa&quot;, 
+company_id__r.Owner.ProfileId &lt;&gt; &quot;00e0Y000000dLEG&quot;, 
+OR( 
+$User.ProfileId = &quot;00e0Y000000dLEa&quot;, 
+$User.ProfileId = &quot;00e0Y000000dLEG&quot; 
+) 
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to update a customer shop</errorMessage>
+</ValidationRule>

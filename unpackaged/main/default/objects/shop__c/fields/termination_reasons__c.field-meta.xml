@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>termination_reasons__c</fullName>
+    <externalId>false</externalId>
+    <label>Termination Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BYMEMBER_EINS_UND_EINS_INPUT</fullName>
+                <default>false</default>
+                <label>1&amp;1 Input</label>
+            </value>
+            <value>
+                <fullName>BYTS_INITIAL_RISK_NEGATIV</fullName>
+                <default>false</default>
+                <label>Adverse outcome from initial risk assessment</label>
+            </value>
+            <value>
+                <fullName>BYTS_1_CANCELLATION_AMENDED_CONDITIONS</fullName>
+                <default>false</default>
+                <label>Amended conditions</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_6_ASSESSMENT_MONITORING</fullName>
+                <default>false</default>
+                <label>Assessment/Monitoring</label>
+            </value>
+            <value>
+                <fullName>BYTS_NOT_CERTIFIABLE</fullName>
+                <default>false</default>
+                <label>Business model not eligible for certification</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_AMB_CHANGES</fullName>
+                <default>false</default>
+                <label>Cancellation due to change in General Membership Terms and Conditions</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_PRICE_RISE</fullName>
+                <default>false</default>
+                <label>Cancellation due to price increase (retrospective calculation)</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_COST_REDUCTION</fullName>
+                <default>false</default>
+                <label>Cancellation to reduce costs</label>
+            </value>
+            <value>
+                <fullName>BYTS_TECHN_NOT_POSSIBLE</fullName>
+                <default>false</default>
+                <label>Certification by TS not possible for technical reasons</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_WANT_PRIMETIME</fullName>
+                <default>false</default>
+                <label>Changing to Prime-Time</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_4_COST_REDUCTION</fullName>
+                <default>false</default>
+                <label>Cost reduction</label>
+            </value>
+            <value>
+                <fullName>COSTS_ANALYSIS</fullName>
+                <default>false</default>
+                <label>Costs analysis</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_5_SERVICE</fullName>
+                <default>false</default>
+                <label>Customer service</label>
+            </value>
+            <value>
+                <fullName>PERMANENT_PAYMENT_DELAY</fullName>
+                <default>false</default>
+                <label>Dauerhafter Zahlungsverzug</label>
+            </value>
+            <value>
+                <fullName>BYTS_BUSI_POL_DECISION</fullName>
+                <default>false</default>
+                <label>Decision arising from company policy</label>
+            </value>
+            <value>
+                <fullName>BYTS_7_END_OF_MEMBERSHIP_TRIAL</fullName>
+                <default>false</default>
+                <label>End of Membership-Trial</label>
+            </value>
+            <value>
+                <fullName>EXPECTIONS_NOT_FULFILLED</fullName>
+                <default>false</default>
+                <label>Erwartung Umsatzsteigerung nicht erfüllt</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_3_EXPECTATIONS</fullName>
+                <default>false</default>
+                <label>Expectations not fulfilled</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_EXP_SALES_INCREASE</fullName>
+                <default>false</default>
+                <label>Expectations of TS product not met / increase in sales</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_EXP_OTHER</fullName>
+                <default>false</default>
+                <label>Expectations of TS product not met / other</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_EXP_SEO</fullName>
+                <default>false</default>
+                <label>Expectations of TS product not met / SEO</label>
+            </value>
+            <value>
+                <fullName>BYTS_SOLVENCY_NEGATIV</fullName>
+                <default>false</default>
+                <label>Fall in creditworthiness / uncreditworthy</label>
+            </value>
+            <value>
+                <fullName>NO_LIMIT_POSSIBLE</fullName>
+                <default>false</default>
+                <label>fehlende Bonität / keine Limitvergabe möglich MIT_POSSIBLE</label>
+            </value>
+            <value>
+                <fullName>BYTS_GUARANTEE_FACILITY</fullName>
+                <default>false</default>
+                <label>Guarantee framework/Solvency</label>
+            </value>
+            <value>
+                <fullName>BYTS_2_GUARANTEE_FRAMEWORK_SOLVENCY</fullName>
+                <default>false</default>
+                <label>Guarantee framework/Solvency (BYTS2)</label>
+            </value>
+            <value>
+                <fullName>INSOLVENT</fullName>
+                <default>false</default>
+                <label>Insolvency</label>
+            </value>
+            <value>
+                <fullName>BYTS_INSOLVENCY</fullName>
+                <default>false</default>
+                <label>Insolvency/bankruptcy</label>
+            </value>
+            <value>
+                <fullName>BYTS_3_INSOLVENCY</fullName>
+                <default>false</default>
+                <label>Insolvency (BYTS3)</label>
+            </value>
+            <value>
+                <fullName>CANCELLATION_DUE_TO_COSTS</fullName>
+                <default>false</default>
+                <label>Kündigung wg. Kostenreduzierung</label>
+            </value>
+            <value>
+                <fullName>CANCELLATION_RAISING_COSTS</fullName>
+                <default>false</default>
+                <label>Kündigung wg. Preiserhöhung</label>
+            </value>
+            <value>
+                <fullName>BYTS_NOT_PAID</fullName>
+                <default>false</default>
+                <label>Late payment</label>
+            </value>
+            <value>
+                <fullName>NEW_QUALITY_CRITERIA_2009</fullName>
+                <default>false</default>
+                <label>Neue Qualitätskriterien 2009</label>
+            </value>
+            <value>
+                <fullName>BYTS_5_NOT_PAID</fullName>
+                <default>false</default>
+                <label>Non-payment</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_10_EMPTY</fullName>
+                <default>false</default>
+                <label>No reason</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_EMPTY</fullName>
+                <default>false</default>
+                <label>No reason given for cancellation</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_9_OTHER</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>BYTS_6_OTHER</fullName>
+                <default>false</default>
+                <label>Other (BYTS6)</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_8_PRECAUTIONARY</fullName>
+                <default>false</default>
+                <label>Precautionary cancellation</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_2_PRICERISE_LIFT</fullName>
+                <default>false</default>
+                <label>Price adjustment (Lift)</label>
+            </value>
+            <value>
+                <fullName>BYTS_4_QUALITY_SERVICE</fullName>
+                <default>false</default>
+                <label>Quality/Customer Service</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_7_SALES</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>BAD_CUSTOMER_SERVICE</fullName>
+                <default>false</default>
+                <label>Schlechter Kundenservice</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_1_SHUT</fullName>
+                <default>false</default>
+                <label>Shop/Company shut down</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_CANNOT_REQ_AUDIT</fullName>
+                <default>false</default>
+                <label>Shop cannot (can no longer) meet TS requirements / audit</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_CANNOT_REQ_CS</fullName>
+                <default>false</default>
+                <label>Shop cannot (can no longer) meet TS requirements / CS</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_CANNOT_REQ_FINANCE</fullName>
+                <default>false</default>
+                <label>Shop cannot (can no longer) meet TS requirements / finance</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_CANNOT_REQ_MM</fullName>
+                <default>false</default>
+                <label>Shop cannot (can no longer) meet TS requirements / MM</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_CANNOT_REQ_RISK</fullName>
+                <default>false</default>
+                <label>Shop cannot (can no longer) meet TS requirements / risk</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_ABANDONED</fullName>
+                <default>false</default>
+                <label>shop discontinued</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_WILLNOT_REQ_AUDIT</fullName>
+                <default>false</default>
+                <label>Shop does not (no longer) wish(es) to meet TS requirements / audit</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_WILLNOT_REQ_CS</fullName>
+                <default>false</default>
+                <label>Shop does not (no longer) wish(es) to meet TS requirements / CS</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_WILLNOT_REQ_FINANCE</fullName>
+                <default>false</default>
+                <label>Shop does not (no longer) wish(es) to meet TS requirements / finance</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_WILLNOT_REQ_MM</fullName>
+                <default>false</default>
+                <label>Shop does not (no longer) wish(es) to meet TS requirements / MM</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_WILLNOT_REQ_RISK</fullName>
+                <default>false</default>
+                <label>Shop does not (no longer) wish(es) to meet TS requirements / risk</label>
+            </value>
+            <value>
+                <fullName>BYTS_CONTACT_IGNORED</fullName>
+                <default>false</default>
+                <label>Shop does not respond to communication from Trusted Shops</label>
+            </value>
+            <value>
+                <fullName>SHOP_END_OF_LIFE</fullName>
+                <default>false</default>
+                <label>Shop wurde aufgegeben</label>
+            </value>
+            <value>
+                <fullName>STORNO</fullName>
+                <default>false</default>
+                <label>Storno (Kulanz)</label>
+            </value>
+            <value>
+                <fullName>BYTS_TECH_REQ_NOT_FULFILLED</fullName>
+                <default>false</default>
+                <label>Technical integration does not meet TS requirements</label>
+            </value>
+            <value>
+                <fullName>STILL_HAPPY_WITH_TS</fullName>
+                <default>false</default>
+                <label>Trotz Kündigung mit TS zufrieden</label>
+            </value>
+            <value>
+                <fullName>TS_REQUIREMENTS_FAIL</fullName>
+                <default>false</default>
+                <label>TS-Anforderungen missachtet</label>
+            </value>
+            <value>
+                <fullName>ISH_IMPLEMENTATION_IMPOSSIBLE</fullName>
+                <default>false</default>
+                <label>Umsetzung des PP durch Shop nicht möglich</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_DISSAT_AUDIT</fullName>
+                <default>false</default>
+                <label>Unhappy with standard of service received from audit</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_DISSAT_CS</fullName>
+                <default>false</default>
+                <label>Unhappy with standard of service received from CS</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_DISSAT_FINANCE</fullName>
+                <default>false</default>
+                <label>Unhappy with standard of service received from finance</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_DISSAT_MM</fullName>
+                <default>false</default>
+                <label>Unhappy with standard of service received from MM</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_DISSAT_RISK</fullName>
+                <default>false</default>
+                <label>Unhappy with standard of service received from risk</label>
+            </value>
+            <value>
+                <fullName>BYSHOP_DISSAT_SALES</fullName>
+                <default>false</default>
+                <label>Unhappy with standard of service received from sales</label>
+            </value>
+            <value>
+                <fullName>DISHAPPY_TS_REQUIREMENTS</fullName>
+                <default>false</default>
+                <label>Unzufriedenheit mit TS-Anforderungen</label>
+            </value>
+            <value>
+                <fullName>DISHAPPY_TS_SERVICE</fullName>
+                <default>false</default>
+                <label>Unzufriedenheit mit TS-Kundenservice</label>
+            </value>
+            <value>
+                <fullName>BYTS_LEGAL_VIOLATION</fullName>
+                <default>false</default>
+                <label>Violation of terms and conditions of membership</label>
+            </value>
+            <value>
+                <fullName>PAYMENT_DELAY_SETUP_FEE</fullName>
+                <default>false</default>
+                <label>Zahlungsverzug Einrichtungsgebühr</label>
+            </value>
+            <value>
+                <fullName>CERTIFICATION_IMPOSSIBLE</fullName>
+                <default>false</default>
+                <label>Zertifizierung unmöglich</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

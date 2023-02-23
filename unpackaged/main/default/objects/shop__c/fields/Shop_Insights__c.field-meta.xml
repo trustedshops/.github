@@ -39,7 +39,7 @@ CASE
 &quot;EU&quot;,&quot;eu/buyerrating/info_&quot;,
 &quot;not available&quot;)
 +ts2_id__c+&quot;.html&quot;,&quot;Show Shop Profile&quot;)), &quot;No Shop Profile available&quot;) 
-&amp; &quot;&quot; &amp; IF( Using_eTrusted_Invite_Conversion_Feature__c, BR() + HYPERLINK(&quot;https://employees.trustedshops.com/analytics/invite-conversion?analyticsChannelId= &quot;+ eTrusted_Channel_Reference__c, &quot;Invite Conversion Dashboard&quot;),&quot;&quot;)</formula>
+&amp; &quot;&quot; &amp; IF( Using_eTrusted_Invite_Conversion_Feature__c, BR() + HYPERLINK(&quot;https://employees.trustedshops.com/analytics/invite-conversion?analyticsChannelId=&quot;+ eTrusted_Channel_Reference__c, &quot;Invite Conversion Dashboard&quot;),&quot;&quot;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Shop Insights</label>
     <required>false</required>

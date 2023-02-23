@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Set_account_main_partner</name>
+        <label>Set account main partner</label>
+        <locationX>94</locationX>
+        <locationY>1007</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_main_partner__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Account.Main_partner__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Opportunity_Stage_changed</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>set currency and price book</description>
+        <name>Set_initial_values</name>
+        <label>Set initial values</label>
+        <locationX>226</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.CurrencyIsoCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Account.CurrencyIsoCode</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Pricebook2Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Setup.PriceBookIds__c.ZuoraPriceBookId__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_the_record_type_upsell_or_lift</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Name_2</name>
+        <label>Set Name_2</label>
+        <locationX>94</locationX>
+        <locationY>671</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Formula_Set_Name</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>If_account_main_partner_is_not_null</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Update_Close_Date</name>
+        <label>Update Close Date</label>
+        <locationX>50</locationX>
+        <locationY>1559</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.CloseDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>If_account_main_partner_is_not_null</name>
+        <label>If account main partner is not null</label>
+        <locationX>226</locationX>
+        <locationY>887</locationY>
+        <defaultConnector>
+            <targetReference>Opportunity_Stage_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_account_main_partner_is_not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account.Main_partner__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_account_main_partner</targetReference>
+            </connector>
+            <label>TRUE_account main partner is not null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_the_record_type_upsell_or_lift</name>
+        <label>Is the record type upsell or lift</label>
+        <locationX>226</locationX>
+        <locationY>551</locationY>
+        <defaultConnector>
+            <targetReference>If_account_main_partner_is_not_null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_recordtype_not_equal_to_upsell_or_lift</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>0120Y000000R7QqQAK</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>0121v000000FqLwAAK</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Name_2</targetReference>
+            </connector>
+            <label>If recordtype not equal to upsell or lift</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opp_stage_closed_won_or_lost</name>
+        <label>Opp stage closed won or lost</label>
+        <locationX>182</locationX>
+        <locationY>1439</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>True_Opp_stage_closed_won_or_lost</name>
+            <conditionLogic>(1 OR 2) AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Lost</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Setup.OpportunityRecordType__c.Lift_RecordTypeId__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Setup.OpportunityRecordType__c.Upsell_RecordTypeId__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Close_Date</targetReference>
+            </connector>
+            <label>True Opp stage closed won or lost</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opportunity_is_Created_or_Updated</name>
+        <label>Opportunity is Created or Updated</label>
+        <locationX>380</locationX>
+        <locationY>311</locationY>
+        <defaultConnector>
+            <targetReference>Opportunity_Stage_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>New_Opportunity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_initial_values</targetReference>
+            </connector>
+            <label>New Opportunity</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opportunity_Stage_changed</name>
+        <label>Opportunity Stage changed</label>
+        <locationX>380</locationX>
+        <locationY>1319</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_opportunity_stage_changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Opp_stage_closed_won_or_lost</targetReference>
+            </connector>
+            <label>TRUE opportunity stage changed</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>Formula_Set_Name</name>
+        <dataType>String</dataType>
+        <expression>&#39;OPP-&#39; + TEXT({!$Record.Amount}) + TEXT({!$Record.CurrencyIsoCode}) + &#39;-&#39; +  LEFT({!$Record.Account.Name},70) + &#39;-&#39; +  TEXT(year({!$Flow.CurrentDate}))+LPAD(TEXT(month({!$Flow.CurrentDate})),2,&quot;0&quot;)+LPAD(TEXT(day({!$Flow.CurrentDate})),2,&quot;0&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>Opportunity_is_new</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <formulas>
+        <name>Set_Name</name>
+        <dataType>String</dataType>
+        <expression>&#39;OPP-&#39; + TEXT({!$Record.Amount}) + TEXT({!$Record.CurrencyIsoCode}) + &#39;-&#39; +  LEFT({!$Record.Account.Name},70) + &#39;-&#39; + {!$Record.zz_autonumber__c }</expression>
+    </formulas>
+    <formulas>
+        <name>Today_Formula</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <interviewLabel>FLOW_OPPORTUNITY_BEFORE_TRIGGER {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FLOW_OPPORTUNITY_BEFORE_TRIGGER</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Opportunity_is_Created_or_Updated</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

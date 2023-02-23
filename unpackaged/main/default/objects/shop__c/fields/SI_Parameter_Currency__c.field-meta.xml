@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SI_Parameter_Currency__c</fullName>
+    <description>set by SI Daily Batch</description>
+    <externalId>false</externalId>
+    <label>SI Parameter Currency</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>provided</fullName>
+                <default>false</default>
+                <label>provided</label>
+            </value>
+            <value>
+                <fullName>not provided</fullName>
+                <default>false</default>
+                <label>not provided</label>
+            </value>
+            <value>
+                <fullName>provided without SI</fullName>
+                <default>false</default>
+                <label>provided without SI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

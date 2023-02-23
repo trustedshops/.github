@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>shop_comment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( AND(ISNULL(termination_at__c), zz_certificate_disabled__c  = &quot;&quot;,  TEXT(standard_integration_status__c) != &quot;0&quot;, churn_score__c  &lt;= 67, last_review_more_than_2_weeks_ago__c = FALSE), IMAGE(&quot;https://trustedshops--c.eu11.content.force.com/servlet/servlet.ImageServer?id=0150Y000001aH1Q&amp;oid=00D3L0000000dtj&amp;lastMod=1508508173000UNBRAUCHBAR&quot;, &quot;All fine.&quot;)+&quot; &quot;+BR(), &#39;&#39;)
++ 
+ IF(!ISNULL(termination_at__c), &quot;Shop cancelled (valid to: &quot; +  TEXT(DATEVALUE( valid_to__c )) + &quot;)&quot; +   BR() , &quot;&quot;)
++ 
+ IF(zz_certificate_disabled__c  != &quot;&quot;, IMAGE(&quot;../servlet/servlet.ImageServer?id=0159E000000AgA2&amp;oid=00D9E0000000cQs&amp;lastMod=1505462681000&quot;, &quot;Certificate disabled&quot;) + &quot; &quot; +  zz_certificate_disabled__c  + BR(), &quot;&quot;)
++
+ IF(TEXT(standard_integration_status__c) = &quot;0&quot;, IMAGE(&quot;https://trustedshops--c.eu11.content.force.com/servlet/servlet.ImageServer?id=0150Y0000026spA&amp;oid=00D3L0000000dtj&amp;lastMod=1508157065000&quot;, &quot;No Standard Integration&quot;) + &quot; No Standard Integration&quot; +  BR() , &quot;&quot;)
++
+ IF(last_review_more_than_2_weeks_ago__c = TRUE, &quot;Last Review more than 2 weeks ago (&quot; + TEXT(DATEVALUE( last_review__c)) + &quot;)&quot;+BR(), &quot;&quot;)
++
+IF(ISPICKVAL(rating_widget__c, &#39;disabled&#39;), &quot;Rating Widget DISABLED&quot;, &quot;&quot;)+ BR()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Critical Shop Information</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

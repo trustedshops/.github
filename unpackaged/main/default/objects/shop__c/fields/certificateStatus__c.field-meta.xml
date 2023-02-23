@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>certificateStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>certificateStatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>DISABLED</fullName>
+                <default>false</default>
+                <label>disabled</label>
+            </value>
+            <value>
+                <fullName>CANCELLED</fullName>
+                <default>false</default>
+                <label>expired</label>
+            </value>
+            <value>
+                <fullName>NO_AUDIT</fullName>
+                <default>false</default>
+                <label>no audit</label>
+            </value>
+            <value>
+                <fullName>INTEGRATION</fullName>
+                <default>false</default>
+                <label>not (yet) approved</label>
+            </value>
+            <value>
+                <fullName>TEST</fullName>
+                <default>false</default>
+                <label>test</label>
+            </value>
+            <value>
+                <fullName>PRODUCTION</fullName>
+                <default>false</default>
+                <label>valid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

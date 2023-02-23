@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Shop_Adressen</fullName>
+    <columns>company_id__c</columns>
+    <columns>url__c</columns>
+    <columns>zz_target_market_language__c</columns>
+    <columns>street__c</columns>
+    <columns>zip__c</columns>
+    <columns>city__c</columns>
+    <columns>country__c</columns>
+    <columns>shopkeeper__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>shop__c.Customer_Shop</value>
+    </filters>
+    <filters>
+        <field>company_id__c</field>
+        <operation>equals</operation>
+        <value>Athena Solutions Pty Ltd</value>
+    </filters>
+    <label>Update Shop Adressen</label>
+    <sharedTo />
+</ListView>

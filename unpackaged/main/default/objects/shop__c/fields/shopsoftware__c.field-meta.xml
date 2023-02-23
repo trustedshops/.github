@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>shopsoftware__c</fullName>
+    <description>ATTENTION! values need to be aligned at all time with the shop software field on the object enrichment_result__c
+When adding/removing values, please update this page: https://wiki.trustedshops.com/display/Operations/Shop+Software+Values</description>
+    <externalId>false</externalId>
+    <label>Shop Software</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Shop_Software</valueSetName>
+    </valueSet>
+</CustomField>

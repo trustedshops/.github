@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>last_status_of_audit__c</fullName>
+    <externalId>false</externalId>
+    <label>Last Status of Audit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CERT_PENDING</fullName>
+                <default>false</default>
+                <label>Activation of certificate due,Please set certificate status to &quot;valid&quot;, check expiry date and allocate Buyer Protection products in accordance with the Buyer Protection model. , Activation due</label>
+            </value>
+            <value>
+                <fullName>REQ_READY_CHECK</fullName>
+                <default>false</default>
+                <label>Audit announced,A while ago became a member of Trusted Shops.  On your wish we had postponed the start of the certification of your online shop {0}.\n\nMay we now start the audit? Then please let us know. We\u2019re looking forward to hearing from you.\n\</label>
+            </value>
+            <value>
+                <fullName>ISH_RECHECK</fullName>
+                <default>false</default>
+                <label>Audit brought forward ,Audit shop again.,Processing completed (force due date)</label>
+            </value>
+            <value>
+                <fullName>ISH_OK</fullName>
+                <default>false</default>
+                <label>Audit completed successfully,Audit report passed</label>
+            </value>
+            <value>
+                <fullName>CERT_ABORT_PENDING</fullName>
+                <default>false</default>
+                <label>Audit completion initiated,If follow-up audit is unsuccessful, terminate audit indefinitely.  ,Termination of audit due</label>
+            </value>
+            <value>
+                <fullName>CERT_ABORT_ON_HOLD</fullName>
+                <default>false</default>
+                <label>Audit completion suspended,Termination of audit delayed</label>
+            </value>
+            <value>
+                <fullName>ISH_ON_HOLD</fullName>
+                <default>false</default>
+                <label>Audit date postponed, Audit postponed</label>
+            </value>
+            <value>
+                <fullName>ISH_PENDING</fullName>
+                <default>false</default>
+                <label>Audit date reached, As a member of Trusted Shops, your online shop is scheduled for another audit. \n\nA few test purchase orders will also be made as part of the audit. You will recognise the test purchase orders by the use of the name &quot;Test Tester&quot; from</label>
+            </value>
+            <value>
+                <fullName>ENDED</fullName>
+                <default>false</default>
+                <label>Audit finished</label>
+            </value>
+            <value>
+                <fullName>AGR_REVISED</fullName>
+                <default>false</default>
+                <label>Audit finished after quality control, Audit finished</label>
+            </value>
+            <value>
+                <fullName>REQ_READY_OVERDUE</fullName>
+                <default>false</default>
+                <label>Audit readiness deadline expired,Personally follow-up audit readiness.,Audit readiness enquiry</label>
+            </value>
+            <value>
+                <fullName>ISH_FIXED</fullName>
+                <default>false</default>
+                <label>Audit report was implemented,  Audit report implemented by shop, audit again. ,Processing completed</label>
+            </value>
+            <value>
+                <fullName>ISH_RESTART</fullName>
+                <default>false</default>
+                <label>Audit restarted,  New audit started , New audit started</label>
+            </value>
+            <value>
+                <fullName>CERT_ABORTED</fullName>
+                <default>false</default>
+                <label>Audit terminated , Audit terminated ,Trusted Shops audit terminated</label>
+            </value>
+            <value>
+                <fullName>CERT_COMPLETED</fullName>
+                <default>false</default>
+                <label>Certification completed successfully,  Carry out quality control, check and where necessary adjust contract and finish audit , Audit completed</label>
+            </value>
+            <value>
+                <fullName>WAIT_PROFILE</fullName>
+                <default>false</default>
+                <label>Creation of shop profile due soon</label>
+            </value>
+            <value>
+                <fullName>GOT_LIMIT</fullName>
+                <default>false</default>
+                <label>Credit check completed successfully,Trusted Shops credit check completed successfully,We are pleased to inform you that you have successfully completed the first step of the Trusted Shops Certification process (credit check).\n\nOn the basis of the packag</label>
+            </value>
+            <value>
+                <fullName>NO_LIMIT</fullName>
+                <default>false</default>
+                <label>Credit check finished with a negative result,Adjust or terminate contract. Certificate must be set to &quot;expired&quot;,Credit check negative</label>
+            </value>
+            <value>
+                <fullName>RISK_APPROVAL</fullName>
+                <default>false</default>
+                <label>Credit check started,Perform risk assessment,Credit check in progress</label>
+            </value>
+            <value>
+                <fullName>RISK_ON_HOLD</fullName>
+                <default>false</default>
+                <label>Credit check was postponed,Credit check postponed</label>
+            </value>
+            <value>
+                <fullName>CHANGE_CHECK_EARLIEST</fullName>
+                <default>false</default>
+                <label>Date of audit readiness altered</label>
+            </value>
+            <value>
+                <fullName>ISH_FIX_OVERDUE</fullName>
+                <default>false</default>
+                <label>Deadline for audit report implementation expired ,Implementation of audit report overdue. , Processing overdue</label>
+            </value>
+            <value>
+                <fullName>STANDARD_EMAIL_ONLY</fullName>
+                <default>false</default>
+                <label>Email sent</label>
+            </value>
+            <value>
+                <fullName>EXPRESS_ONLY</fullName>
+                <default>false</default>
+                <label>Express audit invoiced</label>
+            </value>
+            <value>
+                <fullName>CHANGE_DUEDATE</fullName>
+                <default>false</default>
+                <label>Feedback deadline altered</label>
+            </value>
+            <value>
+                <fullName>STARTED_FST</fullName>
+                <default>false</default>
+                <label>First audit started</label>
+            </value>
+            <value>
+                <fullName>REQ_CHECK</fullName>
+                <default>false</default>
+                <label>Follow up audit announced, As part of your Trusted Shops membership shortly I will audit your online shop again.\n\nDuring the audit I will place some test orders. You will recognise these by the name and address as I will use \u201CTest Tester\u201D from</label>
+            </value>
+            <value>
+                <fullName>STARTED_SEQ</fullName>
+                <default>false</default>
+                <label>Follow up audit started</label>
+            </value>
+            <value>
+                <fullName>REQ_CHECK_OVERDUE</fullName>
+                <default>false</default>
+                <label>Follow up audit started,Please do not undertake any further changes in your shop that relate to certification in order to avoid additional audit expense. You can view the current status of the audit at all times at {linkToShopCertificationArea}. Where pos</label>
+            </value>
+            <value>
+                <fullName>CHANGE_FOLLOWUP_DATE</fullName>
+                <default>false</default>
+                <label>Follow-up date changed</label>
+            </value>
+            <value>
+                <fullName>FORCE_DUE</fullName>
+                <default>false</default>
+                <label>Force due date,Waiting status interrupted</label>
+            </value>
+            <value>
+                <fullName>INT_RECHECK</fullName>
+                <default>false</default>
+                <label>Integration check brought forward,  Audit integration , Audit integration</label>
+            </value>
+            <value>
+                <fullName>INT_ABORTED</fullName>
+                <default>false</default>
+                <label>Integration check finished unsuccessfully , Integration cancelled</label>
+            </value>
+            <value>
+                <fullName>INT_OK</fullName>
+                <default>false</default>
+                <label>Integration completed successfully, Integration ok , Integration of Trusted Shops completed successfully</label>
+            </value>
+            <value>
+                <fullName>INT_FIX_OVERDUE</fullName>
+                <default>false</default>
+                <label>Integration deadline expired, Integration overdue. , Integration overdue</label>
+            </value>
+            <value>
+                <fullName>INT_FAILED</fullName>
+                <default>false</default>
+                <label>Integration not yet successful, Thank you for your reply. Unfortunately the integration does not yet function properly.\n\nIn order to quickly validate the certificate of your shop, please make the following changes and inform us once completed with a sho</label>
+            </value>
+            <value>
+                <fullName>INT_FIXED</fullName>
+                <default>false</default>
+                <label>Integration was improved, Online retailer has completed integration, audit again.,Integration completed</label>
+            </value>
+            <value>
+                <fullName>COMMENT_ONLY</fullName>
+                <default>false</default>
+                <label>Internal comment</label>
+            </value>
+            <value>
+                <fullName>MEMBER_FEE_CHECK</fullName>
+                <default>false</default>
+                <label>Membership fee check due,  Check payment of membership fee. , Check membership fee</label>
+            </value>
+            <value>
+                <fullName>MEMBER_FEE_ON_HOLD</fullName>
+                <default>false</default>
+                <label>Membership fee check postponed, Membership fee invoice postponed</label>
+            </value>
+            <value>
+                <fullName>MEMBER_FEE_NOT_PAID</fullName>
+                <default>false</default>
+                <label>Membership fee NOT paid , Membership fee not paid,</label>
+            </value>
+            <value>
+                <fullName>WAIT_DEBIT</fullName>
+                <default>false</default>
+                <label>Membership fee payable soon</label>
+            </value>
+            <value>
+                <fullName>MEMBER_FEE_PAID</fullName>
+                <default>false</default>
+                <label>Membership fee payment documented,The membership fee was successfully received on {0} , Membership fee paid</label>
+            </value>
+            <value>
+                <fullName>MEMBER_FEE_PAYMENT</fullName>
+                <default>false</default>
+                <label>Membership fee payment initiated,  Membership fee invoice in progress</label>
+            </value>
+            <value>
+                <fullName>MEMBER_FEE_FORCED</fullName>
+                <default>false</default>
+                <label>Membership invoice approaching</label>
+            </value>
+            <value>
+                <fullName>TS_MESSAGE_ONLY</fullName>
+                <default>false</default>
+                <label>Message to online retailer,Message to shop,Message from Trusted Shops</label>
+            </value>
+            <value>
+                <fullName>INT_TS_FEEDBACK</fullName>
+                <default>false</default>
+                <label>Message to shop about audit, Message about audit report ,Message from Trusted Shops regarding certification (INT)</label>
+            </value>
+            <value>
+                <fullName>ISH_TS_FEEDBACK</fullName>
+                <default>false</default>
+                <label>Message to shop about audit, Message about audit report, Message from Trusted Shops regarding certification (ISH)</label>
+            </value>
+            <value>
+                <fullName>SHOP_MESSAGE_ONLY</fullName>
+                <default>false</default>
+                <label>Message to Trusted Shops,Send us a Message</label>
+            </value>
+            <value>
+                <fullName>INT_SHOP_FEEDBACK</fullName>
+                <default>false</default>
+                <label>Message to Trusted Shops about audit,Process message from shop regarding audit. ,Feedback about audit (INT)</label>
+            </value>
+            <value>
+                <fullName>ISH_SHOP_FEEDBACK</fullName>
+                <default>false</default>
+                <label>Message to Trusted Shops about audit,Process message from shop regarding audit. ,Feedback about audit (ISH)</label>
+            </value>
+            <value>
+                <fullName>PRIO_ONLY</fullName>
+                <default>false</default>
+                <label>PRIO_ONLY</label>
+            </value>
+            <value>
+                <fullName>NO_PROFILE</fullName>
+                <default>false</default>
+                <label>Profile task was cancelled ,No profile necessary</label>
+            </value>
+            <value>
+                <fullName>ASSIGN_ONLY</fullName>
+                <default>false</default>
+                <label>Responsibility for certification defined,Define responsibility</label>
+            </value>
+            <value>
+                <fullName>RISK_APPROVAL_PENDING(TsAccessRole.TS_RISK)</fullName>
+                <default>false</default>
+                <label>RISK_APPROVAL_PENDING(TsAccessRole.TS_RISK)</label>
+            </value>
+            <value>
+                <fullName>CERT_ABORT_ON_HOLD_DISABLED</fullName>
+                <default>false</default>
+                <label>Seal of Approval disabled, Seal of Approval disabled</label>
+            </value>
+            <value>
+                <fullName>ISH_FAILED_WARNING</fullName>
+                <default>false</default>
+                <label>Seal of Approval disablement warning issued, Recently I reminded you to implement the Trusted Shops audit report dated {2} in your online shop {0}. Unfortunately I have not received any response from you yet.\n\nAccording to the Trusted Shops general memb</label>
+            </value>
+            <value>
+                <fullName>SETUP_FEE_ON_HOLD</fullName>
+                <default>false</default>
+                <label>Set-up fee added to follow-up list,Set-up fee on follow-up list</label>
+            </value>
+            <value>
+                <fullName>SETUP_FEE_CHECK</fullName>
+                <default>false</default>
+                <label>Set-up fee check due,Check set-up fee,Check set-up fee  payment</label>
+            </value>
+            <value>
+                <fullName>SETUP_FEE_NOT_PAID</fullName>
+                <default>false</default>
+                <label>Set-up fee NOT paid,Set-up fee not paid</label>
+            </value>
+            <value>
+                <fullName>SETUP_FEE_PENDING</fullName>
+                <default>false</default>
+                <label>Set-up fee payable,Arrange set-up fee payment,Set-up fee payable</label>
+            </value>
+            <value>
+                <fullName>SETUP_FEE_PAID</fullName>
+                <default>false</default>
+                <label>Set-up fee payment documented,The set-up fee to the amount of {0} {1} was successfully received on {2}, Set-up fee paid</label>
+            </value>
+            <value>
+                <fullName>SETUP_FEE_PAYMENT</fullName>
+                <default>false</default>
+                <label>Set-up fee payment initiated,Set-up fee invoice in progress</label>
+            </value>
+            <value>
+                <fullName>PROFILE_PENDING</fullName>
+                <default>false</default>
+                <label>Set up of shop profile approved ,Create and activate shop profile. , Profile due</label>
+            </value>
+            <value>
+                <fullName>PROFILE_CREATED</fullName>
+                <default>false</default>
+                <label>Shop profile set up and activated,  Profile activated</label>
+            </value>
+            <value>
+                <fullName>CHANGE_REMINDER</fullName>
+                <default>false</default>
+                <label>shop reminder altered</label>
+            </value>
+            <value>
+                <fullName>CERT_ABORT_PENDING_CRITICAL</fullName>
+                <default>false</default>
+                <label>Shop warned due to QAL breaches and Seal of Approval disablement initiated , Despite several requests to adjust your online shop {2} in accordance with the requirements of the audit report provided on {0} no implementation has been made yet. Compliance wi</label>
+            </value>
+            <value>
+                <fullName>TAKE_AWAY</fullName>
+                <default>false</default>
+                <label>Task was accepted,Task accepted</label>
+            </value>
+            <value>
+                <fullName>ISH_FAILED</fullName>
+                <default>false</default>
+                <label>Your Trusted Shops audit report,Audit not yet successful</label>
+            </value>
+            <value>
+                <fullName>WAITING_FOR_AUDIT_RPOCESS</fullName>
+                <default>false</default>
+                <label>WAITING_FOR_AUDIT_RPOCESS</label>
+            </value>
+            <value>
+                <fullName>RISK_APPROVAL_PENDING</fullName>
+                <default>false</default>
+                <label>RISK_APPROVAL_PENDING</label>
+            </value>
+            <value>
+                <fullName>RISK_APPROVED</fullName>
+                <default>false</default>
+                <label>Risk approved</label>
+            </value>
+            <value>
+                <fullName>WAITING_FOR_AUDIT_PROCESS_MIGRATED</fullName>
+                <default>false</default>
+                <label>WAITING_FOR_AUDIT_PROCESS_MIGRATED</label>
+            </value>
+            <value>
+                <fullName>FINISHED_MIGRATED_AUDITS</fullName>
+                <default>false</default>
+                <label>FINISHED_MIGRATED_AUDITS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

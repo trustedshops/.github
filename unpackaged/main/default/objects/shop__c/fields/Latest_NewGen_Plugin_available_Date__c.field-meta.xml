@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latest_NewGen_Plugin_available_Date__c</fullName>
+    <externalId>false</externalId>
+    <label>Latest NewGen Plugin available Date</label>
+    <summarizedField>Additional_Shop_Info__c.NewGen_Plugin_available_from__c</summarizedField>
+    <summaryForeignKey>Additional_Shop_Info__c.Shop__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

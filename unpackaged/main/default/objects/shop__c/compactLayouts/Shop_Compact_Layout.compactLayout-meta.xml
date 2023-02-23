@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop_Compact_Layout</fullName>
+    <fields>url__c</fields>
+    <fields>company_id__c</fields>
+    <fields>target_market__c</fields>
+    <fields>language__c</fields>
+    <fields>shopsoftware__c</fields>
+    <fields>shop_industry__c</fields>
+    <fields>ts2_id__c</fields>
+    <fields>agency__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>not_merging_relevant__c</fields>
+    <label>Shop Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tets__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(
+		OR(ISBLANK(leading_indicator_date__c), leading_indicator_date__c - contracted_at__c &gt; 90), 
+		OR(DATEVALUE(first_audit_completed_on__c) - contracted_at__c &gt; 90, ISBLANK(first_audit_completed_on__c)), 
+		AND(DATEVALUE(first_audit_completed_on__c) - contracted_at__c &gt; 90, 
+			OR(fifth_review_received__c -  contracted_at__c &gt; 90, ISBLANK(fifth_review_received__c)))
+		), 	&quot;missed audit and reviews&quot;, 
+			IF(AND(
+					OR(ISBLANK(leading_indicator_date__c), leading_indicator_date__c - contracted_at__c &gt; 90), 
+					OR(DATEVALUE(first_audit_completed_on__c) - contracted_at__c &gt; 90, ISBLANK(first_audit_completed_on__c)), 
+					AND(DATEVALUE(first_audit_completed_on__c) - contracted_at__c &gt; 90, fifth_review_received__c -  contracted_at__c &lt; 90)
+					), 	&quot;missed audit&quot;,
+						IF(AND(
+								OR(ISBLANK(leading_indicator_date__c), leading_indicator_date__c - contracted_at__c &gt; 90), DATEVALUE(first_audit_completed_on__c) - contracted_at__c &lt; 90
+								), &quot;missed Reviews&quot;, &quot;is Leading&quot;
+							)
+				)
+	)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tets</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

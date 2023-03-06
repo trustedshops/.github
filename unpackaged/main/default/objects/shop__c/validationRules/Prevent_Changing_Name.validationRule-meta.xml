@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Prevent_Changing_Name</fullName>
-    <active>false</active>
-    <errorConditionFormula>RecordTypeId = &#39;0120Y000000R2O1&#39; &amp;&amp; ISCHANGED(Name) &amp;&amp; $User.ignore_validation_rules__c = FALSE &amp;&amp; $UserRole.Name != &#39;System Administrators&#39;</errorConditionFormula>
-    <errorMessage>You cannot change the name of a shop with type Customer.</errorMessage>
-</ValidationRule>

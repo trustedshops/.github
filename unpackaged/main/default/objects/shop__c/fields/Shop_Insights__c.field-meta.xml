@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Shop_Insights__c</fullName>
     <externalId>false</externalId>
-    <formula>IF (NOT(ISBLANK(TEXT(target_market__c ))), (HYPERLINK(&quot;https://trustedshops.&quot;+ 
+    <formula>IF (NOT(ISBLANK(TEXT(target_market__c ))), (HYPERLINK(&quot;https://trustedshops.&quot;+
 CASE
 (target_market__c,
 &quot;AUT&quot;,&quot;at/bewertung/info_&quot;,
@@ -38,8 +38,8 @@ CASE
 &quot;CZ&quot;,&quot;eu/buyerrating/info_&quot;,
 &quot;EU&quot;,&quot;eu/buyerrating/info_&quot;,
 &quot;not available&quot;)
-+ts2_id__c+&quot;.html&quot;,&quot;Show Shop Profile&quot;)), &quot;No Shop Profile available&quot;) 
-&amp; &quot;&quot; &amp; IF( Using_eTrusted_Invite_Conversion_Feature__c, BR() + HYPERLINK(&quot;https://employees.trustedshops.com/analytics/invite-conversion?analyticsChannelId=&quot;+ eTrusted_Channel_Reference__c, &quot;Invite Conversion Dashboard&quot;),&quot;&quot;)</formula>
++ts2_id__c+&quot;.html&quot;,&quot;Show Shop Profile&quot;)), &quot;No Shop Profile available&quot;)
+&amp; &quot;&quot; &amp; IF( NOT(ISBLANK(eTrusted_Channel_Reference__c)), BR() + HYPERLINK(&quot;https://employees.trustedshops.com/analytics/invite-conversion?analyticsChannelId=&quot;+ eTrusted_Channel_Reference__c, &quot;Invite Performance Dashboard&quot;),&quot;&quot;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Shop Insights</label>
     <required>false</required>

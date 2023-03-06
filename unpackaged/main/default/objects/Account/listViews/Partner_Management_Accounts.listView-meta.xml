@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Management_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>partner_status__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>Last_Activity__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Partner Management,Nina Gerling,Gina Domke,Tobias Tullius,Vanessa Kleen</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT_SOURCE</field>
+        <operation>notEqual</operation>
+        <value>Partner</value>
+    </filters>
+    <label>Partner Management Accounts</label>
+    <sharedTo>
+        <role>Director_Sales</role>
+        <role>System_Administrators</role>
+    </sharedTo>
+</ListView>

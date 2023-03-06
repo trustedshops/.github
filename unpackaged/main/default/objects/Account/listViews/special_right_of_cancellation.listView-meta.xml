@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>special_right_of_cancellation</fullName>
+    <booleanFilter>1 AND (2 OR 3) AND 4 AND 5</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_Readonly__c</columns>
+    <columns>Contract_Value__c</columns>
+    <columns>Contracted_at__c</columns>
+    <columns>status__c</columns>
+    <columns>Days_until_termination__c</columns>
+    <columns>Termination_Reason__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contracted_at__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>10/1/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Anita Nurzynska</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Magdalena Skowrońska</value>
+    </filters>
+    <filters>
+        <field>special_right_of_cancellation__c</field>
+        <operation>equals</operation>
+        <value>Yes,Yes - Already Granted</value>
+    </filters>
+    <filters>
+        <field>Sales_Owner__c</field>
+        <operation>equals</operation>
+        <value>0050Y0000028fyVQAQ</value>
+    </filters>
+    <label>sp.right of canc. Marcin po 1.10.2020</label>
+</ListView>

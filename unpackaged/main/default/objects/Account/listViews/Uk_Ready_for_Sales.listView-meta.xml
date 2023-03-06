@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Uk_Ready_for_Sales</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Shop_Industries__c</columns>
+    <columns>campaign__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>Discarded_Date__c</columns>
+    <columns>vat_number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>GB</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Ready for Sales</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.prospect</value>
+    </filters>
+    <filters>
+        <field>is_key_account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>contact_type__c</field>
+        <operation>equals</operation>
+        <value>Outbound</value>
+    </filters>
+    <filters>
+        <field>Outbound_type__c</field>
+        <operation>equals</operation>
+        <value>Recycled</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>Lead</value>
+    </filters>
+    <filters>
+        <field>campaign__c</field>
+        <operation>notEqual</operation>
+        <value>20201116_UK_TrustpilotMember,20210429_UK_Trustpilot Claimed</value>
+    </filters>
+    <label>UK SME Ready for Sales Recycled</label>
+    <sharedTo>
+        <role>Team_Lead_Management_Outbound</role>
+        <role>Teamlead_Outbound_Lead_Management</role>
+    </sharedTo>
+</ListView>

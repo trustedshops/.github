@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seal_Unlocked__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>aw - saves wether the seal is locked or unlocked - gets changed via api call and button &quot;Toggle Seal&quot;</description>
+    <externalId>false</externalId>
+    <label>Seal Unlocked</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

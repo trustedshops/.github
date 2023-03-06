@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Parent_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>is set to true when account gets set as a parent; is used to display flow component in account lightningpage layouts</description>
+    <externalId>false</externalId>
+    <label>Is Parent Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

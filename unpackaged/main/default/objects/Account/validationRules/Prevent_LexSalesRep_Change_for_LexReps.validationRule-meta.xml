@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_LexSalesRep_Change_for_LexReps</fullName>
+    <active>true</active>
+    <description>Legal Sales Reps should not be able to change the legal sales rep. Exception: legal teamlead sales</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Legal_Sales_Responsible__c),
+!ISPICKVAL(Legal_Status__c,&quot;Discarded&quot;),!ISPICKVAL(status__c,&quot;Discarded&quot;), 
+CONTAINS($UserRole.Name,&quot;Legal Team Sales&quot;),
+NOT(CONTAINS($UserRole.Name,&quot;Legal Teamlead Sales&quot;))
+)</errorConditionFormula>
+    <errorMessage>You cannot assign this Account to someone else. Please contact Lead Management.</errorMessage>
+</ValidationRule>

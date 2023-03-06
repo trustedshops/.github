@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Start_Date__c</fullName>
+    <description>only used for type = strategic partner</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only fill if type = strategic partner!</inlineHelpText>
+    <label>Contract Start Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

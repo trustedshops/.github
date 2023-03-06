@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Name_changed_by_Reps_and_CC_User</fullName>
+    <active>true</active>
+    <description>account name cannot be changed by Sales Reps or Partner Community Users</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Name),
+$User.ignore_validation_rules__c = false,
+OR(
+AND(
+CONTAINS($Profile.Name, &quot;Sales Manager&quot;),
+NOT(CONTAINS($UserRole.Name, &quot;Legal Teamlead&quot;)),
+NOT(ISPICKVAL($User.Business_Unit__c, &quot;Sales - Partner Management&quot;))),
+BEGINS($Profile.Name, &quot;Partner Community&quot;)))</errorConditionFormula>
+    <errorMessage>If you would like to change the name of this account, please contact your administrator.</errorMessage>
+</ValidationRule>

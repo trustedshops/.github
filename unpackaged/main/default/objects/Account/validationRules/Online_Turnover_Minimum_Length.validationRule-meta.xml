@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Online_Turnover_Minimum_Length</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED( Online_Turnover__c ) &amp;&amp; NOT( ISNULL(Online_Turnover__c) ) &amp;&amp;LEN(TEXT(ABS(Online_Turnover__c))) &lt; 5</errorConditionFormula>
+    <errorDisplayField>Online_Turnover__c</errorDisplayField>
+    <errorMessage>&quot;Online Turnover must be at least 5 digits long.&quot;</errorMessage>
+</ValidationRule>

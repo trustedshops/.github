@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_of_contact_lookups_must_be_filled</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(
+ISCHANGED(BillToContact__c),
+NOT(ISBLANK(BillToContact__c)),
+ISBLANK(BillToContact__r.Email)),
+AND(
+ISCHANGED(SoldToContact__c),
+NOT(ISBLANK(SoldToContact__c)),
+ISBLANK(SoldToContact__r.Email)),
+AND(
+ISCHANGED(contact__c),
+NOT(ISBLANK(contact__c)),
+ISBLANK(contact__r.Email)),
+AND(
+ISCHANGED(Data_Protection_Contact__c),
+NOT(ISBLANK(Data_Protection_Contact__c)),
+ISBLANK(Data_Protection_Contact__r.Email)),
+AND(
+ISCHANGED(Retention_Contact__c),
+NOT(ISBLANK(Retention_Contact__c)),
+ISBLANK(Retention_Contact__r.Email)))</errorConditionFormula>
+    <errorMessage>Please fill in an email address in the connected contact.</errorMessage>
+</ValidationRule>

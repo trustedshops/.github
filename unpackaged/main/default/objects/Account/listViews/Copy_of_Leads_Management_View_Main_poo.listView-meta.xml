@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Leads_Management_View_Main_poo</fullName>
+    <columns>MQL_contact__c</columns>
+    <columns>is_key_account__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Discarded_Date__c</columns>
+    <columns>Previous_owner_main__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Last_Activity__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Outbound_type__c</columns>
+    <columns>status__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Last_discarded_by__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.prospect</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>contains</operation>
+        <value>Ready for Sales</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>contains</operation>
+        <value>Lead</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>PL</value>
+    </filters>
+    <filters>
+        <field>Outbound_type__c</field>
+        <operation>equals</operation>
+        <value>Recycled</value>
+    </filters>
+    <filters>
+        <field>source__c</field>
+        <operation>contains</operation>
+        <value>India</value>
+    </filters>
+    <label>Copy of Leads Management View - Main poo</label>
+    <sharedTo />
+</ListView>

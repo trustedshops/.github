@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Override_Duplicate_Check__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to bypass the Duplicate Rules in Process Automations</description>
+    <externalId>false</externalId>
+    <label>Process Override Duplicate Check (old)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

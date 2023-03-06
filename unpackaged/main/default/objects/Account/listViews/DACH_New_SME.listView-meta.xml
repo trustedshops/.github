@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DACH_New_SME</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>RevScore__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>Account_Owner_Readonly__c</columns>
+    <columns>Shop_Industries__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Assigned</value>
+    </filters>
+    <label>DACH New SME</label>
+    <sharedTo>
+        <role>Lead_Management_Manager</role>
+    </sharedTo>
+</ListView>

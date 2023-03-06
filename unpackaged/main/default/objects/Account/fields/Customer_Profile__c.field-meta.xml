@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Profile__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Profile</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DACH - Malerversand</fullName>
+                <default>false</default>
+                <label>DACH - Malerversand</label>
+            </value>
+            <value>
+                <fullName>DACH - Möbel Karmann</fullName>
+                <default>false</default>
+                <label>DACH - Möbel Karmann</label>
+            </value>
+            <value>
+                <fullName>Benelux, UK + Nordics</fullName>
+                <default>false</default>
+                <label>Benelux, UK + Nordics</label>
+            </value>
+            <value>
+                <fullName>ES, PT, IT, FR</fullName>
+                <default>false</default>
+                <label>ES, PT, IT, FR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

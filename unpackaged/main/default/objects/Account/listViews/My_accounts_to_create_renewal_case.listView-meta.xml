@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_accounts_to_create_renewal_case</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Herkunftsland_der_Rechtsform__c</columns>
+    <columns>Subscription_End_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.customer</value>
+    </filters>
+    <filters>
+        <field>Removed_from_renewal_info_list__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My accounts to create renewal case</label>
+    <sharedTo />
+</ListView>

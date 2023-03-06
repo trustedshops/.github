@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Import_05072017</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>normed_url__c</columns>
+    <columns>source__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>source__c</field>
+        <operation>equals</operation>
+        <value>Import 05072017</value>
+    </filters>
+    <label>Import 05072017</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

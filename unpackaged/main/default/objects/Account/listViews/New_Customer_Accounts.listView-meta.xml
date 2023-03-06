@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Customer_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_Readonly__c</columns>
+    <columns>Herkunftsland_der_Rechtsform__c</columns>
+    <columns>Kundensegment__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>contact__c</columns>
+    <columns>Quote_approval_date__c</columns>
+    <columns>status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Team Customer Success</value>
+    </filters>
+    <label>New Customer Accounts</label>
+</ListView>

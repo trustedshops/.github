@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MQL_contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>MQL was created after the account was put in the system by the lead management</description>
+    <externalId>false</externalId>
+    <inlineHelpText>for already existing accounts with MQL</inlineHelpText>
+    <label>MQL contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

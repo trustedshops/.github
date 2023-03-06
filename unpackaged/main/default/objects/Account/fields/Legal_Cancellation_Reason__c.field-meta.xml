@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Cancellation_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal Cancellation Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anwaltliche Vertretung</fullName>
+                <default>false</default>
+                <label>Anwaltliche Vertretung</label>
+            </value>
+            <value>
+                <fullName>Aufgabe des Shops/Unternehmens</fullName>
+                <default>false</default>
+                <label>Aufgabe des Shops/Unternehmens</label>
+            </value>
+            <value>
+                <fullName>Bad fit</fullName>
+                <default>false</default>
+                <label>Bad fit</label>
+            </value>
+            <value>
+                <fullName>Erwartungen nicht erfüllt</fullName>
+                <default>false</default>
+                <label>Erwartungen nicht erfüllt</label>
+            </value>
+            <value>
+                <fullName>Inkasso</fullName>
+                <default>false</default>
+                <label>Inkasso</label>
+            </value>
+            <value>
+                <fullName>kein Grund genannt</fullName>
+                <default>false</default>
+                <label>kein Grund genannt</label>
+            </value>
+            <value>
+                <fullName>Kostenreduktion</fullName>
+                <default>false</default>
+                <label>Kostenreduktion</label>
+            </value>
+            <value>
+                <fullName>Kundenservice</fullName>
+                <default>false</default>
+                <label>Kundenservice</label>
+            </value>
+            <value>
+                <fullName>Migration myTS</fullName>
+                <default>false</default>
+                <label>Migration myTS</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Siegel Mitgliedschaft</fullName>
+                <default>false</default>
+                <label>Siegel Mitgliedschaft</label>
+            </value>
+            <value>
+                <fullName>Sonderkündigung</fullName>
+                <default>false</default>
+                <label>Sonderkündigung</label>
+            </value>
+            <value>
+                <fullName>Storno</fullName>
+                <default>false</default>
+                <label>Storno</label>
+            </value>
+            <value>
+                <fullName>Vorsorgliche Kündigung</fullName>
+                <default>false</default>
+                <label>Vorsorgliche Kündigung</label>
+            </value>
+            <value>
+                <fullName>Wechsel Mitbewerber</fullName>
+                <default>false</default>
+                <label>Wechsel Mitbewerber</label>
+            </value>
+            <value>
+                <fullName>Zahlungsverzug</fullName>
+                <default>false</default>
+                <label>Zahlungsverzug</label>
+            </value>
+            <value>
+                <fullName>Änderungskündigung</fullName>
+                <default>false</default>
+                <label>Änderungskündigung</label>
+            </value>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Insolvency</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Insolvency</label>
+            </value>
+            <value>
+                <fullName>Price/Benefit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Price/Benefit</label>
+            </value>
+            <value>
+                <fullName>Quality of service</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quality of service</label>
+            </value>
+            <value>
+                <fullName>Subscription adjustment (Lift)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Subscription adjustment (Lift)</label>
+            </value>
+            <value>
+                <fullName>Warranty limit/solvency</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Warranty limit/solvency</label>
+            </value>
+            <value>
+                <fullName>no reason mentioned</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>no reason mentioned</label>
+            </value>
+            <value>
+                <fullName>notice of termination pending a change of contract</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>notice of termination pending a change of contract</label>
+            </value>
+            <value>
+                <fullName>precautionary cancellation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>precautionary cancellation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

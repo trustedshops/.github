@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Segmentation__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Segmentation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TECH_TOUCH</fullName>
+                <default>false</default>
+                <label>Tech Touch</label>
+            </value>
+            <value>
+                <fullName>MID_TOUCH</fullName>
+                <default>false</default>
+                <label>Mid Touch</label>
+            </value>
+            <value>
+                <fullName>HIGH_TOUCH</fullName>
+                <default>false</default>
+                <label>High Touch</label>
+            </value>
+            <value>
+                <fullName>SME-A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SME-A</label>
+            </value>
+            <value>
+                <fullName>SME-B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SME-B</label>
+            </value>
+            <value>
+                <fullName>SME-C</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SME-C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

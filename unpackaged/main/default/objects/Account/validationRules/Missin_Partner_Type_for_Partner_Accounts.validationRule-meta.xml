@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missin_Partner_Type_for_Partner_Accounts</fullName>
+    <active>false</active>
+    <description>all partner accounts should have a value for the field partner type see PO-7031</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = &#39;Partner&#39;,
+NOT(ISPICKVAL(Partner_type__c, &#39;Agency&#39;)), NOT(ISPICKVAL(Partner_type__c, &#39;Strategic partner&#39;)))</errorConditionFormula>
+    <errorMessage>The value for the field Partner Type is missing. Please fil in the missing data.</errorMessage>
+</ValidationRule>

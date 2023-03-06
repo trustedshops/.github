@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pool__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>used for future pool creations</description>
+    <externalId>false</externalId>
+    <label>Pool</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

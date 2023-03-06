@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Product_Reviews__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Account has more Shops than this Product has been booked, see Prdouct Usage Apex Class</description>
+    <externalId>false</externalId>
+    <label>Potential Product Reviews</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

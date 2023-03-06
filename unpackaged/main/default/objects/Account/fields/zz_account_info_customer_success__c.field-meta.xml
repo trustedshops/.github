@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_account_info_customer_success__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Customer Number: &quot; + customer_number__c + BR() +
+IF(ISPICKVAL(Customer_Segmentation__c , &quot;HIGH_TOUCH&quot;), &quot;Segment: High Touch&quot; + BR(),
+IF(ISPICKVAL(Customer_Segmentation__c , &quot;MID_TOUCH&quot;), &quot;Segment: Mid Touch&quot; + BR(),
+IF(ISPICKVAL(Customer_Segmentation__c , &quot;TECH_TOUCH&quot;), &quot;Segment: Tech Touch&quot; + BR(),&quot;&quot;)))
++ &quot;Country: &quot; + ShippingCountry + BR()
++ &quot;Number of Customer Shops: &quot; + TEXT(Number_of_Customer_Shops__c) + BR() +
+IF(zz_turnover_customer__c = 1, &quot;Turnover Customer&quot;, &quot;&quot;)
++ &quot;Total Number of Potential Shop Domain: &quot; +TEXT(Total_Number_Of_Potential_ShopDomain__c) + BR()
++ &quot;Number of New Potential Shop Domain: &quot; +TEXT(Number_Of_New_Potential_ShopDomain__c) + BR()
+
+/*
++ IF( Min_HealthScore__c&gt;0, &quot;HealthScore of healthiest shop: &quot; + TEXT(ROUND(Min_HealthScore__c,2)),&quot;&quot;)
+CJA: Commented out on 18.09.2020, until we decide how to proceed with the HealthScore in 10.2020/11.2020
+*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Info</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

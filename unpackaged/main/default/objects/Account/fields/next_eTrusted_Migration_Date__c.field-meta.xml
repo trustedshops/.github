@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>next_eTrusted_Migration_Date__c</fullName>
+    <description>upcoming eTrusted Migration Date used for Customer Marketing to identify Shops with an upcoming Migration for onboarding</description>
+    <externalId>false</externalId>
+    <label>next eTrusted Migration Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

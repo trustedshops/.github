@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experience_with_Review_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Experience with Review Provider</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Trustpilot</fullName>
+                <default>false</default>
+                <label>Trustpilot</label>
+            </value>
+            <value>
+                <fullName>Verified Reviews</fullName>
+                <default>false</default>
+                <label>Verified Reviews</label>
+            </value>
+            <value>
+                <fullName>Reviews.io</fullName>
+                <default>false</default>
+                <label>Reviews.io</label>
+            </value>
+            <value>
+                <fullName>Ekomi</fullName>
+                <default>false</default>
+                <label>Ekomi</label>
+            </value>
+            <value>
+                <fullName>Bazaarvoice</fullName>
+                <default>false</default>
+                <label>Bazaarvoice</label>
+            </value>
+            <value>
+                <fullName>Webwinkelkeur</fullName>
+                <default>false</default>
+                <label>Webwinkelkeur</label>
+            </value>
+            <value>
+                <fullName>Feedaty</fullName>
+                <default>false</default>
+                <label>Feedaty</label>
+            </value>
+            <value>
+                <fullName>Trustami</fullName>
+                <default>false</default>
+                <label>Trustami</label>
+            </value>
+            <value>
+                <fullName>Revi</fullName>
+                <default>false</default>
+                <label>Revi</label>
+            </value>
+            <value>
+                <fullName>Societé des Avis garantis</fullName>
+                <default>false</default>
+                <label>Societé des Avis garantis</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

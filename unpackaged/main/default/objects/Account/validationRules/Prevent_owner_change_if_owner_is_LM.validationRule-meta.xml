@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_owner_change_if_owner_is_LM</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+OwnerId != &#39;0050Y000001GxvY&#39;,
+PRIORVALUE(OwnerId) = &#39;0050Y000001GxvY&#39;,
+NOT (ISPICKVAL(status__c , &#39;Deprecated&#39;)),
+NOT(OR(
+$UserRole.DeveloperName = &#39;System_Administrators&#39;,
+$UserRole.DeveloperName = &#39;Teamlead_Outbound_Lead_Management&#39;,
+$UserRole.DeveloperName = &#39;Team_Lead_Management_Outbound&#39;)),
+$User.ignore_validation_rules__c = false
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Please contact ODG if you would like to assign this account to somebody else.</errorMessage>
+</ValidationRule>

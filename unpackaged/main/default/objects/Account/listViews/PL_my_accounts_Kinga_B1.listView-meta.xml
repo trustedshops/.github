@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PL_my_accounts_Kinga_B1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>status__c</columns>
+    <columns>Outbound_type__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>is_key_account__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.CURRENCY_ISO_CODE</columns>
+    <columns>vat_number__c</columns>
+    <columns>source__c</columns>
+    <columns>number_of_accounts__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>contains</operation>
+        <value>Kinga Basinska</value>
+    </filters>
+    <label>PL my accounts_Kinga B</label>
+</ListView>

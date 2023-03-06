@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_format_incorrect</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISNEW()
+||
+ISCHANGED(Phone))
+&amp;&amp;
+(
+(NOT(ISBLANK(Phone))
+&amp;&amp;
+NOT(REGEX(Phone,&quot;^[+]{1}[0-9]{1,3}[ ]{0,1}[0-9]{7,15}&quot;)))
+)
+&amp;&amp;
+$User.is_API_User__c = false
+&amp;&amp;
+$User.ignore_validation_rules__c = false
+&amp;&amp;
+!ISPICKVAL($User.UserType,&quot;Guest&quot;) 
+&amp;&amp;
+($UserRole.DeveloperName != &quot;Teamlead_Outbound_Lead_Management&quot;
+&amp;&amp;
+$UserRole.DeveloperName != &quot;Team_Lead_Management_Outbound&quot;)</errorConditionFormula>
+    <errorMessage>Bad Phone format on account, please make sure Phone number starts with a country code followed by 7-15 digits (numbers only) e.g.: +49 123456789</errorMessage>
+</ValidationRule>

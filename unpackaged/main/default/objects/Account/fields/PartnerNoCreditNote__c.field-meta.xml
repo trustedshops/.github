@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerNoCreditNote__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>only visible to Partner Management (not Agencies)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this checkbox if this partner shouldn&#39;t receive a credit note.</inlineHelpText>
+    <label>PartnerNoCreditNote</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

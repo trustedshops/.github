@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Monitoring__c</fullName>
+    <description>only visible to profile &quot;Risk Manager&quot;</description>
+    <externalId>false</externalId>
+    <label>Reason for Monitoring</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quality Indicators</fullName>
+                <default>false</default>
+                <label>Quality Indicators</label>
+            </value>
+            <value>
+                <fullName>Financial Statements</fullName>
+                <default>false</default>
+                <label>Financial Statements</label>
+            </value>
+            <value>
+                <fullName>Certification Date</fullName>
+                <default>false</default>
+                <label>Certification Date</label>
+            </value>
+            <value>
+                <fullName>Growth</fullName>
+                <default>false</default>
+                <label>Growth</label>
+            </value>
+            <value>
+                <fullName>High Risk</fullName>
+                <default>false</default>
+                <label>High Risk</label>
+            </value>
+            <value>
+                <fullName>Potentiality Plus</fullName>
+                <default>false</default>
+                <label>Potentiality Plus</label>
+            </value>
+            <value>
+                <fullName>Cancellation Atradius</fullName>
+                <default>false</default>
+                <label>Cancellation Atradius</label>
+            </value>
+            <value>
+                <fullName>Reactivation Check</fullName>
+                <default>false</default>
+                <label>Reactivation Check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

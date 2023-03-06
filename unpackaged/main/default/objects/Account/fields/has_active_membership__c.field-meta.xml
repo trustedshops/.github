@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>has_active_membership__c</fullName>
+    <externalId>false</externalId>
+    <formula>Number_of_Customer_Shops__c &gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Has Active Membership</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

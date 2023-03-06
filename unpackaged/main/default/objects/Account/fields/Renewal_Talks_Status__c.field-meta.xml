@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Talks_Status__c</fullName>
+    <defaultValue>&quot;Not Contacted&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Renewal Talks Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Contacted</fullName>
+                <default>true</default>
+                <label>Not Contacted</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Will Renew</fullName>
+                <default>false</default>
+                <label>Will Renew</label>
+            </value>
+            <value>
+                <fullName>Possible Cancellations</fullName>
+                <default>false</default>
+                <label>Possible Cancellations</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Winback Unsuccessful</fullName>
+                <default>false</default>
+                <label>Winback Unsuccessful</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

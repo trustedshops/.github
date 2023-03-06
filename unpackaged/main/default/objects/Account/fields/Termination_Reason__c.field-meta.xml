@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Termination_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Termination Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aufgabe des Shops/Unternehmens</fullName>
+                <default>false</default>
+                <label>giving-up of Shop/Company</label>
+            </value>
+            <value>
+                <fullName>Beitragsanpassung (Lift)</fullName>
+                <default>false</default>
+                <label>Subscription adjustment (Lift)</label>
+            </value>
+            <value>
+                <fullName>Kostenreduktion</fullName>
+                <default>false</default>
+                <label>Price/Benefit</label>
+            </value>
+            <value>
+                <fullName>Kundenservice</fullName>
+                <default>false</default>
+                <label>Quality of service</label>
+            </value>
+            <value>
+                <fullName>Prüfung/Monitoring</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Vorsorgliche Kündigung</fullName>
+                <default>false</default>
+                <label>precautionary cancellation</label>
+            </value>
+            <value>
+                <fullName>Kein Grund genannt</fullName>
+                <default>false</default>
+                <label>no reason mentioned</label>
+            </value>
+            <value>
+                <fullName>Änderungskündigung</fullName>
+                <default>false</default>
+                <label>notice of termination pending a change of contract</label>
+            </value>
+            <value>
+                <fullName>Garantierahmen/Bonität</fullName>
+                <default>false</default>
+                <label>Warranty limit/solvency</label>
+            </value>
+            <value>
+                <fullName>Insolvenz</fullName>
+                <default>false</default>
+                <label>Insolvency</label>
+            </value>
+            <value>
+                <fullName>Qualität/Kundenservice</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>Zahlungsverzug</fullName>
+                <default>false</default>
+                <label>delay in payment</label>
+            </value>
+            <value>
+                <fullName>Sonstige</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Sonstige TS</fullName>
+                <default>false</default>
+                <label>Others TS</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Review-Service</fullName>
+                <default>false</default>
+                <label>Review-Service</label>
+            </value>
+            <value>
+                <fullName>Guarantee-Service</fullName>
+                <default>false</default>
+                <label>Guarantee-Service</label>
+            </value>
+            <value>
+                <fullName>Erwartungen nicht erfüllt</fullName>
+                <default>false</default>
+                <label>Expectations not met</label>
+            </value>
+            <value>
+                <fullName>Legal Services</fullName>
+                <default>false</default>
+                <label>Legal Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

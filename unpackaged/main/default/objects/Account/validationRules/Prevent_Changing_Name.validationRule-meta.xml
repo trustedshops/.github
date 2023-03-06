@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Changing_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Name)
+&amp;&amp;
+$Profile.Name != &#39;Contract Manager (new)&#39;
+&amp;&amp;
+$Profile.Name != &#39;System Administrator&#39;
+&amp;&amp;
+$Profile.Name != &#39;System Administrator CX&#39;
+&amp;&amp;
+RecordTypeId = &#39;0120Y000000VZN3&#39;
+&amp;&amp;
+$User.ignore_validation_rules__c = FALSE</errorConditionFormula>
+    <errorMessage>You cannot change the Name of a Customer.Account</errorMessage>
+</ValidationRule>

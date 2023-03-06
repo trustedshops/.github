@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Discarded_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal Discarded Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lead Quality</fullName>
+                <default>false</default>
+                <label>Lead Quality</label>
+            </value>
+            <value>
+                <fullName>Rejected by TS</fullName>
+                <default>false</default>
+                <label>Rejected by TS</label>
+            </value>
+            <value>
+                <fullName>Customer says no (Legal)</fullName>
+                <default>false</default>
+                <label>Customer says no (Legal)</label>
+            </value>
+            <value>
+                <fullName>Customer says no (Datenschutz - Ultimate)</fullName>
+                <default>false</default>
+                <label>Customer says no (Datenschutz - Ultimate)</label>
+            </value>
+            <value>
+                <fullName>absolutely no interest/ no further contact</fullName>
+                <default>false</default>
+                <label>absolutely no interest/ no further contact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

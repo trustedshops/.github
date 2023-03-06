@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_Inbound_or_Outbound_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+ AND (
+  ISPICKVAL(Inbound_Type__c, &#39;&#39;),
+  ISPICKVAL(contact_type__c , &#39;Inbound&#39;)
+ ),
+ AND (
+  ISPICKVAL(Outbound_type__c, &#39;&#39;),
+  ISPICKVAL(contact_type__c , &#39;Outbound&#39;)
+ )
+)
+&amp;&amp;
+ AND(
+  RecordType.Name != &#39;Customer&#39;,
+  RecordType.Name != &#39;Obsolete&#39;
+ )
+&amp;&amp;
+ NOT($User.ignore_validation_rules__c)</errorConditionFormula>
+    <errorMessage>Please make sure you have selected the correct Inbound or Outbound Type</errorMessage>
+</ValidationRule>

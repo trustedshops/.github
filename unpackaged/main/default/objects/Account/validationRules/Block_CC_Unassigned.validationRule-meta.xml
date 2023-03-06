@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_CC_Unassigned</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+ISCHANGED( Name ),
+ISCHANGED( PartnerPaymentBank__c  ),
+ISCHANGED( PartnerPaymentBIC__c),
+ISCHANGED( PartnerPaymentBLZ__c),
+ISCHANGED( PartnerPaymentIBAN__c),
+ISCHANGED( Website )
+),
+OR(
+Id = &quot;0011v00002DkQp6&quot;,
+Id = &quot;0011v00002Dl29K&quot;,
+Id = &quot;0011v00002DkX6F&quot;,
+Id = &quot;0011v00002Dl28v&quot;,
+Id = &quot;0011v00002Dl274&quot;,
+Id = &quot;0011v00002Dl27x&quot;,
+Id = &quot;0011v00002DkWvW&quot;,
+Id = &quot;0011v00002DkWvC&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>Bitte warten Sie, bis der entsprechende Partner Manager Sie bestätigt hat.</errorMessage>
+</ValidationRule>

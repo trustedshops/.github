@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifizierung_New_Leads_Jonas</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Jonas Hellrung</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <label>Qualifizierung New Leads Jonas</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Lead_Management_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Team_Lead_Management_Outbound</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

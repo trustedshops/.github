@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Online_Marketing_Rockstars_2019</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_Readonly__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.prospect</value>
+    </filters>
+    <filters>
+        <field>campaign__c</field>
+        <operation>contains</operation>
+        <value>Prestashop Day Milan 2019</value>
+    </filters>
+    <filters>
+        <field>is_key_account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>contains</operation>
+        <value>Lead</value>
+    </filters>
+    <label>Random Messefilter Miriam</label>
+    <sharedTo />
+</ListView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Owner_Change_for_Partner_Account</fullName>
+    <active>true</active>
+    <description>Only Partner Manager &amp; ODG should be able to change the Account Owner. Exception: API User</description>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+OwnerId != &#39;0050Y000001GxvY&#39;,
+RecordType.DeveloperName = &quot;partner&quot;,
+$User.ignore_validation_rules__c = false,
+NOT(OR(
+ISPICKVAL($User.Business_Unit__c, &quot;Sales - Partner Management&quot;),
+$User.Is_Partner_Manager__c = true,
+$UserRole.DeveloperName = &quot;Teamlead_Outbound_Lead_Management&quot;,
+$UserRole.DeveloperName = &quot;Team_Lead_Management_Outbound&quot;,
+$UserRole.DeveloperName = &quot;System_Administrators&quot;
+)))</errorConditionFormula>
+    <errorMessage>You cannot assign this Account to someone else. Please contact Partner Management.</errorMessage>
+</ValidationRule>

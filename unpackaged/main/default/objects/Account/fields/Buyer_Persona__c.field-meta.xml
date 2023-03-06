@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buyer_Persona__c</fullName>
+    <externalId>false</externalId>
+    <label>Buyer Persona</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Oskar - DACH</fullName>
+                <default>false</default>
+                <label>Oskar - DACH</label>
+            </value>
+            <value>
+                <fullName>Isabelle - DACH</fullName>
+                <default>false</default>
+                <label>Isabelle - DACH</label>
+            </value>
+            <value>
+                <fullName>Christian - UK/RoW</fullName>
+                <default>false</default>
+                <label>Christian - UK/RoW</label>
+            </value>
+            <value>
+                <fullName>Richard - UK/RoW</fullName>
+                <default>false</default>
+                <label>Richard - UK/RoW</label>
+            </value>
+            <value>
+                <fullName>Sanne - NL</fullName>
+                <default>false</default>
+                <label>Sanne - NL</label>
+            </value>
+            <value>
+                <fullName>Ramon - NL</fullName>
+                <default>false</default>
+                <label>Ramon - NL</label>
+            </value>
+            <value>
+                <fullName>Julien - FR</fullName>
+                <default>false</default>
+                <label>Julien - FR</label>
+            </value>
+            <value>
+                <fullName>Silvia - IT</fullName>
+                <default>false</default>
+                <label>Silvia - IT</label>
+            </value>
+            <value>
+                <fullName>Martina - ES</fullName>
+                <default>false</default>
+                <label>Martina - ES</label>
+            </value>
+            <value>
+                <fullName>Marek - PL</fullName>
+                <default>false</default>
+                <label>Marek - PL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Min_HealthScore__c</fullName>
+    <description>Minimum HealthScore of all this companies shops</description>
+    <externalId>false</externalId>
+    <label>Min_HealthScore</label>
+    <summarizedField>shop__c.HealthScore__c</summarizedField>
+    <summaryFilterItems>
+        <field>shop__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Customer Shop</value>
+    </summaryFilterItems>
+    <summaryForeignKey>shop__c.company_id__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

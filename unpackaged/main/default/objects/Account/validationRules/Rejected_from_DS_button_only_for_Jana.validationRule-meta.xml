@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejected_from_DS_button_only_for_Jana</fullName>
+    <active>true</active>
+    <description>Only Jana should use the button &quot;rejected from DS&quot; because it is first the test phase</description>
+    <errorConditionFormula>AND
+(
+NOT(
+ISNULL( Account_taken_out_until__c)
+),
+NOT($User.Alias = &#39;jmüll&#39;),
+$User.ignore_validation_rules__c = false
+)</errorConditionFormula>
+    <errorDisplayField>Account_taken_out_until__c</errorDisplayField>
+    <errorMessage>You can not use this feature during the test phases</errorMessage>
+</ValidationRule>

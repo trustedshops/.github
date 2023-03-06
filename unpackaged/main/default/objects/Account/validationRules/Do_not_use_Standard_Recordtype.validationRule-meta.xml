@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_use_Standard_Recordtype</fullName>
+    <active>false</active>
+    <description>prevents usage before roll out of one membership project https://tracker.trustedshops.com/browse/PO-6921</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Type),
+ISPICKVAL(Type, &#39;Standard&#39;))</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>You cannot use this picklist value as an Account Type, Please choose another one.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Proof_Date__c</fullName>
+    <description>Date field to register when the &#39;Company proof&#39; field was set.</description>
+    <externalId>false</externalId>
+    <label>Company Proof Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

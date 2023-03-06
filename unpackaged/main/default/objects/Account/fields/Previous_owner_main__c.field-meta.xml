@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_owner_main__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>name from previous sales rep owner</description>
+    <externalId>false</externalId>
+    <label>Previous owner main</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>previousaccounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

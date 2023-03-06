@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventUpdateTaxExemptStatus</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL( TaxExempt__c, &#39;Yes&#39;)
+&amp;&amp;
+ISPICKVAL( TaxRegion__c, &#39;Germany&#39;))
+||
+(ISPICKVAL( TaxExempt__c, &#39;Yes&#39;)
+&amp;&amp;
+ISPICKVAL( TaxRegion__c, &#39;EU&#39;)
+&amp;&amp;
+(CompanyProof__c = FALSE)
+&amp;&amp;
+ISBLANK( vat_number__c ))
+||
+(ISPICKVAL( TaxExempt__c, &#39;Yes&#39;)
+&amp;&amp;
+ISPICKVAL( TaxRegion__c, &#39;Third Country&#39;)
+&amp;&amp;
+CompanyProof__c = FALSE)
+&amp;&amp;
+$User.ignore_validation_rules__c = false
+&amp;&amp;
+RecordType.DeveloperName = &quot;Customer&quot;</errorConditionFormula>
+    <errorMessage>Tax Exempt only possible if a VAT ID or a company proof is given and the Tax Region is not Germany</errorMessage>
+</ValidationRule>

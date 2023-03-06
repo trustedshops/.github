@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discarded_Information__c</fullName>
+    <externalId>false</externalId>
+    <label>Discarded Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>discarded_reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No (Valid) phone number</fullName>
+                <default>false</default>
+                <label>No (Valid) phone number</label>
+            </value>
+            <value>
+                <fullName>No Onlineshop</fullName>
+                <default>false</default>
+                <label>No Onlineshop</label>
+            </value>
+            <value>
+                <fullName>URL offline</fullName>
+                <default>false</default>
+                <label>URL offline</label>
+            </value>
+            <value>
+                <fullName>Exclusion catalogue</fullName>
+                <default>false</default>
+                <label>Exclusion catalogue</label>
+            </value>
+            <value>
+                <fullName>No certification possible for this business concept</fullName>
+                <default>false</default>
+                <label>No certification possible for this business concept</label>
+            </value>
+            <value>
+                <fullName>Rejected by risk management</fullName>
+                <default>false</default>
+                <label>Rejected by risk management</label>
+            </value>
+            <value>
+                <fullName>Does not believe in TS effect</fullName>
+                <default>false</default>
+                <label>Does not believe in TS effect</label>
+            </value>
+            <value>
+                <fullName>Happy with competitor</fullName>
+                <default>false</default>
+                <label>Happy with competitor</label>
+            </value>
+            <value>
+                <fullName>Pflichtfeld: which competitor?</fullName>
+                <default>false</default>
+                <label>Pflichtfeld: which competitor?</label>
+            </value>
+            <value>
+                <fullName>Optinal: Ablaufdatum des Vertrages</fullName>
+                <default>false</default>
+                <label>Optinal: Ablaufdatum des Vertrages</label>
+            </value>
+            <value>
+                <fullName>Repeatedly not reached</fullName>
+                <default>false</default>
+                <label>Repeatedly not reached</label>
+            </value>
+            <value>
+                <fullName>Soon out of business</fullName>
+                <default>false</default>
+                <label>Soon out of business</label>
+            </value>
+            <value>
+                <fullName>Too expensive</fullName>
+                <default>false</default>
+                <label>Too expensive</label>
+            </value>
+            <value>
+                <fullName>Too specialized</fullName>
+                <default>false</default>
+                <label>Too specialized</label>
+            </value>
+            <value>
+                <fullName>Check agency potential</fullName>
+                <default>false</default>
+                <label>Check agency potential</label>
+            </value>
+            <value>
+                <fullName>No agency potential</fullName>
+                <default>false</default>
+                <label>No agency potential</label>
+            </value>
+            <value>
+                <fullName>Provision too low</fullName>
+                <default>false</default>
+                <label>Provision too low (partner only)</label>
+            </value>
+            <value>
+                <fullName>No connection wanted</fullName>
+                <default>false</default>
+                <label>No connection wanted (partner only)</label>
+            </value>
+            <value>
+                <fullName>No ecommerce</fullName>
+                <default>false</default>
+                <label>No ecommerce (partner only)</label>
+            </value>
+            <value>
+                <fullName>Shopsoftware non certifiable</fullName>
+                <default>false</default>
+                <label>Shopsoftware non certifiable</label>
+            </value>
+            <value>
+                <fullName>Concentration on platforms (e.g Amazon, Etsy)</fullName>
+                <default>false</default>
+                <label>Concentration on platforms (e.g Amazon, Etsy)</label>
+            </value>
+            <value>
+                <fullName>Shop too small/just started</fullName>
+                <default>false</default>
+                <label>Shop too small/just started</label>
+            </value>
+            <value>
+                <fullName>Shop not ready</fullName>
+                <default>false</default>
+                <label>Shop not ready</label>
+            </value>
+            <value>
+                <fullName>Janolaw Client</fullName>
+                <default>false</default>
+                <label>Janolaw Client</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>Exclusion catalogue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>No certification possible for this business concept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <valueName>Rejected by risk management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <valueName>Shopsoftware non certifiable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <valueName>Janolaw Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Does not believe in TS effect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Happy with competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Repeatedly not reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Soon out of business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Too expensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Too specialized</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Concentration on platforms (e.g Amazon, Etsy)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no</controllingFieldValue>
+            <valueName>Shop too small/just started</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>Check agency potential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>No agency potential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>Provision too low</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>No connection wanted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agency</controllingFieldValue>
+            <valueName>No ecommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>No (Valid) phone number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>No Onlineshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>URL offline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>Shop not ready</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

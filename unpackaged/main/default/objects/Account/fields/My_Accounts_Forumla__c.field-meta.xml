@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Accounts_Forumla__c</fullName>
+    <description>This formula gives the possibility, to show all Accounts where a certain User is the Sales_Responsible and/or Legal_CSM</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(Legal_Sales_Responsible__c = $User.Id, Legal_CSM__c = $User.Id, Legal_Account_Manager__c = $User.Id,  OwnerId = $User.Id), &quot;Yes&quot;, &quot;No&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>My Accounts Forumla</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

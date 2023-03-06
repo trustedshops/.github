@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerCampaign__c</fullName>
+    <externalId>false</externalId>
+    <label>PartnerCampaign</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Authorized Partner CH</fullName>
+                <default>false</default>
+                <label>Authorized Partner CH</label>
+            </value>
+            <value>
+                <fullName>Certified Software CH</fullName>
+                <default>false</default>
+                <label>Certified Software CH</label>
+            </value>
+            <value>
+                <fullName>Certified Software DE</fullName>
+                <default>false</default>
+                <label>Certified Software DE</label>
+            </value>
+            <value>
+                <fullName>Certified Software FR</fullName>
+                <default>false</default>
+                <label>Certified Software FR</label>
+            </value>
+            <value>
+                <fullName>Dexport</fullName>
+                <default>false</default>
+                <label>Dexport</label>
+            </value>
+            <value>
+                <fullName>Portal Partner ES</fullName>
+                <default>false</default>
+                <label>Portal Partner ES</label>
+            </value>
+            <value>
+                <fullName>Sales Partner AT</fullName>
+                <default>false</default>
+                <label>Sales Partner AT</label>
+            </value>
+            <value>
+                <fullName>Sales Partner CH</fullName>
+                <default>false</default>
+                <label>Sales Partner CH</label>
+            </value>
+            <value>
+                <fullName>Sales Partner DE</fullName>
+                <default>false</default>
+                <label>Sales Partner DE</label>
+            </value>
+            <value>
+                <fullName>Sales Partner ES</fullName>
+                <default>false</default>
+                <label>Sales Partner ES</label>
+            </value>
+            <value>
+                <fullName>Sales Partner FR</fullName>
+                <default>false</default>
+                <label>Sales Partner FR</label>
+            </value>
+            <value>
+                <fullName>Sales Partner IT</fullName>
+                <default>false</default>
+                <label>Sales Partner IT</label>
+            </value>
+            <value>
+                <fullName>Sales Partner NL</fullName>
+                <default>false</default>
+                <label>Sales Partner NL</label>
+            </value>
+            <value>
+                <fullName>Sales Partner PL</fullName>
+                <default>false</default>
+                <label>Sales Partner PL</label>
+            </value>
+            <value>
+                <fullName>Sales Partner UK</fullName>
+                <default>false</default>
+                <label>Sales Partner UK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

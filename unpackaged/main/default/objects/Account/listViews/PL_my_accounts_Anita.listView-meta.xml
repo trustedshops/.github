@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PL_my_accounts_Anita</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>status__c</columns>
+    <columns>Outbound_type__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>registeredOffice__c</columns>
+    <columns>is_key_account__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>campaign__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>anita celinska</value>
+    </filters>
+    <label>PL my accounts_Anita</label>
+    <sharedTo>
+        <group>Revenue_Operations</group>
+    </sharedTo>
+</ListView>

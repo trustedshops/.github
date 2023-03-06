@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Legal_Customer_Support_Change__c</fullName>
+    <description>used for determining the time of the user change (for PO-1558)</description>
+    <externalId>false</externalId>
+    <label>Last Legal Customer Support Change</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

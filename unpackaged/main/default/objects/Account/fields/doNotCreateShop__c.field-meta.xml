@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>doNotCreateShop__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>https://aquilliance.atlassian.net/browse/PROTSH-91 - AW</description>
+    <externalId>false</externalId>
+    <label>doNotCreateShop</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

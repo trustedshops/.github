@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_accounts_1</fullName>
+    <columns>status__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>Shop_has_SI__c</columns>
+    <columns>Zahlungszyklus__c</columns>
+    <columns>Average_Shopping_Basket__c</columns>
+    <columns>shop_software__c</columns>
+    <columns>guarantee_count__c</columns>
+    <columns>Contract_Value__c</columns>
+    <columns>Member_since__c</columns>
+    <columns>Subscription_End_Date__c</columns>
+    <columns>role_concept__c</columns>
+    <columns>Legal_Customer_Segmentation__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Accounts</label>
+</ListView>

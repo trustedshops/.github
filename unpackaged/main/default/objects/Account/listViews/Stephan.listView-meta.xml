@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stephan</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>source__c</columns>
+    <columns>campaign__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>campaign__c</field>
+        <operation>contains</operation>
+        <value>Inbound Discarded</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>DE</value>
+    </filters>
+    <label>Email Kampagnen Accounts</label>
+    <sharedTo />
+</ListView>

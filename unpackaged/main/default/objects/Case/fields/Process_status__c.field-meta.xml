@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_status__c</fullName>
+    <description>applicable to CMP cases</description>
+    <externalId>false</externalId>
+    <label>Process status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Riskcheck</fullName>
+                <default>false</default>
+                <label>Riskcheck</label>
+            </value>
+            <value>
+                <fullName>Resolution</fullName>
+                <default>false</default>
+                <label>Resolution</label>
+            </value>
+            <value>
+                <fullName>INF 1 no audit</fullName>
+                <default>false</default>
+                <label>INF 1 no audit</label>
+            </value>
+            <value>
+                <fullName>INF 1 reminder</fullName>
+                <default>false</default>
+                <label>INF 1 reminder</label>
+            </value>
+            <value>
+                <fullName>INF 2 deactivation</fullName>
+                <default>false</default>
+                <label>INF 2 deactivation</label>
+            </value>
+            <value>
+                <fullName>INF 2 reminder</fullName>
+                <default>false</default>
+                <label>INF 2 reminder</label>
+            </value>
+            <value>
+                <fullName>Internal Feedback</fullName>
+                <default>false</default>
+                <label>Internal Feedback</label>
+            </value>
+            <value>
+                <fullName>Convey</fullName>
+                <default>false</default>
+                <label>Convey</label>
+            </value>
+            <value>
+                <fullName>First Mail</fullName>
+                <default>false</default>
+                <label>First Mail</label>
+            </value>
+            <value>
+                <fullName>Reminder</fullName>
+                <default>false</default>
+                <label>Reminder</label>
+            </value>
+            <value>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+                <label>Monitoring</label>
+            </value>
+            <value>
+                <fullName>Feedback Partnermgmt</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Feedback Partnermgmt</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>Riskcheck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>Resolution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>INF 1 no audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>INF 1 reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>INF 2 deactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>INF 2 reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>Internal Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>Convey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <controllingFieldValue>Quality Indicators</controllingFieldValue>
+            <valueName>Monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <valueName>First Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infringement</controllingFieldValue>
+            <valueName>Reminder</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

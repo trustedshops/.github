@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Partners_DACH</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>ParterCampaign__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsCommunityPartner__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ParterCampaign__c</field>
+        <operation>contains</operation>
+        <value>Sales Partner DE,Sales Partner CH,Sales Partner AT</value>
+    </filters>
+    <filters>
+        <field>primary_contact__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Community Partners DACH</label>
+</ListView>

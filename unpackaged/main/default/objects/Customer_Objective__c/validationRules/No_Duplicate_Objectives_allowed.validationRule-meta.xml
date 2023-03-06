@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Duplicate_Objectives_allowed</fullName>
+    <active>true</active>
+    <errorConditionFormula>Already_existing_Customer_Objective__c = true
+ &amp;&amp; 
+(
+NOT(ISBLANK(Account__c))
+ || 
+NOT(ISBLANK(Shop__c))
+)</errorConditionFormula>
+    <errorMessage>Error! You are not allowed to create a Duplicate Customer Objective. Please Update the existing Record. Thanks!</errorMessage>
+</ValidationRule>

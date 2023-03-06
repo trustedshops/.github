@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Import_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Import Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Precheck Data</fullName>
+                <default>false</default>
+                <label>Precheck Data</label>
+            </value>
+            <value>
+                <fullName>Schedule Import</fullName>
+                <default>false</default>
+                <label>Schedule Import</label>
+            </value>
+            <value>
+                <fullName>Inform Stakeholder</fullName>
+                <default>false</default>
+                <label>Inform Stakeholder</label>
+            </value>
+            <value>
+                <fullName>Clean Data</fullName>
+                <default>false</default>
+                <label>Clean Data</label>
+            </value>
+            <value>
+                <fullName>Import</fullName>
+                <default>false</default>
+                <label>Import</label>
+            </value>
+            <value>
+                <fullName>Check DB</fullName>
+                <default>false</default>
+                <label>Check DB</label>
+            </value>
+            <value>
+                <fullName>Final Feedback Stakeholder</fullName>
+                <default>false</default>
+                <label>Final Feedback Stakeholder</label>
+            </value>
+            <value>
+                <fullName>Clean PROD Data</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Clean PROD Data</label>
+            </value>
+            <value>
+                <fullName>Clean QA Data</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Clean QA Data</label>
+            </value>
+            <value>
+                <fullName>QA Import</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>QA Import</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

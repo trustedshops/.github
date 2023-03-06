@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Success_2nd_Level</fullName>
+    <columns>Assigned_to_product_integration__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>Priority_flags__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>contact_language__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Shop__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>Assigned_to_PI_Manager__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress,On Hold,On Hold (follow up)</value>
+    </filters>
+    <filters>
+        <field>case_owner_team__c</field>
+        <operation>equals</operation>
+        <value>Product Integration</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Team Product Integration</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Customer_Support,Case.Product_Integration</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>2nd level support</value>
+    </filters>
+    <label>Technical Success - 2nd Level</label>
+    <sharedTo>
+        <roleAndSubordinates>CX_Teamlead_Product_Experience</roleAndSubordinates>
+    </sharedTo>
+</ListView>

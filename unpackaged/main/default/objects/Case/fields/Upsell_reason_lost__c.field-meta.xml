@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upsell_reason_lost__c</fullName>
+    <externalId>false</externalId>
+    <label>Upsell reason lost</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Created by mistake</fullName>
+                <default>false</default>
+                <label>Created by mistake</label>
+            </value>
+            <value>
+                <fullName>Features missing</fullName>
+                <default>false</default>
+                <label>Features missing</label>
+            </value>
+            <value>
+                <fullName>No reason mentioned</fullName>
+                <default>false</default>
+                <label>No reason mentioned</label>
+            </value>
+            <value>
+                <fullName>Not reached</fullName>
+                <default>false</default>
+                <label>Not reached</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Timing</fullName>
+                <default>false</default>
+                <label>Timing</label>
+            </value>
+            <value>
+                <fullName>Wrong person</fullName>
+                <default>false</default>
+                <label>Wrong person</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

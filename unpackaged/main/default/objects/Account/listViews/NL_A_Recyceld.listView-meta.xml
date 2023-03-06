@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NL_A_Recyceld</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Discarded_Date__c</columns>
+    <columns>RevScore__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>campaign__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>NL</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>New,Ready for Sales</value>
+    </filters>
+    <filters>
+        <field>is_key_account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.prospect</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>lead</value>
+    </filters>
+    <filters>
+        <field>Outbound_type__c</field>
+        <operation>equals</operation>
+        <value>Recycled</value>
+    </filters>
+    <filters>
+        <field>RevScore__c</field>
+        <operation>lessOrEqual</operation>
+        <value>25</value>
+    </filters>
+    <filters>
+        <field>Main_partner__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>campaign__c</field>
+        <operation>notEqual</operation>
+        <value>20221229_NL_TrustpilotMember,20220407_NL_member_Kiyho,20210401_NL_TrustpilotMember,20220222_FeedbackCompanyCustomers,20220504_NL_Webwinkelkeur Member,20220718_NL_member_Thuiswinkel,20180601_Competitor Campaign: YOTPO</value>
+    </filters>
+    <label>NL Micro Pool Recycled</label>
+</ListView>

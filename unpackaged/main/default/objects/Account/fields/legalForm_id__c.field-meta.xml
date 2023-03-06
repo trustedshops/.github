@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>legalForm_id__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal-Form</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Herkunftsland_der_Rechtsform__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>36</fullName>
+                <default>false</default>
+                <label>A/S (Aktieselskab)</label>
+            </value>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>AG</label>
+            </value>
+            <value>
+                <fullName>52</fullName>
+                <default>false</default>
+                <label>AG &amp; Co. OHG</label>
+            </value>
+            <value>
+                <fullName>39</fullName>
+                <default>false</default>
+                <label>AG i.L. (AG in Liquidation)</label>
+            </value>
+            <value>
+                <fullName>147</fullName>
+                <default>false</default>
+                <label>Akciju Sabiedriba</label>
+            </value>
+            <value>
+                <fullName>152</fullName>
+                <default>false</default>
+                <label>Akcine bendrove</label>
+            </value>
+            <value>
+                <fullName>104</fullName>
+                <default>false</default>
+                <label>Akciová společnost</label>
+            </value>
+            <value>
+                <fullName>185</fullName>
+                <default>false</default>
+                <label>Akciová spolocnost</label>
+            </value>
+            <value>
+                <fullName>232</fullName>
+                <default>false</default>
+                <label>Aksjeselskap</label>
+            </value>
+            <value>
+                <fullName>59</fullName>
+                <default>false</default>
+                <label>Aktiengesellschaft</label>
+            </value>
+            <value>
+                <fullName>65</fullName>
+                <default>false</default>
+                <label>Aktiengesellschaft (AT)</label>
+            </value>
+            <value>
+                <fullName>109</fullName>
+                <default>false</default>
+                <label>Aktieselskabet</label>
+            </value>
+            <value>
+                <fullName>93</fullName>
+                <default>false</default>
+                <label>Aktionerno druzhestvo</label>
+            </value>
+            <value>
+                <fullName>114</fullName>
+                <default>false</default>
+                <label>Aktsiaselts</label>
+            </value>
+            <value>
+                <fullName>231</fullName>
+                <default>false</default>
+                <label>Allmennaksjeselskap</label>
+            </value>
+            <value>
+                <fullName>228</fullName>
+                <default>false</default>
+                <label>Andelsselskab med begrænset ansvar</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>Andere (mit Firmenname angeben)</label>
+            </value>
+            <value>
+                <fullName>124</fullName>
+                <default>false</default>
+                <label>Anónimi Etería</label>
+            </value>
+            <value>
+                <fullName>108</fullName>
+                <default>false</default>
+                <label>Anpartsselskabet</label>
+            </value>
+            <value>
+                <fullName>233</fullName>
+                <default>false</default>
+                <label>Ansvarlig selskap</label>
+            </value>
+            <value>
+                <fullName>37</fullName>
+                <default>false</default>
+                <label>ApS (Anpartsselskab)</label>
+            </value>
+            <value>
+                <fullName>120</fullName>
+                <default>false</default>
+                <label>Athomihi Epihirisi</label>
+            </value>
+            <value>
+                <fullName>30</fullName>
+                <default>false</default>
+                <label>Autre (précisez nom et statut)</label>
+            </value>
+            <value>
+                <fullName>116</fullName>
+                <default>false</default>
+                <label>Avoin yhtiö</label>
+            </value>
+            <value>
+                <fullName>35</fullName>
+                <default>false</default>
+                <label>B.V. (Besloten Vennootschap)</label>
+            </value>
+            <value>
+                <fullName>201</fullName>
+                <default>false</default>
+                <label>Besloten vennootschap met beperkte aansprakelijkheid</label>
+            </value>
+            <value>
+                <fullName>167</fullName>
+                <default>false</default>
+                <label>Besloten Venootschap</label>
+            </value>
+            <value>
+                <fullName>129</fullName>
+                <default>false</default>
+                <label>Betéti társaság</label>
+            </value>
+            <value>
+                <fullName>166</fullName>
+                <default>false</default>
+                <label>Commanditaire Vennootschap</label>
+            </value>
+            <value>
+                <fullName>203</fullName>
+                <default>false</default>
+                <label>Commanditaire vennootschap (203)</label>
+            </value>
+            <value>
+                <fullName>204</fullName>
+                <default>false</default>
+                <label>Commanditaire vennootschap op aandelen</label>
+            </value>
+            <value>
+                <fullName>205</fullName>
+                <default>false</default>
+                <label>Coöperatieve vennootschap met beperkte aansprakelijkheid</label>
+            </value>
+            <value>
+                <fullName>206</fullName>
+                <default>false</default>
+                <label>Coöperatieve vennootschap met onbeperkte aansprakelijkheid</label>
+            </value>
+            <value>
+                <fullName>96</fullName>
+                <default>false</default>
+                <label>Cyprus General Partnership</label>
+            </value>
+            <value>
+                <fullName>97</fullName>
+                <default>false</default>
+                <label>Cyprus Limited Partnership</label>
+            </value>
+            <value>
+                <fullName>98</fullName>
+                <default>false</default>
+                <label>Cyprus Private Limited Company</label>
+            </value>
+            <value>
+                <fullName>99</fullName>
+                <default>false</default>
+                <label>Cyprus Public Limited Company</label>
+            </value>
+            <value>
+                <fullName>95</fullName>
+                <default>false</default>
+                <label>Cyprus Sole Proprietorship</label>
+            </value>
+            <value>
+                <fullName>190</fullName>
+                <default>false</default>
+                <label>Delniska druzba</label>
+            </value>
+            <value>
+                <fullName>211</fullName>
+                <default>false</default>
+                <label>Dioničko društvo</label>
+            </value>
+            <value>
+                <fullName>213</fullName>
+                <default>false</default>
+                <label>Društvo s ograničenom odgovornošću</label>
+            </value>
+            <value>
+                <fullName>187</fullName>
+                <default>false</default>
+                <label>Druzba z neomejeno odgovornostjo</label>
+            </value>
+            <value>
+                <fullName>189</fullName>
+                <default>false</default>
+                <label>Druzba z omejeno odgovornostjo</label>
+            </value>
+            <value>
+                <fullName>92</fullName>
+                <default>false</default>
+                <label>Druzhestvo s ogranichena otgovornost</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>e.G. (Genossenschaft)</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>e.K. (eingetragener Kaufmann)</label>
+            </value>
+            <value>
+                <fullName>32</fullName>
+                <default>false</default>
+                <label>e.V. (eingetragener Verein)</label>
+            </value>
+            <value>
+                <fullName>94</fullName>
+                <default>false</default>
+                <label>Ednolicheno Druzhestvo z Ogranichena Otgovornost (EOOD)</label>
+            </value>
+            <value>
+                <fullName>88</fullName>
+                <default>false</default>
+                <label>Ednolichen targovets</label>
+            </value>
+            <value>
+                <fullName>209</fullName>
+                <default>false</default>
+                <label>Eenmans-vennootschap met beperkte aansprakelijkheid</label>
+            </value>
+            <value>
+                <fullName>163</fullName>
+                <default>false</default>
+                <label>Eenmanszaak</label>
+            </value>
+            <value>
+                <fullName>210</fullName>
+                <default>false</default>
+                <label>Eenmanszaak (210)</label>
+            </value>
+            <value>
+                <fullName>126</fullName>
+                <default>false</default>
+                <label>Egyéni vállalkozó</label>
+            </value>
+            <value>
+                <fullName>56</fullName>
+                <default>false</default>
+                <label>Einfache Gesellschaft</label>
+            </value>
+            <value>
+                <fullName>38</fullName>
+                <default>false</default>
+                <label>Eingetragene/-r Unternehmer/-in</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>Einzelunternehmen</label>
+            </value>
+            <value>
+                <fullName>55</fullName>
+                <default>false</default>
+                <label>Einzelunternehmen (55)</label>
+            </value>
+            <value>
+                <fullName>63</fullName>
+                <default>false</default>
+                <label>Einzelunternehmen (63)</label>
+            </value>
+            <value>
+                <fullName>220</fullName>
+                <default>false</default>
+                <label>Ekonomisk förening</label>
+            </value>
+            <value>
+                <fullName>169</fullName>
+                <default>false</default>
+                <label>Empresário em Nome Individual</label>
+            </value>
+            <value>
+                <fullName>70</fullName>
+                <default>false</default>
+                <label>Empresario individual</label>
+            </value>
+            <value>
+                <fullName>222</fullName>
+                <default>false</default>
+                <label>Enkelt bolag</label>
+            </value>
+            <value>
+                <fullName>105</fullName>
+                <default>false</default>
+                <label>Enkeltmandsfirma</label>
+            </value>
+            <value>
+                <fullName>223</fullName>
+                <default>false</default>
+                <label>Enkeltmandsvirksomhed</label>
+            </value>
+            <value>
+                <fullName>236</fullName>
+                <default>false</default>
+                <label>Enkeltpersonforetak</label>
+            </value>
+            <value>
+                <fullName>191</fullName>
+                <default>false</default>
+                <label>Enskild firma</label>
+            </value>
+            <value>
+                <fullName>22</fullName>
+                <default>false</default>
+                <label>Entreprise Individuelle</label>
+            </value>
+            <value>
+                <fullName>153</fullName>
+                <default>false</default>
+                <label>Entreprise Individuelle (153)</label>
+            </value>
+            <value>
+                <fullName>82</fullName>
+                <default>false</default>
+                <label>Entreprise Individuelle (82)</label>
+            </value>
+            <value>
+                <fullName>123</fullName>
+                <default>false</default>
+                <label>Etería Periorisménis Efthínis</label>
+            </value>
+            <value>
+                <fullName>122</fullName>
+                <default>false</default>
+                <label>Eterórithmos Etería</label>
+            </value>
+            <value>
+                <fullName>19</fullName>
+                <default>false</default>
+                <label>Foreign Company</label>
+            </value>
+            <value>
+                <fullName>224</fullName>
+                <default>false</default>
+                <label>Forening</label>
+            </value>
+            <value>
+                <fullName>229</fullName>
+                <default>false</default>
+                <label>Forening med begrænset ansvar</label>
+            </value>
+            <value>
+                <fullName>110</fullName>
+                <default>false</default>
+                <label>Füüsilisest isikust ettevõtja</label>
+            </value>
+            <value>
+                <fullName>181</fullName>
+                <default>false</default>
+                <label>Fyzická osoba - podnikatel</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>GbR</label>
+            </value>
+            <value>
+                <fullName>133</fullName>
+                <default>false</default>
+                <label>General Partnership</label>
+            </value>
+            <value>
+                <fullName>67</fullName>
+                <default>false</default>
+                <label>Gesellschaft bürgerlichen Rechts</label>
+            </value>
+            <value>
+                <fullName>60</fullName>
+                <default>false</default>
+                <label>Gesellschaft mit beschränkter Haftung</label>
+            </value>
+            <value>
+                <fullName>66</fullName>
+                <default>false</default>
+                <label>Gesellschaft mit beschränkter Haftung (66)</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>GmbH</label>
+            </value>
+            <value>
+                <fullName>7</fullName>
+                <default>false</default>
+                <label>GmbH &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>51</fullName>
+                <default>false</default>
+                <label>GmbH &amp; Co. KGaA</label>
+            </value>
+            <value>
+                <fullName>53</fullName>
+                <default>false</default>
+                <label>GmbH &amp; Co. OHG</label>
+            </value>
+            <value>
+                <fullName>40</fullName>
+                <default>false</default>
+                <label>GmbH i.L. (GmbH in Liquidation)</label>
+            </value>
+            <value>
+                <fullName>215</fullName>
+                <default>false</default>
+                <label>Gospodarsko interesno udruženje (g.i.u)</label>
+            </value>
+            <value>
+                <fullName>89</fullName>
+                <default>false</default>
+                <label>Gragdansko druzhestvo</label>
+            </value>
+            <value>
+                <fullName>192</fullName>
+                <default>false</default>
+                <label>Handelsbolag</label>
+            </value>
+            <value>
+                <fullName>237</fullName>
+                <default>false</default>
+                <label>Helseforetak</label>
+            </value>
+            <value>
+                <fullName>137</fullName>
+                <default>false</default>
+                <label>Impresa individuale</label>
+            </value>
+            <value>
+                <fullName>143</fullName>
+                <default>false</default>
+                <label>Individuálais Komersants</label>
+            </value>
+            <value>
+                <fullName>148</fullName>
+                <default>false</default>
+                <label>Individuali imone</label>
+            </value>
+            <value>
+                <fullName>106</fullName>
+                <default>false</default>
+                <label>Interessentskabet</label>
+            </value>
+            <value>
+                <fullName>238</fullName>
+                <default>false</default>
+                <label>Interkommunalt selskap</label>
+            </value>
+            <value>
+                <fullName>176</fullName>
+                <default>false</default>
+                <label>Intreprinderi individuale</label>
+            </value>
+            <value>
+                <fullName>225</fullName>
+                <default>false</default>
+                <label>Iværksætterselskab</label>
+            </value>
+            <value>
+                <fullName>212</fullName>
+                <default>false</default>
+                <label>Javno trgovačko društvo</label>
+            </value>
+            <value>
+                <fullName>49</fullName>
+                <default>false</default>
+                <label>jednoosobowa działalność gospodarcza</label>
+            </value>
+            <value>
+                <fullName>119</fullName>
+                <default>false</default>
+                <label>Julkinen osakeyhtiö</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>KG</label>
+            </value>
+            <value>
+                <fullName>57</fullName>
+                <default>false</default>
+                <label>Kollektivgesellschaft</label>
+            </value>
+            <value>
+                <fullName>150</fullName>
+                <default>false</default>
+                <label>Komanditine ukine bendrija</label>
+            </value>
+            <value>
+                <fullName>188</fullName>
+                <default>false</default>
+                <label>Komanditna druzba</label>
+            </value>
+            <value>
+                <fullName>183</fullName>
+                <default>false</default>
+                <label>Komanditná spolocnost</label>
+            </value>
+            <value>
+                <fullName>102</fullName>
+                <default>false</default>
+                <label>Komanditní společnost</label>
+            </value>
+            <value>
+                <fullName>214</fullName>
+                <default>false</default>
+                <label>Komanditno društvo</label>
+            </value>
+            <value>
+                <fullName>91</fullName>
+                <default>false</default>
+                <label>Komanditno druzhestvo</label>
+            </value>
+            <value>
+                <fullName>145</fullName>
+                <default>false</default>
+                <label>Komanditsabiedriba</label>
+            </value>
+            <value>
+                <fullName>117</fullName>
+                <default>false</default>
+                <label>Kommandiittiyhtiö</label>
+            </value>
+            <value>
+                <fullName>61</fullName>
+                <default>false</default>
+                <label>Kommanditaktiengesellschaft</label>
+            </value>
+            <value>
+                <fullName>193</fullName>
+                <default>false</default>
+                <label>Kommanditbolag</label>
+            </value>
+            <value>
+                <fullName>64</fullName>
+                <default>false</default>
+                <label>Kommanditgesellschaft</label>
+            </value>
+            <value>
+                <fullName>58</fullName>
+                <default>false</default>
+                <label>Kommanditgesellschaft (CH)</label>
+            </value>
+            <value>
+                <fullName>107</fullName>
+                <default>false</default>
+                <label>Kommanditselskabet</label>
+            </value>
+            <value>
+                <fullName>240</fullName>
+                <default>false</default>
+                <label>Kommandittselskap</label>
+            </value>
+            <value>
+                <fullName>239</fullName>
+                <default>false</default>
+                <label>Kommunalt foretak</label>
+            </value>
+            <value>
+                <fullName>221</fullName>
+                <default>false</default>
+                <label>Kooperativ</label>
+            </value>
+            <value>
+                <fullName>130</fullName>
+                <default>false</default>
+                <label>Korlátolt felelösségü társaság</label>
+            </value>
+            <value>
+                <fullName>128</fullName>
+                <default>false</default>
+                <label>Közkereseti társaság</label>
+            </value>
+            <value>
+                <fullName>33</fullName>
+                <default>false</default>
+                <label>Limited &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>134</fullName>
+                <default>false</default>
+                <label>Limited Liability Partnership</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>LLP (Limited Liability Partnership)</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>LTD (Limited Company)</label>
+            </value>
+            <value>
+                <fullName>164</fullName>
+                <default>false</default>
+                <label>Maatschap</label>
+            </value>
+            <value>
+                <fullName>125</fullName>
+                <default>false</default>
+                <label>Monoprósopi Etería Periorisménis Efthínis</label>
+            </value>
+            <value>
+                <fullName>202</fullName>
+                <default>false</default>
+                <label>Naamloze vennootschap</label>
+            </value>
+            <value>
+                <fullName>168</fullName>
+                <default>false</default>
+                <label>Naamloze Venootschap</label>
+            </value>
+            <value>
+                <fullName>21</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>241</fullName>
+                <default>false</default>
+                <label>Norskregistrert utenlandsk foretak</label>
+            </value>
+            <value>
+                <fullName>131</fullName>
+                <default>false</default>
+                <label>Nyilvánosan működő részvénytársaság</label>
+            </value>
+            <value>
+                <fullName>256</fullName>
+                <default>false</default>
+                <label>O.N.G. (Organizație Non-Guvernamentală)</label>
+            </value>
+            <value>
+                <fullName>260</fullName>
+                <default>false</default>
+                <label>obecně prospěšná společnost</label>
+            </value>
+            <value>
+                <fullName>68</fullName>
+                <default>false</default>
+                <label>Offene Gesellschaft</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>OHG</label>
+            </value>
+            <value>
+                <fullName>121</fullName>
+                <default>false</default>
+                <label>Omórithmos Etería</label>
+            </value>
+            <value>
+                <fullName>118</fullName>
+                <default>false</default>
+                <label>Osakeyhtiö</label>
+            </value>
+            <value>
+                <fullName>113</fullName>
+                <default>false</default>
+                <label>Osaühing</label>
+            </value>
+            <value>
+                <fullName>244</fullName>
+                <default>false</default>
+                <label>Osuuskunta</label>
+            </value>
+            <value>
+                <fullName>18</fullName>
+                <default>false</default>
+                <label>Other Entity</label>
+            </value>
+            <value>
+                <fullName>20</fullName>
+                <default>false</default>
+                <label>Other Foreign Organisation</label>
+            </value>
+            <value>
+                <fullName>81</fullName>
+                <default>false</default>
+                <label>Otra (mencionar con nombre de la empresa)</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>PartG (Partnerschaftsg.)</label>
+            </value>
+            <value>
+                <fullName>227</fullName>
+                <default>false</default>
+                <label>Partnerselskab/Kommanditaktieselskab</label>
+            </value>
+            <value>
+                <fullName>17</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>160</fullName>
+                <default>false</default>
+                <label>Partnership en commandite</label>
+            </value>
+            <value>
+                <fullName>159</fullName>
+                <default>false</default>
+                <label>Partnership en nom collectif</label>
+            </value>
+            <value>
+                <fullName>245</fullName>
+                <default>false</default>
+                <label>PFA (Persoana fizica autorizata)</label>
+            </value>
+            <value>
+                <fullName>144</fullName>
+                <default>false</default>
+                <label>Pilna Sabiedriba</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>PLC (Public Limited Company)</label>
+            </value>
+            <value>
+                <fullName>262</fullName>
+                <default>false</default>
+                <label>příspěvková organizace</label>
+            </value>
+            <value>
+                <fullName>194</fullName>
+                <default>false</default>
+                <label>Privat aktiebolag</label>
+            </value>
+            <value>
+                <fullName>135</fullName>
+                <default>false</default>
+                <label>Private Limited Company (theoranta)</label>
+            </value>
+            <value>
+                <fullName>161</fullName>
+                <default>false</default>
+                <label>Private limited liability company</label>
+            </value>
+            <value>
+                <fullName>136</fullName>
+                <default>false</default>
+                <label>Public Limited Company (cuidechta phoibitheoranta)</label>
+            </value>
+            <value>
+                <fullName>162</fullName>
+                <default>false</default>
+                <label>Public limited liability company</label>
+            </value>
+            <value>
+                <fullName>195</fullName>
+                <default>false</default>
+                <label>Publikt Aktiebolag</label>
+            </value>
+            <value>
+                <fullName>242</fullName>
+                <default>false</default>
+                <label>Regionalt Helseforetak</label>
+            </value>
+            <value>
+                <fullName>257</fullName>
+                <default>false</default>
+                <label>S.A. (Societatea pe acțiuni)</label>
+            </value>
+            <value>
+                <fullName>43</fullName>
+                <default>false</default>
+                <label>S. A. (spółka akcyjna)</label>
+            </value>
+            <value>
+                <fullName>44</fullName>
+                <default>false</default>
+                <label>s. c. (spółka cywilna)</label>
+            </value>
+            <value>
+                <fullName>259</fullName>
+                <default>false</default>
+                <label>S.C.A. (Societatea în comandită pe acțiuni)</label>
+            </value>
+            <value>
+                <fullName>252</fullName>
+                <default>false</default>
+                <label>S.C.S. (Societatea în comandită simplă)</label>
+            </value>
+            <value>
+                <fullName>48</fullName>
+                <default>false</default>
+                <label>S. K. A. (spółka komandytowo-akcyjna)</label>
+            </value>
+            <value>
+                <fullName>74</fullName>
+                <default>false</default>
+                <label>S.L. / S.R.L. (Sociedad de Responsabilidad Limitada)</label>
+            </value>
+            <value>
+                <fullName>78</fullName>
+                <default>false</default>
+                <label>S.L.L. / S.A.L. (Sociedad Laboral)</label>
+            </value>
+            <value>
+                <fullName>255</fullName>
+                <default>false</default>
+                <label>S.N.C. (Societatea în nume colectiv)</label>
+            </value>
+            <value>
+                <fullName>179</fullName>
+                <default>false</default>
+                <label>S.R.L. (Societate cu răspundere limitată)</label>
+            </value>
+            <value>
+                <fullName>23</fullName>
+                <default>false</default>
+                <label>SA (Société anonyme)</label>
+            </value>
+            <value>
+                <fullName>146</fullName>
+                <default>false</default>
+                <label>Sabiedriba ar ierobezotu atbildibu</label>
+            </value>
+            <value>
+                <fullName>90</fullName>
+                <default>false</default>
+                <label>Sabiratelno druzhestvo</label>
+            </value>
+            <value>
+                <fullName>186</fullName>
+                <default>false</default>
+                <label>Samostojni podjetnik</label>
+            </value>
+            <value>
+                <fullName>25</fullName>
+                <default>false</default>
+                <label>SARL (Société à responsabilité limitée)</label>
+            </value>
+            <value>
+                <fullName>62</fullName>
+                <default>false</default>
+                <label>SARL unipersonnelle</label>
+            </value>
+            <value>
+                <fullName>24</fullName>
+                <default>false</default>
+                <label>SAS (Société par actions simplifiée)</label>
+            </value>
+            <value>
+                <fullName>54</fullName>
+                <default>false</default>
+                <label>SASU (Société par Actions Simplifiée Unipersonnelle)</label>
+            </value>
+            <value>
+                <fullName>26</fullName>
+                <default>false</default>
+                <label>SCA (Société en commandite par Actions)</label>
+            </value>
+            <value>
+                <fullName>27</fullName>
+                <default>false</default>
+                <label>SCS (Société en commandite simple)</label>
+            </value>
+            <value>
+                <fullName>77</fullName>
+                <default>false</default>
+                <label>SE (Sociedad Anónima Europea)</label>
+            </value>
+            <value>
+                <fullName>230</fullName>
+                <default>false</default>
+                <label>Selskab med begrænset ansvar</label>
+            </value>
+            <value>
+                <fullName>234</fullName>
+                <default>false</default>
+                <label>Selskap med begrenset ansvar</label>
+            </value>
+            <value>
+                <fullName>235</fullName>
+                <default>false</default>
+                <label>Selskap med delt ansvar</label>
+            </value>
+            <value>
+                <fullName>34</fullName>
+                <default>false</default>
+                <label>SL (Sociedad de Responsabilidad Limitada)</label>
+            </value>
+            <value>
+                <fullName>75</fullName>
+                <default>false</default>
+                <label>SLNE (Sociedad de Responsabilidad Limitada Nueva Empresa)</label>
+            </value>
+            <value>
+                <fullName>28</fullName>
+                <default>false</default>
+                <label>SNC (Société en nom collectif)</label>
+            </value>
+            <value>
+                <fullName>76</fullName>
+                <default>false</default>
+                <label>Sociedad anónima</label>
+            </value>
+            <value>
+                <fullName>73</fullName>
+                <default>false</default>
+                <label>Sociedad civil/Sociedad civil Personal</label>
+            </value>
+            <value>
+                <fullName>71</fullName>
+                <default>false</default>
+                <label>Sociedad colectiva</label>
+            </value>
+            <value>
+                <fullName>79</fullName>
+                <default>false</default>
+                <label>Sociedad comanditaria por acciones</label>
+            </value>
+            <value>
+                <fullName>72</fullName>
+                <default>false</default>
+                <label>Sociedad comanditaria simple</label>
+            </value>
+            <value>
+                <fullName>80</fullName>
+                <default>false</default>
+                <label>Sociedad cooperativa</label>
+            </value>
+            <value>
+                <fullName>174</fullName>
+                <default>false</default>
+                <label>Sociedade Anónima</label>
+            </value>
+            <value>
+                <fullName>170</fullName>
+                <default>false</default>
+                <label>Sociedade Civil</label>
+            </value>
+            <value>
+                <fullName>172</fullName>
+                <default>false</default>
+                <label>Sociedade em Comandita</label>
+            </value>
+            <value>
+                <fullName>171</fullName>
+                <default>false</default>
+                <label>Sociedade em Nome colectivo</label>
+            </value>
+            <value>
+                <fullName>173</fullName>
+                <default>false</default>
+                <label>Sociedade por Quotas</label>
+            </value>
+            <value>
+                <fullName>175</fullName>
+                <default>false</default>
+                <label>Sociedade Unipessoal por Quotas</label>
+            </value>
+            <value>
+                <fullName>141</fullName>
+                <default>false</default>
+                <label>Società a responsabilità limitata</label>
+            </value>
+            <value>
+                <fullName>140</fullName>
+                <default>false</default>
+                <label>Società in accomandita semplice</label>
+            </value>
+            <value>
+                <fullName>139</fullName>
+                <default>false</default>
+                <label>Società in nome collettivo</label>
+            </value>
+            <value>
+                <fullName>142</fullName>
+                <default>false</default>
+                <label>Società per azioni</label>
+            </value>
+            <value>
+                <fullName>138</fullName>
+                <default>false</default>
+                <label>Società semplice</label>
+            </value>
+            <value>
+                <fullName>178</fullName>
+                <default>false</default>
+                <label>Societate in comandita simpla</label>
+            </value>
+            <value>
+                <fullName>177</fullName>
+                <default>false</default>
+                <label>Societate in nume colectiv</label>
+            </value>
+            <value>
+                <fullName>180</fullName>
+                <default>false</default>
+                <label>Societate pe actiuni</label>
+            </value>
+            <value>
+                <fullName>200</fullName>
+                <default>false</default>
+                <label>Société à finalité sociale</label>
+            </value>
+            <value>
+                <fullName>86</fullName>
+                <default>false</default>
+                <label>Société anonyme</label>
+            </value>
+            <value>
+                <fullName>157</fullName>
+                <default>false</default>
+                <label>Société anonyme (157)</label>
+            </value>
+            <value>
+                <fullName>156</fullName>
+                <default>false</default>
+                <label>Société à Responsabilité Limitée</label>
+            </value>
+            <value>
+                <fullName>198</fullName>
+                <default>false</default>
+                <label>Société coopérative à responsabilité illimitée</label>
+            </value>
+            <value>
+                <fullName>199</fullName>
+                <default>false</default>
+                <label>Société coopérative à responsabilité limitée</label>
+            </value>
+            <value>
+                <fullName>87</fullName>
+                <default>false</default>
+                <label>Société d&#39;une personne a responsabilité limitée</label>
+            </value>
+            <value>
+                <fullName>197</fullName>
+                <default>false</default>
+                <label>Société en commandite par actions</label>
+            </value>
+            <value>
+                <fullName>84</fullName>
+                <default>false</default>
+                <label>Société en commandite simple (BE)</label>
+            </value>
+            <value>
+                <fullName>155</fullName>
+                <default>false</default>
+                <label>Société en commandite simple (LU)</label>
+            </value>
+            <value>
+                <fullName>83</fullName>
+                <default>false</default>
+                <label>Société en nom collectif (BE)</label>
+            </value>
+            <value>
+                <fullName>154</fullName>
+                <default>false</default>
+                <label>Société en nom collectif (LU)</label>
+            </value>
+            <value>
+                <fullName>85</fullName>
+                <default>false</default>
+                <label>Société privée à responsabilité limitée</label>
+            </value>
+            <value>
+                <fullName>158</fullName>
+                <default>false</default>
+                <label>Sole Propietor</label>
+            </value>
+            <value>
+                <fullName>16</fullName>
+                <default>false</default>
+                <label>Sole Trader</label>
+            </value>
+            <value>
+                <fullName>132</fullName>
+                <default>false</default>
+                <label>Sole Trader (132)</label>
+            </value>
+            <value>
+                <fullName>45</fullName>
+                <default>false</default>
+                <label>sp. j. (spółka jawna)</label>
+            </value>
+            <value>
+                <fullName>47</fullName>
+                <default>false</default>
+                <label>sp. k. (spółka komandytowa)</label>
+            </value>
+            <value>
+                <fullName>46</fullName>
+                <default>false</default>
+                <label>sp. p. (spółka partnerska)</label>
+            </value>
+            <value>
+                <fullName>42</fullName>
+                <default>false</default>
+                <label>sp. z o. o. (spółka z ograniczoną odpowiedzialnością)</label>
+            </value>
+            <value>
+                <fullName>196</fullName>
+                <default>false</default>
+                <label>Sp. z o.o. Sp. K. (Spółka z ograniczoną odpowiedzialnością spółka komandytowa)</label>
+            </value>
+            <value>
+                <fullName>103</fullName>
+                <default>false</default>
+                <label>Společnost s ručením omezeným</label>
+            </value>
+            <value>
+                <fullName>184</fullName>
+                <default>false</default>
+                <label>Spolocnost s rucenim obmedzeným</label>
+            </value>
+            <value>
+                <fullName>50</fullName>
+                <default>false</default>
+                <label>spółdzielnia</label>
+            </value>
+            <value>
+                <fullName>261</fullName>
+                <default>false</default>
+                <label>státní podnik</label>
+            </value>
+            <value>
+                <fullName>243</fullName>
+                <default>false</default>
+                <label>Statsforetak</label>
+            </value>
+            <value>
+                <fullName>69</fullName>
+                <default>false</default>
+                <label>Stille Gesellschaft</label>
+            </value>
+            <value>
+                <fullName>111</fullName>
+                <default>false</default>
+                <label>Täisühing</label>
+            </value>
+            <value>
+                <fullName>149</fullName>
+                <default>false</default>
+                <label>Tikroji ukine bendrija</label>
+            </value>
+            <value>
+                <fullName>216</fullName>
+                <default>false</default>
+                <label>Trgovac</label>
+            </value>
+            <value>
+                <fullName>31</fullName>
+                <default>false</default>
+                <label>UG (haftungsbeschränkt)</label>
+            </value>
+            <value>
+                <fullName>41</fullName>
+                <default>false</default>
+                <label>Unternehmergesellschaft (haftungsbeschränkt)</label>
+            </value>
+            <value>
+                <fullName>112</fullName>
+                <default>false</default>
+                <label>Usaldusühing</label>
+            </value>
+            <value>
+                <fullName>151</fullName>
+                <default>false</default>
+                <label>Uzdaroji akcine bendrove</label>
+            </value>
+            <value>
+                <fullName>208</fullName>
+                <default>false</default>
+                <label>Vennootschap met sociaal oogmerk</label>
+            </value>
+            <value>
+                <fullName>165</fullName>
+                <default>false</default>
+                <label>Vennootschap onder firma</label>
+            </value>
+            <value>
+                <fullName>207</fullName>
+                <default>false</default>
+                <label>Vennootschap onder firma (207)</label>
+            </value>
+            <value>
+                <fullName>182</fullName>
+                <default>false</default>
+                <label>Verejná obchodná spolocnost</label>
+            </value>
+            <value>
+                <fullName>101</fullName>
+                <default>false</default>
+                <label>Veřejná obchodní společnost</label>
+            </value>
+            <value>
+                <fullName>127</fullName>
+                <default>false</default>
+                <label>Wgyéni cég</label>
+            </value>
+            <value>
+                <fullName>115</fullName>
+                <default>false</default>
+                <label>Yksityinen elinkeinonharjoittaja</label>
+            </value>
+            <value>
+                <fullName>263</fullName>
+                <default>false</default>
+                <label>zapsaný spolek</label>
+            </value>
+            <value>
+                <fullName>100</fullName>
+                <default>false</default>
+                <label>Živnost</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <valueName>59</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <valueName>56</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <valueName>55</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>63</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <valueName>60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <valueName>57</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CH</controllingFieldValue>
+            <valueName>58</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SK</controllingFieldValue>
+            <valueName>185</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SK</controllingFieldValue>
+            <valueName>181</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SK</controllingFieldValue>
+            <valueName>183</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SK</controllingFieldValue>
+            <valueName>184</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>189</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>186</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>70</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>81</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>74</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>78</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>77</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>34</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>75</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>76</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>73</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES</controllingFieldValue>
+            <valueName>71</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>104</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>102</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>260</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>262</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>103</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>261</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>263</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CZ</controllingFieldValue>
+            <valueName>100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HU</controllingFieldValue>
+            <valueName>130</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>20</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>17</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <valueName>14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GB</controllingFieldValue>
+            <controllingFieldValue>IE</controllingFieldValue>
+            <valueName>16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CY</controllingFieldValue>
+            <valueName>96</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CY</controllingFieldValue>
+            <valueName>97</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CY</controllingFieldValue>
+            <valueName>98</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CY</controllingFieldValue>
+            <valueName>99</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CY</controllingFieldValue>
+            <valueName>95</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>232</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>231</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>233</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>236</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>237</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>238</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>240</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>239</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>241</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>242</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>234</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>235</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>243</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>137</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>141</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>139</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>142</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>138</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LV</controllingFieldValue>
+            <valueName>146</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LT</controllingFieldValue>
+            <valueName>148</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LT</controllingFieldValue>
+            <valueName>151</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>153</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>157</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>155</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>154</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MT</controllingFieldValue>
+            <valueName>160</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MT</controllingFieldValue>
+            <valueName>161</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MT</controllingFieldValue>
+            <valueName>162</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>35</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>166</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>163</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>164</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>168</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>165</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>65</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>38</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>67</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>66</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>64</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AT</controllingFieldValue>
+            <valueName>68</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>49</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>43</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>44</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>48</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>45</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>47</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>42</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>196</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PL</controllingFieldValue>
+            <valueName>50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <valueName>169</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <valueName>174</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <valueName>173</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <valueName>175</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>211</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>213</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>215</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>212</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>214</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>216</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>201</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>203</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>205</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>210</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>22</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>202</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>26</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>27</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>28</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>86</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>87</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>85</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BE</controllingFieldValue>
+            <valueName>207</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BG</controllingFieldValue>
+            <valueName>92</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BG</controllingFieldValue>
+            <valueName>94</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>36</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>228</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>37</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>105</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>223</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>224</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>229</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>106</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>225</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>107</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>227</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DK</controllingFieldValue>
+            <valueName>230</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>52</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>39</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>32</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>51</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>53</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>40</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>33</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>31</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <valueName>41</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EE</controllingFieldValue>
+            <valueName>110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EE</controllingFieldValue>
+            <valueName>113</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FI</controllingFieldValue>
+            <valueName>116</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FI</controllingFieldValue>
+            <valueName>119</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FI</controllingFieldValue>
+            <valueName>117</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FI</controllingFieldValue>
+            <valueName>118</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FI</controllingFieldValue>
+            <valueName>244</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FI</controllingFieldValue>
+            <valueName>115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>23</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>62</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>54</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GR</controllingFieldValue>
+            <valueName>120</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GR</controllingFieldValue>
+            <valueName>122</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GR</controllingFieldValue>
+            <valueName>121</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IE</controllingFieldValue>
+            <valueName>134</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IE</controllingFieldValue>
+            <valueName>135</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IE</controllingFieldValue>
+            <valueName>136</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>256</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>245</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>257</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>259</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>252</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>255</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RO</controllingFieldValue>
+            <valueName>179</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>220</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>222</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>191</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>192</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>193</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>221</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>194</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SE</controllingFieldValue>
+            <valueName>195</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Swetlana_vacation_replacement_list</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>contact_language__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Shop__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Last_Email__c</columns>
+    <columns>stopped_until__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Swetlana Gossen</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed,Rejected</value>
+    </filters>
+    <label>Swetlana vacation replacement list</label>
+    <sharedTo>
+        <roleAndSubordinates>CX_Teamlead_Account_Management_Market_6</roleAndSubordinates>
+    </sharedTo>
+</ListView>

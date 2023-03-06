@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_greeting_with_name_fr__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Contact.Salutation ,
+&quot;Mr.&quot;, &quot;Bonjour Monsieur &quot; +  Contact.LastName ,
+
+&quot;Ms.&quot;, &quot;Bonjour Madame &quot; + Contact.LastName ,
+&quot;Madame, Monsieur&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zz_greeting_with_name_fr</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

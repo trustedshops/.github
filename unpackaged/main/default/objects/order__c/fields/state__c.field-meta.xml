@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>state__c</fullName>
+    <externalId>false</externalId>
+    <label>TS Application State</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>APPROVED</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>CHECK</fullName>
+                <default>false</default>
+                <label>check pending</label>
+            </value>
+            <value>
+                <fullName>CONFIRMED</fullName>
+                <default>false</default>
+                <label>Confirmed</label>
+            </value>
+            <value>
+                <fullName>DUPLICATE</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>REQUESTED</fullName>
+                <default>false</default>
+                <label>Not yet confirmed (DOI)</label>
+            </value>
+            <value>
+                <fullName>NEW</fullName>
+                <default>false</default>
+                <label>Not yet confirmed (payment)</label>
+            </value>
+            <value>
+                <fullName>REJECTED</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>REVIEW</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

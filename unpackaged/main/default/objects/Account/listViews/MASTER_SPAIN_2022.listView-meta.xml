@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MASTER_SPAIN_2022</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Created_Date_only__c</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>Last_assignment_to_sales_rep__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>contains</operation>
+        <value>alva</value>
+    </filters>
+    <label>MASTER SPAIN 2022</label>
+</ListView>

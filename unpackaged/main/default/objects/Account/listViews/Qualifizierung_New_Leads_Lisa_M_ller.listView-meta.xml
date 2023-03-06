@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifizierung_New_Leads_Lisa_M_ller</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>shop_software__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Lisa Müller</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.CREATED_DATE</field>
+        <operation>notEqual</operation>
+        <value>9/15/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.URL</field>
+        <operation>notContain</operation>
+        <value>.ch</value>
+    </filters>
+    <label>Qualifizierung New Leads Lisa Müller</label>
+    <sharedTo>
+        <roleAndSubordinates>Lead_Management_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

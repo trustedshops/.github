@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Subject_NL__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Subject, 
+&quot;Hartelijk welkom bij Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),1,0),
+&quot;Bedankt voor je lidmaatschapsaanvraag; je gegevens worden nu gecontroleerd&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),1,0),
+&quot;Hartelijk dank voor uw registratie&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),2,0),
+&quot;Van harte gefeliciteerd en welkom als lid&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;Welkom bij Trusted Shops!&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;Gefeliciteerd, uw Trusted Shops lidmaatschap beschikt nu over nieuwe, extra opties&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),3,0),
+&quot;Gefeliciteerd, nieuwe domeinen zijn aan uw Trusted Shops lidmaatschap toegevoegd&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),3,0),
+&quot;Wij staan voor u klaar:Uw persoonlijke contactpersoon bij Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),5,0),
+&quot;Maak kennis met ons team&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),5,0),
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Application Subject NL</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

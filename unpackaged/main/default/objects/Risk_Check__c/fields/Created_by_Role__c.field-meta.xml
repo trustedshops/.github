@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_by_Role__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(CONTAINS(CreatedBy.UserRole.Name,&quot;Touch&quot;), CONTAINS(CreatedBy.UserRole.Name,&quot;Customer Experience&quot;), CONTAINS(CreatedBy.UserRole.Name,&quot;CX&quot;)), &quot;Customer Experience&quot;,&quot;&quot;)
++
+IF(CONTAINS(CreatedBy.UserRole.Name,&quot;Compliance&quot;), &quot;Compliance&quot;,&quot;&quot;)
++
+IF(OR(CONTAINS(CreatedBy.UserRole.Name,&quot;Sales&quot;),CONTAINS(CreatedBy.UserRole.Name,&quot;Partner&quot;),CONTAINS(CreatedBy.UserRole.Name,&quot;Lead Management&quot;)),&quot;Sales&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Created by Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

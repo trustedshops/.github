@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_ok_without_check_completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(NOT(ISPICKVAL( Status__c , &quot;Feasibility check completed&quot;)),
+ISPICKVAL( Result__c , &quot;Ok&quot;))</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Please fill out the Status with &quot;Feasibility check completed&quot;</errorMessage>
+</ValidationRule>

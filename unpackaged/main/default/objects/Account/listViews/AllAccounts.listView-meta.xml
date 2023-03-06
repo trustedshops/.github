@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Subscription_Start_Date__c</columns>
+    <columns>Subscription_End_Date__c</columns>
+    <columns>number_of_accounts__c</columns>
+    <columns>zz_expected_turnover__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Number_of_Customer_Shops__c</columns>
+    <columns>Product_Usage_Rank_1__c</columns>
+    <columns>Product_Usage_Rank_2__c</columns>
+    <columns>Product_Usage_Rank_3__c</columns>
+    <columns>customer_number__c</columns>
+    <columns>PartnerPaymentDebitorNumber__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Alle Accounts</label>
+    <sharedTo>
+        <role>Director_Sales</role>
+        <role>Managing_Director</role>
+    </sharedTo>
+</ListView>

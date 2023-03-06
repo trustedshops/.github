@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Team_Reporting__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(sales_responsible__r.Alias, 
+&quot;truhsc&quot;, &quot;DACH 1&quot;, 
+&quot;trusei&quot;, &quot;DACH 2&quot;,
+&quot;hgöke&quot;, &quot;DACH KA&quot;,
+&quot;trubda&quot;, &quot;DACH KA&quot;,
+&quot;trubbr&quot;, &quot;UK&quot;,
+&quot;thein&quot;, &quot;NL&quot;,
+&quot;trujvi&quot;, &quot;ES&quot;,
+&quot;trugpa&quot;, &quot;FR&quot;,
+&quot;arak&quot;, &quot;PL&quot;,
+&quot;&quot;, &quot;WEB&quot;,
+CASE( sales_responsible__r.Manager.Alias ,
+&quot;truhsc&quot;, &quot;DACH 1&quot;, 
+&quot;trusei&quot;, &quot;DACH 2&quot;,
+&quot;hgöke&quot;, &quot;DACH KA&quot;,
+&quot;trubbr&quot;, &quot;UK&quot;,
+&quot;thein&quot;, &quot;NL&quot;,
+&quot;trujvi&quot;, &quot;ES&quot;,
+&quot;trugpa&quot;, &quot;FR&quot;,
+&quot;arak&quot;, &quot;PL&quot;,
+&quot;&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sales Team Reporting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Field is only Filled if Type = Shop Customer Objective</description>
+    <externalId>false</externalId>
+    <label>Shop</label>
+    <referenceTo>shop__c</referenceTo>
+    <relationshipLabel>Shop Customer Objectives</relationshipLabel>
+    <relationshipName>Shop_Customer_Objectives</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

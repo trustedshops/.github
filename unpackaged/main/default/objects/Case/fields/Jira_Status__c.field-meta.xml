@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Jira Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Assigned</fullName>
+                <default>false</default>
+                <label>Assigned</label>
+            </value>
+            <value>
+                <fullName>backlog</fullName>
+                <default>false</default>
+                <label>backlog</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <label>Done</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Reopen</fullName>
+                <default>false</default>
+                <label>Reopen</label>
+            </value>
+            <value>
+                <fullName>ToDo</fullName>
+                <default>false</default>
+                <label>ToDo</label>
+            </value>
+            <value>
+                <fullName>Ready for Testing</fullName>
+                <default>false</default>
+                <label>Ready for Testing</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <label>Blocked</label>
+            </value>
+            <value>
+                <fullName>Ready for Deployment</fullName>
+                <default>false</default>
+                <label>Ready for Deployment</label>
+            </value>
+            <value>
+                <fullName>Deployed on Prod</fullName>
+                <default>false</default>
+                <label>Deployed on Prod</label>
+            </value>
+            <value>
+                <fullName>Ready for Release</fullName>
+                <default>false</default>
+                <label>Ready for Release</label>
+            </value>
+            <value>
+                <fullName>BA-Testing</fullName>
+                <default>false</default>
+                <label>BA-Testing</label>
+            </value>
+            <value>
+                <fullName>Needs rework</fullName>
+                <default>false</default>
+                <label>Needs rework</label>
+            </value>
+            <value>
+                <fullName>To Do</fullName>
+                <default>false</default>
+                <label>To Do</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

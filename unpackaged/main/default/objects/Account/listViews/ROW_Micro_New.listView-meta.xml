@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROW_Micro_New</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>RevScore__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Ready for Sales</value>
+    </filters>
+    <filters>
+        <field>is_key_account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>lead</value>
+    </filters>
+    <filters>
+        <field>Outbound_type__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.prospect</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>ECOMMERCE</value>
+    </filters>
+    <filters>
+        <field>RevScore__c</field>
+        <operation>lessThan</operation>
+        <value>25</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>notEqual</operation>
+        <value>AT,BE,CZ,DK,FR,GF,PF,TF,DE,GP,IT,LU,MQ,YT,MC,NL,NC,PL,PT,RE,RO,BL,MF,PM,SX,ES,SZ,SE,CH,GB,WF</value>
+    </filters>
+    <label>ROW Micro New</label>
+</ListView>

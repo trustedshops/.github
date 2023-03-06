@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Close_Status__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3rd party</fullName>
+                <default>false</default>
+                <label>3rd party</label>
+            </value>
+            <value>
+                <fullName>Add to spam</fullName>
+                <default>false</default>
+                <label>Add to spam</label>
+            </value>
+            <value>
+                <fullName>Alerting</fullName>
+                <default>false</default>
+                <label>Alerting</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>B2B Marketing</fullName>
+                <default>false</default>
+                <label>B2B Marketing</label>
+            </value>
+            <value>
+                <fullName>B2C Marketing</fullName>
+                <default>false</default>
+                <label>B2C Marketing</label>
+            </value>
+            <value>
+                <fullName>B2C-Service</fullName>
+                <default>false</default>
+                <label>B2C-Service</label>
+            </value>
+            <value>
+                <fullName>Beyond eCommerce</fullName>
+                <default>false</default>
+                <label>Beyond eCommerce</label>
+            </value>
+            <value>
+                <fullName>Business Check</fullName>
+                <default>false</default>
+                <label>Business Check</label>
+            </value>
+            <value>
+                <fullName>Buyer Protection</fullName>
+                <default>false</default>
+                <label>Buyer Protection</label>
+            </value>
+            <value>
+                <fullName>Callback</fullName>
+                <default>false</default>
+                <label>Callback</label>
+            </value>
+            <value>
+                <fullName>Community Cloud</fullName>
+                <default>false</default>
+                <label>Community Cloud</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>Consumer Team</fullName>
+                <default>false</default>
+                <label>Consumer Team</label>
+            </value>
+            <value>
+                <fullName>Contract/Membership</fullName>
+                <default>false</default>
+                <label>Contract/Membership</label>
+            </value>
+            <value>
+                <fullName>Contract Team</fullName>
+                <default>false</default>
+                <label>Contract Team</label>
+            </value>
+            <value>
+                <fullName>Customer Objectives</fullName>
+                <default>false</default>
+                <label>Customer Objectives</label>
+            </value>
+            <value>
+                <fullName>Data Quality / Management</fullName>
+                <default>false</default>
+                <label>Data Quality / Management</label>
+            </value>
+            <value>
+                <fullName>eTrusted</fullName>
+                <default>false</default>
+                <label>eTrusted</label>
+            </value>
+            <value>
+                <fullName>eTrusted Feedback</fullName>
+                <default>false</default>
+                <label>eTrusted Feedback</label>
+            </value>
+            <value>
+                <fullName>Feature</fullName>
+                <default>false</default>
+                <label>Feature</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Features</fullName>
+                <default>false</default>
+                <label>Features</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Guarantee</fullName>
+                <default>false</default>
+                <label>Guarantee</label>
+            </value>
+            <value>
+                <fullName>Import</fullName>
+                <default>false</default>
+                <label>Import</label>
+            </value>
+            <value>
+                <fullName>Leading Status</fullName>
+                <default>false</default>
+                <label>Leading Status</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Lift</fullName>
+                <default>false</default>
+                <label>Lift</label>
+            </value>
+            <value>
+                <fullName>Local Reviews</fullName>
+                <default>false</default>
+                <label>Local Reviews</label>
+            </value>
+            <value>
+                <fullName>Marketing/PR</fullName>
+                <default>false</default>
+                <label>Marketing/PR</label>
+            </value>
+            <value>
+                <fullName>Modules</fullName>
+                <default>false</default>
+                <label>Modules</label>
+            </value>
+            <value>
+                <fullName>Moved to Backlog</fullName>
+                <default>false</default>
+                <label>Moved to Backlog</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Onboarding-Mail</fullName>
+                <default>false</default>
+                <label>Onboarding-Mail</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Product Reviews</fullName>
+                <default>false</default>
+                <label>Product Reviews</label>
+            </value>
+            <value>
+                <fullName>Products</fullName>
+                <default>false</default>
+                <label>Products</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Retention Top-Shop-Check</fullName>
+                <default>false</default>
+                <label>Retention Top-Shop-Check</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>Risk</fullName>
+                <default>false</default>
+                <label>Risk</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Salesforce Infrastructure</fullName>
+                <default>false</default>
+                <label>Salesforce Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Shop Reviews</fullName>
+                <default>false</default>
+                <label>Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>SRev Conversion</fullName>
+                <default>false</default>
+                <label>SRev Conversion</label>
+            </value>
+            <value>
+                <fullName>System feedback</fullName>
+                <default>false</default>
+                <label>System feedback</label>
+            </value>
+            <value>
+                <fullName>Trustbadge</fullName>
+                <default>false</default>
+                <label>Trustbadge</label>
+            </value>
+            <value>
+                <fullName>Trustmark/Certification</fullName>
+                <default>false</default>
+                <label>Trustmark/Certification</label>
+            </value>
+            <value>
+                <fullName>User Support</fullName>
+                <default>false</default>
+                <label>User Support</label>
+            </value>
+            <value>
+                <fullName>Winback</fullName>
+                <default>false</default>
+                <label>Winback</label>
+            </value>
+            <value>
+                <fullName>Yearly Customer Meeting</fullName>
+                <default>false</default>
+                <label>Yearly Customer Meeting</label>
+            </value>
+            <value>
+                <fullName>Zuora Infrastructure</fullName>
+                <default>false</default>
+                <label>Zuora Infrastructure</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Add to spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>3rd party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Alerting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>B2B Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>B2C-Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Beyond eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Business Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Callback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Community Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Fixed</controllingFieldValue>
+            <controllingFieldValue>Trademark removed</controllingFieldValue>
+            <controllingFieldValue>Convey</controllingFieldValue>
+            <valueName>Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Consumer Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Contract/Membership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Contract Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Customer Objectives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Data Quality / Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>eTrusted Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Feature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Import</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Local Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Modules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Moved to Backlog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Onboarding-Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Product Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Retention Top-Shop-Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Risk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Salesforce Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Shop Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>SRev Conversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Trustbadge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>User Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Winback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Yearly Customer Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Zuora Infrastructure</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

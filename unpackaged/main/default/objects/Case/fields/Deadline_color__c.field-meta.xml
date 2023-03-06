@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deadline_color__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Case_Deadline__c &lt;= TODAY(),
+   NOT(ISPICKVAL(Status, &quot;Closed&quot;))),
+   IMAGE(&quot; /img/samples/light_red.gif&quot;,&quot;RED&quot;,20,40),
+IF(AND(Case_Deadline__c - TODAY()=1,
+   NOT(ISPICKVAL(Status, &quot;Closed&quot;))),
+   IMAGE(&quot; /img/samples/light_yellow.gif&quot;,&quot;YELLOW&quot;,20,40),
+IF(AND(Case_Deadline__c - TODAY() &gt;1,
+   NOT(ISPICKVAL(Status,&quot;Closed&quot;))),
+   IMAGE(&quot; /img/samples/light_green.gif&quot;,&quot;GREEN&quot;,20,40),&quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Deadline color</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

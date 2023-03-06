@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Business_Development_New_In_Progr</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND ((4 AND 5) OR 6 OR 7)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>contact_language__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Shop__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Last_Email__c</columns>
+    <columns>stopped_until__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>notEqual</operation>
+        <value>Website Form</value>
+    </filters>
+    <filters>
+        <field>case_owner_team__c</field>
+        <operation>equals</operation>
+        <value>Business Development</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Number_of_Emails__c</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Whitelist__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Team Business Development -New/In Progr.</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Teamlead_High_Touch_1_Market_1</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

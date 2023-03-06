@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_signature_image__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Contact.language__c ,
+&quot;de&quot;, &quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZen&amp;oid=00D0Y000001I5ei&amp;lastMod=1677856697000&quot;,
+&quot;en&quot;, &quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZZT&amp;oid=00D0Y000001I5ei&amp;lastMod=1677854655000&quot;,
+&quot;nl&quot;, &quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZeY&amp;oid=00D0Y000001I5ei&amp;lastMod=1677856486000&quot;,
+&quot;it&quot;, &quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZeT&amp;oid=00D0Y000001I5ei&amp;lastMod=1677856439000&quot;,
+&quot;fr&quot;,&quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZe9&amp;oid=00D0Y000001I5ei&amp;lastMod=1677856342000&quot;,
+&quot;es&quot;,&quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZdp&amp;oid=00D0Y000001I5ei&amp;lastMod=1677856219000&quot;,
+&quot;pl&quot;, &quot;https://trustedshops.file.force.com/servlet/servlet.ImageServer?id=01507000001JZei&amp;oid=00D0Y000001I5ei&amp;lastMod=1677856549000&quot;,
+&quot;https://trustedshops--c.eu17.content.force.com/servlet/servlet.ImageServer?id=0151v000002kvLp&amp;oid=00D0Y000001I5ei&amp;lastMod=1559131490000&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zz_signature_image</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Feasibility check in progress</fullName>
+                <default>false</default>
+                <label>Feasibility check in progress</label>
+            </value>
+            <value>
+                <fullName>Feasibility check completed</fullName>
+                <default>false</default>
+                <label>Feasibility check completed</label>
+            </value>
+            <value>
+                <fullName>Feasibility check requested</fullName>
+                <default>false</default>
+                <label>Feasibility check requested</label>
+            </value>
+            <value>
+                <fullName>Feasibility renewed requested</fullName>
+                <default>false</default>
+                <label>Feasibility renewed requested</label>
+            </value>
+            <value>
+                <fullName>Feasibility check not necessary</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Feasibility check not necessary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

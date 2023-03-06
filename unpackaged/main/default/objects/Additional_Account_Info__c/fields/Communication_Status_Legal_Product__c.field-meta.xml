@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Communication_Status_Legal_Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Communication Status Legal Product</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ready</fullName>
+                <default>true</default>
+                <label>ready</label>
+            </value>
+            <value>
+                <fullName>blocked</fullName>
+                <default>false</default>
+                <label>blocked</label>
+            </value>
+            <value>
+                <fullName>send info</fullName>
+                <default>false</default>
+                <label>send info</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

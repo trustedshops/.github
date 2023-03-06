@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_DACH_Customer_Accounts</fullName>
+    <columns>Quote_approval_date__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_Readonly__c</columns>
+    <columns>customer_number__c</columns>
+    <columns>Herkunftsland_der_Rechtsform__c</columns>
+    <columns>Kundensegment__c</columns>
+    <columns>Contract_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Quote_approval_date__c</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK,LAST_WEEK</value>
+    </filters>
+    <filters>
+        <field>Herkunftsland_der_Rechtsform__c</field>
+        <operation>equals</operation>
+        <value>DE,AT,CH</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Readonly__c</field>
+        <operation>equals</operation>
+        <value>Team Customer Success</value>
+    </filters>
+    <label>New DACH Customer Accounts</label>
+</ListView>

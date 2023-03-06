@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Questioner_Team__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Owner:User.UserRole.Name, 
+&quot;Director CSM DACH&quot;,&quot;Customer Success&quot;,
+&quot;Team Lead DACH CSM I&quot;,&quot;Customer Success&quot;,
+&quot;Team Lead High Touch&quot;,&quot;Customer Success&quot;,
+&quot;Team Lead Mid Touch&quot;,&quot;Customer Success&quot;,
+&quot;Team Mid Touch&quot;, &quot;Customer Success&quot;,
+&quot;Team Lead Tech Touch&quot;,&quot;Customer Success&quot;,
+&quot;Team Lead Customer Success International&quot;,&quot;Customer Success&quot;,
+&quot;Customer Success Manager International CSM&quot;,&quot;Customer Success&quot;,
+&quot;Teamlead Customer Success Poland&quot;,&quot;Customer Success&quot;,
+&quot;Customer Success Poland&quot;,&quot;Customer Success&quot;,
+&quot;Team Lead AM&quot;,&quot;Account Management&quot;,
+&quot;Account Manager DACH KA&quot;,&quot;Account Management&quot;,
+&quot;Account Manager DACH SME&quot;,&quot;Account Management&quot;,
+&quot;Team Lead Contract&quot;,&quot;Contract&quot;,
+&quot;Contract Manager&quot;,&quot;Contract&quot;,
+&quot;Team Lead Product Integration&quot;,&quot;Product Integration&quot;,
+&quot;Product Integration Manager&quot;,&quot;Product Integration&quot;,
+&quot;Accounting&quot;,&quot;Finance&quot;,
+&quot;Controlling&quot;,&quot;Finance&quot;,
+&quot;Teamlead Compliance&quot;,&quot;Compliance&quot;,
+&quot;Compliance Manager&quot;,&quot;Compliance&quot;,
+&quot;Sales Rep DACH KA&quot;,&quot;Sales&quot;,
+&quot;DACH Manager&quot;,&quot;Sales&quot;,
+&quot;DACH 1 Manager&quot;,&quot;Sales&quot;,
+&quot;DACH 2 Manager&quot;,&quot;Sales&quot;,
+&quot;DACH 3 Manager&quot;,&quot;Sales&quot;,
+&quot;DACH 4 Manager&quot;,&quot;Sales&quot;,
+&quot;DACH 5 Manager&quot;,&quot;Sales&quot;,
+&quot;ES Manager&quot;,&quot;Sales&quot;,
+&quot;ES 1 Manager&quot;,&quot;Sales&quot;,
+&quot;ES 2 Manager&quot;,&quot;Sales&quot;,
+&quot;IT Manager&quot;,&quot;Sales&quot;,
+&quot;PT Manager&quot;,&quot;Sales&quot;,
+&quot;FR Key Account Manager&quot;,&quot;Sales&quot;,
+&quot;FR Manager&quot;,&quot;Sales&quot;,
+&quot;Inbound Lead Management&quot;,&quot;Lead Management&quot;,
+&quot;Lead Rep Inbound&quot;,&quot;Lead Management&quot;,
+&quot;Outbound Lead Management&quot;,&quot;Lead Management&quot;,
+&quot;Lead Rep Outbound&quot;,&quot;Lead Management&quot;,
+&quot;Lead Manager Poland&quot;,&quot;Lead Management&quot;,
+&quot;NL Manager&quot;,&quot;Sales&quot;,
+&quot;NL Combound Manager&quot;,&quot;Sales&quot;,
+&quot;NL SME Manager&quot;,&quot;Sales&quot;,
+&quot;Sales Enablement Manager&quot;,&quot;Sales&quot;,
+&quot;Team Lead Partner Management&quot;,&quot;Partner&quot;,
+&quot;Sales Rep Partner Management&quot;,&quot;Partner&quot;,
+&quot;Sales Rep Partner Management FR&quot;,&quot;Partner&quot;,
+&quot;Sales Rep Partner Management ES&quot;,&quot;Partner&quot;,
+&quot;Teamlead Sales Poland&quot;,&quot;Sales&quot;,
+&quot;Teamlead UK&quot;,&quot;Sales&quot;,
+&quot;Enterprise Sales&quot;,&quot;Sales&quot;,
+&quot;&quot;,&quot;&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Questioner Team</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

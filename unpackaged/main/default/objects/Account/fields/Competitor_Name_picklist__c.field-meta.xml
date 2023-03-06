@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Name_picklist__c</fullName>
+    <externalId>false</externalId>
+    <label>Competitor Name picklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Discarded_Information__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Competitors</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Ausgezeichnet.org</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>avis verifies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>bazarvoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>BeCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Bewertet.de</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Ceneo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Chio Online-Shop Zertifikat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Confianza online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Das Internet Siegel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Echte Bewertungen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>ehi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>ekomi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>e-maerket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>eShoppingAdvisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>evalor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Feedaty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Feedback Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>feefo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>fianet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Geprüfter Webshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>google review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Händlerbund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>http://icert.es/</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>IDOSELL SHOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>IT Rechtskanzlei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>janolaw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>King-Avis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Kiyoh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>lfeedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>opineo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Opiniones verificadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Ověřeno zákazníky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Oxatis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>powerreviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Prokonsumencki</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>protected shops</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Proven Expert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Q shops</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Recensioni Verificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Revi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Rzetelny regulamin (rzetelnagrupa)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>safershopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>SafeShops.be</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>shopauskunft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Shopvote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Sicher-Shoppen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Société des Avis Garantis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Thuiswinkel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>tradeassociation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Trustami</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>trustivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Trustmark ( AT )</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Trustmate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>trustpilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Trygg e-Handel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>TÜV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Veristore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Webshop Keurmerk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Webwinkel Keur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>yotpo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Happy with competitor</controllingFieldValue>
+            <valueName>Zertifizierte Shops (CH)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

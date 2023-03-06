@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>case_owner_team__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Owner:User.Business_Unit_Teams__c, 
+&quot;Customer Success&quot;, &quot;Customer Success&quot;,
+&quot;Finance&quot;, &quot;Finance&quot;,	
+&quot;Compliance&quot;, &quot;Compliance&quot;,	
+&quot;Risk&quot;, &quot;Risk&quot;,
+&quot;Salesforce Support&quot;, &quot;Salesforce Support&quot;,
+&quot;Beyond Customer Support&quot;, &quot;Beyond Customer Support&quot;,
+&quot;LegalCSM&quot;, &quot;LegalCSM&quot;,
+&quot;Legal Account Management&quot;, &quot;Legal Account Management&quot;,
+&quot;Key Account&quot;, &quot;Key Account&quot;,
+&quot;Account Management&quot;, &quot;Account Management&quot;,
+&quot;Contract&quot;, &quot;Contract&quot;,
+&quot;Product Integration&quot;, &quot;Product Integration&quot;,
+&quot;Product Support&quot;, &quot;Product Support&quot;,
+&quot;Onboarding&quot;, &quot;Onboarding&quot;,
+&quot;Risk&quot;, &quot;Risk&quot;,
+&quot;Customer Success Services&quot;, &quot;Customer Success Services&quot;,
+&quot;&quot;, &quot;&quot;,&quot;&quot;)
++
+CASE(Owner:Queue.QueueName , &quot;Team Customer Success DACH&quot;, &quot;Customer Success&quot;,
+&quot;Team Customer Success International&quot;, &quot;Customer Success&quot;,
+&quot;Team Account Management&quot;, &quot;Account Management&quot;,
+&quot;Customer Success&quot;, &quot;Customer Success&quot;,
+&quot;Team Contract&quot;, &quot;Contract&quot;,
+&quot;Team Onboarding&quot;, &quot;Onboarding&quot;,
+&quot;Team Product Support&quot;, &quot;Product Support&quot;,
+&quot;Team Trust Product Suport and Services&quot;, &quot;Product Support&quot;,
+&quot;Team Business Development&quot;, &quot;Business Development&quot;,
+&quot;Team Product Integration&quot;, &quot;Product Integration&quot;,
+&quot;Team Finance&quot;, &quot;Finance&quot;,
+&quot;Salesforce Core Team&quot;, &quot;Salesforce Support&quot;,
+&quot;Team Revenue Operations&quot;, &quot;Salesforce Support&quot;,
+&quot;Ops Team&quot;, &quot;Salesforce Support&quot;,
+&quot;Ops Design Team&quot;, &quot;Salesforce Support&quot;,
+&quot;Zuora Team&quot;, &quot;Salesforce Support&quot;,
+&quot;Team Compliance&quot;, &quot;Compliance&quot;,
+&quot;Team Risk&quot;, &quot;Risk&quot;,
+&quot;Team Legal CSM&quot;, &quot;LegalCSM&quot;,
+&quot;Customer Success Services&quot;, &quot;Customer Success Services&quot;,
+&quot;&quot;, &quot;&quot;,
+&quot;&quot;, &quot;&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Owner Team</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

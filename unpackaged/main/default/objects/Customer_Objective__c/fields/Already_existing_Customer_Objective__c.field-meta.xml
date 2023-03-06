@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Already_existing_Customer_Objective__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>will only be filled by FLOW_CustomerObjective_BeforeTrigger to prevent saving in Case of a duplicate Objective</description>
+    <externalId>false</externalId>
+    <label>Already existing Customer Objective</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Questioner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>User who asks a Question with a Salesforce Support Case</description>
+    <externalId>false</externalId>
+    <label>Questioner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

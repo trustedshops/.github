@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>first_day_of_the_year__c</fullName>
+    <description>can be used to schedule jobs to run on the 1st of January only</description>
+    <externalId>false</externalId>
+    <formula>AND(
+DAY(TODAY()) = 1,
+MONTH(TODAY()) = 1
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>first day of the year</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

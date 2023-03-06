@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MQL_HBS_Abschl_e</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>source__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.customer</value>
+    </filters>
+    <filters>
+        <field>source__c</field>
+        <operation>equals</operation>
+        <value>MQL,HBS_FUNNEL,HBS,C_HBS</value>
+    </filters>
+    <label>MQL, HBS Abschlüße</label>
+    <language>en_US</language>
+    <sharedTo />
+</ListView>

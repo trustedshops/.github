@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Write_only_Once</fullName>
+    <active>false</active>
+    <description>Testing</description>
+    <errorConditionFormula>AND(
+ ISCHANGED( AffiliateId__c ),
+ NOT( ISBLANK(PRIORVALUE(AffiliateId__c)))
+)</errorConditionFormula>
+    <errorDisplayField>AffiliateId__c</errorDisplayField>
+    <errorMessage>Can&#39;t modify affiliate id once set.</errorMessage>
+</ValidationRule>

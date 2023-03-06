@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Engagement_relevant__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(OR(Owner:User.UserRole.DeveloperName = &#39;Director_Customer_Experience&#39;, CONTAINS(Owner:User.UserRole.DeveloperName , &#39;CX_Manager&#39;),
+CONTAINS(Owner:User.UserRole.DeveloperName , &#39;Touch&#39;)), 
+NOT(CONTAINS(Owner:User.UserRole.DeveloperName , &#39;Legal&#39;)),
+NOT(CONTAINS(Owner:User.UserRole.DeveloperName , &#39;Account_Management&#39;))), true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>is Engagement relevant</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

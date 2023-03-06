@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Type_Picklist_restricted</fullName>
+    <active>true</active>
+    <description>part of https://tracker.trustedshops.com/browse/PO-6921 - piclist value of account type should be restricted</description>
+    <errorConditionFormula>NOT(
+OR(
+ISPICKVAL(Type, &#39;ECOMMERCE&#39;),
+ISPICKVAL(Type, &#39;LEGAL&#39;),
+ISPICKVAL(Type, &#39;THIRD_PARTY&#39;),
+ISPICKVAL(Type, &#39;STANDARD&#39;),
+ISPICKVAL(Type, &#39;EXPERIENCE_FEEDBACK&#39;),
+ISPICKVAL(Type, &#39;BEYOND_ECOMMERCE&#39;)))</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>The picklist value is not allowed. Please use one of the following:
+ECOMMERCE, LEGAL, THIRD_PARTY, EXPERIENCE_FEEDBACK, BEYOND_ECOMMERCE.</errorMessage>
+</ValidationRule>

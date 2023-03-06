@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personalization_review_invite_and_form__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>can be deleted according to Laura T. 
+was used and filled for eTrusted Migration - data is not needed anymore</description>
+    <externalId>false</externalId>
+    <label>Personalization review invite and form</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

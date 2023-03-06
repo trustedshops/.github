@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_In_Progress_Cases_Florian_Rex</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Shop__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Last_Email__c</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>stopped_until__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Florian Rex</value>
+    </filters>
+    <label>New/In Progress Florian Rex</label>
+    <sharedTo>
+        <group>AM_DACH_Working_Students</group>
+        <roleAndSubordinatesInternal>CX_Team_Account_Management_Tech_Touch_1_Market_1</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_1</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

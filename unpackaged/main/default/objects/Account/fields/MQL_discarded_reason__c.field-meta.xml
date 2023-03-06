@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MQL_discarded_reason__c</fullName>
+    <description>for Lead Management only, to discard the mql and give a reason for the IDG team</description>
+    <externalId>false</externalId>
+    <label>MQL discarded reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>discarded_reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Blog</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Blog</label>
+            </value>
+            <value>
+                <fullName>consumer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>consumer</label>
+            </value>
+            <value>
+                <fullName>Exclusion catalogue</fullName>
+                <default>false</default>
+                <label>Exclusion catalogue</label>
+            </value>
+            <value>
+                <fullName>No certification possible</fullName>
+                <default>false</default>
+                <label>No certification possible</label>
+            </value>
+            <value>
+                <fullName>No company information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No company information</label>
+            </value>
+            <value>
+                <fullName>No Onlineshop</fullName>
+                <default>false</default>
+                <label>No Onlineshop</label>
+            </value>
+            <value>
+                <fullName>No phone number</fullName>
+                <default>false</default>
+                <label>No phone number</label>
+            </value>
+            <value>
+                <fullName>no quality</fullName>
+                <default>false</default>
+                <label>No quality</label>
+            </value>
+            <value>
+                <fullName>No URL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No URL</label>
+            </value>
+            <value>
+                <fullName>no valid phone number</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No valid phone number</label>
+            </value>
+            <value>
+                <fullName>no valid URL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No valid URL</label>
+            </value>
+            <value>
+                <fullName>service provider</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service provider</label>
+            </value>
+            <value>
+                <fullName>Shop language not supported</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shop language not supported</label>
+            </value>
+            <value>
+                <fullName>Shop not ready</fullName>
+                <default>false</default>
+                <label>Shop not ready</label>
+            </value>
+            <value>
+                <fullName>Too specialized</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Too specialized</label>
+            </value>
+            <value>
+                <fullName>URL offline</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>URL offline</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>Exclusion catalogue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>No certification possible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>No Onlineshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>No phone number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>no quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MQL trash (LM only)</controllingFieldValue>
+            <valueName>Shop not ready</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Account_Number__c</fullName>
+    <description>please use Account Customer Number or Billing Account Number instead
+Reporting Team replaced the field (PO-5642)</description>
+    <externalId>false</externalId>
+    <label>[DEPRECATED] Billing Account Number</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

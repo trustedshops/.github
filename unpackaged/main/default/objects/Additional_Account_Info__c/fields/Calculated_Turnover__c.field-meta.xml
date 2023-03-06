@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calculated_Turnover__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Orders_customer__c = true, 0, 
+If(Orders_last_year_rolling__c = 0, 0, 
+Orders_last_year_rolling__c *  IF(Account__r.Average_Shopping_Basket__c = 0, Median_Basket_converted__c, IF((Account__r.zz_Transaction_volume_protections_p__c / Account__r.Average_Shopping_Basket__c / Orders_last_year_rolling__c) &gt; 0.25, Account__r.Average_Shopping_Basket__c, Median_Basket_converted__c))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Calculated Turnover</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

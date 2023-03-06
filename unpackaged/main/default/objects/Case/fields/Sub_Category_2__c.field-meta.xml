@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Category 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1st Lvl Support</fullName>
+                <default>false</default>
+                <label>1st Lvl Support</label>
+            </value>
+            <value>
+                <fullName>2nd Lvl Accounting</fullName>
+                <default>false</default>
+                <label>2nd Lvl Accounting</label>
+            </value>
+            <value>
+                <fullName>2nd Lvl Consultance</fullName>
+                <default>false</default>
+                <label>2nd Lvl Consultance</label>
+            </value>
+            <value>
+                <fullName>2nd Lvl IT</fullName>
+                <default>false</default>
+                <label>2nd Lvl IT</label>
+            </value>
+            <value>
+                <fullName>ABMAHNUNG</fullName>
+                <default>false</default>
+                <label>ABMAHNUNG</label>
+            </value>
+            <value>
+                <fullName>Additional agreement</fullName>
+                <default>false</default>
+                <label>Additional agreement</label>
+            </value>
+            <value>
+                <fullName>Additional domain</fullName>
+                <default>false</default>
+                <label>Additional domain</label>
+            </value>
+            <value>
+                <fullName>Additional option</fullName>
+                <default>false</default>
+                <label>Additional option</label>
+            </value>
+            <value>
+                <fullName>Address</fullName>
+                <default>false</default>
+                <label>Address</label>
+            </value>
+            <value>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+                <label>Adoption</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>API Collect Shop Reviews</fullName>
+                <default>false</default>
+                <label>API Collect Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>API Display Shop Reviews</fullName>
+                <default>false</default>
+                <label>API Display Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>API Product Reviews</fullName>
+                <default>false</default>
+                <label>API Product Reviews</label>
+            </value>
+            <value>
+                <fullName>Automatic Collection</fullName>
+                <default>false</default>
+                <label>Automatic Collection</label>
+            </value>
+            <value>
+                <fullName>Automatic reply</fullName>
+                <default>false</default>
+                <label>Automatic reply</label>
+            </value>
+            <value>
+                <fullName>Bug</fullName>
+                <default>false</default>
+                <label>Bug</label>
+            </value>
+            <value>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+                <label>Campaign</label>
+            </value>
+            <value>
+                <fullName>Cancellation (Widerruf)</fullName>
+                <default>false</default>
+                <label>Cancellation (Widerruf)</label>
+            </value>
+            <value>
+                <fullName>Cancellation confirmation</fullName>
+                <default>false</default>
+                <label>Cancellation confirmation</label>
+            </value>
+            <value>
+                <fullName>Cancellation of payment agreement</fullName>
+                <default>false</default>
+                <label>Cancellation of payment agreement</label>
+            </value>
+            <value>
+                <fullName>Change of payment mehthod or frequency</fullName>
+                <default>false</default>
+                <label>Change of payment mehthod or frequency</label>
+            </value>
+            <value>
+                <fullName>Change payment method</fullName>
+                <default>false</default>
+                <label>Change payment method</label>
+            </value>
+            <value>
+                <fullName>Charge transfer of contract</fullName>
+                <default>false</default>
+                <label>Charge transfer of contract</label>
+            </value>
+            <value>
+                <fullName>Clarification Sales</fullName>
+                <default>false</default>
+                <label>Clarification Sales</label>
+            </value>
+            <value>
+                <fullName>Collect reviews</fullName>
+                <default>false</default>
+                <label>Collect reviews</label>
+            </value>
+            <value>
+                <fullName>Complaints</fullName>
+                <default>false</default>
+                <label>Complaints</label>
+            </value>
+            <value>
+                <fullName>Confirmation</fullName>
+                <default>false</default>
+                <label>Confirmation</label>
+            </value>
+            <value>
+                <fullName>Confirmation transfer has been processed</fullName>
+                <default>false</default>
+                <label>Confirmation transfer has been processed</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Copy of invoice</fullName>
+                <default>false</default>
+                <label>Copy of invoice</label>
+            </value>
+            <value>
+                <fullName>Correction of invoice</fullName>
+                <default>false</default>
+                <label>Correction of invoice</label>
+            </value>
+            <value>
+                <fullName>Coupon</fullName>
+                <default>false</default>
+                <label>Coupon</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Data update</fullName>
+                <default>false</default>
+                <label>Data update</label>
+            </value>
+            <value>
+                <fullName>Deactivation due to delayed transfer of contract</fullName>
+                <default>false</default>
+                <label>Deactivation due to delayed transfer of contract</label>
+            </value>
+            <value>
+                <fullName>Debt collection</fullName>
+                <default>false</default>
+                <label>Debt collection</label>
+            </value>
+            <value>
+                <fullName>EIP</fullName>
+                <default>false</default>
+                <label>EIP</label>
+            </value>
+            <value>
+                <fullName>Escalation</fullName>
+                <default>false</default>
+                <label>Escalation</label>
+            </value>
+            <value>
+                <fullName>EXC</fullName>
+                <default>false</default>
+                <label>EXC</label>
+            </value>
+            <value>
+                <fullName>Exit Intent Popup</fullName>
+                <default>false</default>
+                <label>Exit Intent Popup</label>
+            </value>
+            <value>
+                <fullName>Explanation of transfer of contract costs</fullName>
+                <default>false</default>
+                <label>Explanation of transfer of contract costs</label>
+            </value>
+            <value>
+                <fullName>External sales</fullName>
+                <default>false</default>
+                <label>External sales</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>General inquiries</fullName>
+                <default>false</default>
+                <label>General inquiries</label>
+            </value>
+            <value>
+                <fullName>Goodwill offer</fullName>
+                <default>false</default>
+                <label>Goodwill offer</label>
+            </value>
+            <value>
+                <fullName>Google Integr.</fullName>
+                <default>false</default>
+                <label>Google Integr.</label>
+            </value>
+            <value>
+                <fullName>INKASSO</fullName>
+                <default>false</default>
+                <label>INKASSO</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>Interessent</fullName>
+                <default>false</default>
+                <label>Interessent</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Legal Only Upsell</fullName>
+                <default>false</default>
+                <label>Legal Only Upsell</label>
+            </value>
+            <value>
+                <fullName>Legal-Only Winback</fullName>
+                <default>false</default>
+                <label>Legal-Only Winback</label>
+            </value>
+            <value>
+                <fullName>Liquidation</fullName>
+                <default>false</default>
+                <label>Liquidation</label>
+            </value>
+            <value>
+                <fullName>Login</fullName>
+                <default>false</default>
+                <label>Login</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Productfeed</fullName>
+                <default>false</default>
+                <label>Productfeed</label>
+            </value>
+            <value>
+                <fullName>Product Reviews</fullName>
+                <default>false</default>
+                <label>Product Reviews</label>
+            </value>
+            <value>
+                <fullName>Productsticker</fullName>
+                <default>false</default>
+                <label>Productsticker</label>
+            </value>
+            <value>
+                <fullName>Produktfrage</fullName>
+                <default>false</default>
+                <label>Produktfrage</label>
+            </value>
+            <value>
+                <fullName>Reactivations of account</fullName>
+                <default>false</default>
+                <label>Reactivations of account</label>
+            </value>
+            <value>
+                <fullName>Reengagement</fullName>
+                <default>false</default>
+                <label>Reengagement</label>
+            </value>
+            <value>
+                <fullName>RENEWAL</fullName>
+                <default>false</default>
+                <label>RENEWAL</label>
+            </value>
+            <value>
+                <fullName>Report reviews</fullName>
+                <default>false</default>
+                <label>Report reviews</label>
+            </value>
+            <value>
+                <fullName>Reputation Manager</fullName>
+                <default>false</default>
+                <label>Reputation Manager</label>
+            </value>
+            <value>
+                <fullName>Retry direct debit</fullName>
+                <default>false</default>
+                <label>Retry direct debit</label>
+            </value>
+            <value>
+                <fullName>Review Button</fullName>
+                <default>false</default>
+                <label>Review Button</label>
+            </value>
+            <value>
+                <fullName>Review Collector</fullName>
+                <default>false</default>
+                <label>Review Collector</label>
+            </value>
+            <value>
+                <fullName>Review Form</fullName>
+                <default>false</default>
+                <label>Review Form</label>
+            </value>
+            <value>
+                <fullName>Review Sticker</fullName>
+                <default>false</default>
+                <label>Review Sticker</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Screenshot</fullName>
+                <default>false</default>
+                <label>Screenshot</label>
+            </value>
+            <value>
+                <fullName>Send contract documents</fullName>
+                <default>false</default>
+                <label>Send contract documents</label>
+            </value>
+            <value>
+                <fullName>Send signed documents</fullName>
+                <default>false</default>
+                <label>Send signed documents</label>
+            </value>
+            <value>
+                <fullName>Send transfer of contract form</fullName>
+                <default>false</default>
+                <label>Send transfer of contract form</label>
+            </value>
+            <value>
+                <fullName>Shop offline</fullName>
+                <default>false</default>
+                <label>Shop offline</label>
+            </value>
+            <value>
+                <fullName>Shopprofile</fullName>
+                <default>false</default>
+                <label>Shopprofile</label>
+            </value>
+            <value>
+                <fullName>Shop Reviews</fullName>
+                <default>false</default>
+                <label>Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>Success Check</fullName>
+                <default>false</default>
+                <label>Success Check</label>
+            </value>
+            <value>
+                <fullName>tbd</fullName>
+                <default>false</default>
+                <label>tbd</label>
+            </value>
+            <value>
+                <fullName>Technical issue</fullName>
+                <default>false</default>
+                <label>Technical issue</label>
+            </value>
+            <value>
+                <fullName>Technisches Problem</fullName>
+                <default>false</default>
+                <label>Technisches Problem</label>
+            </value>
+            <value>
+                <fullName>TERMINBUCHUNG</fullName>
+                <default>false</default>
+                <label>TERMINBUCHUNG</label>
+            </value>
+            <value>
+                <fullName>Trading licence</fullName>
+                <default>false</default>
+                <label>Trading licence</label>
+            </value>
+            <value>
+                <fullName>Trustbadge</fullName>
+                <default>false</default>
+                <label>Trustbadge</label>
+            </value>
+            <value>
+                <fullName>Update payment details</fullName>
+                <default>false</default>
+                <label>Update payment details</label>
+            </value>
+            <value>
+                <fullName>Upsell</fullName>
+                <default>false</default>
+                <label>Upsell</label>
+            </value>
+            <value>
+                <fullName>VAT number</fullName>
+                <default>false</default>
+                <label>VAT number</label>
+            </value>
+            <value>
+                <fullName>VAT number enquiry</fullName>
+                <default>false</default>
+                <label>VAT number enquiry</label>
+            </value>
+            <value>
+                <fullName>Vertragliches (Verweis auf Wix)</fullName>
+                <default>false</default>
+                <label>Vertragliches (Verweis auf Wix)</label>
+            </value>
+            <value>
+                <fullName>WB</fullName>
+                <default>false</default>
+                <label>WB</label>
+            </value>
+            <value>
+                <fullName>Widget</fullName>
+                <default>false</default>
+                <label>Widget</label>
+            </value>
+            <value>
+                <fullName>Winback</fullName>
+                <default>false</default>
+                <label>Winback</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reputation Manager</controllingFieldValue>
+            <controllingFieldValue>Google Integration</controllingFieldValue>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <controllingFieldValue>Traffic Package</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Buyer Protection</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Shop-Profile</controllingFieldValue>
+            <controllingFieldValue>Modules</controllingFieldValue>
+            <controllingFieldValue>Trustbadge</controllingFieldValue>
+            <valueName>General inquiries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reputation Manager</controllingFieldValue>
+            <controllingFieldValue>Manual Integration</controllingFieldValue>
+            <controllingFieldValue>Checkout DIV</controllingFieldValue>
+            <controllingFieldValue>Google Integration</controllingFieldValue>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <controllingFieldValue>Traffic Package</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Buyer Protection</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Shop-Profile</controllingFieldValue>
+            <controllingFieldValue>Modules</controllingFieldValue>
+            <controllingFieldValue>Trustbadge</controllingFieldValue>
+            <controllingFieldValue>Sticker/Widgets</controllingFieldValue>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Invites</controllingFieldValue>
+            <valueName>Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reputation Manager</controllingFieldValue>
+            <controllingFieldValue>Google Integration</controllingFieldValue>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <controllingFieldValue>Traffic Package</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Buyer Protection</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Shop-Profile</controllingFieldValue>
+            <controllingFieldValue>Modules</controllingFieldValue>
+            <controllingFieldValue>Trustbadge</controllingFieldValue>
+            <valueName>Technical issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Integration</controllingFieldValue>
+            <controllingFieldValue>Checkout DIV</controllingFieldValue>
+            <controllingFieldValue>Feature Requests</controllingFieldValue>
+            <controllingFieldValue>Sticker/Widgets</controllingFieldValue>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Invites</controllingFieldValue>
+            <valueName>Bug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Integration</controllingFieldValue>
+            <controllingFieldValue>Checkout DIV</controllingFieldValue>
+            <controllingFieldValue>Sticker/Widgets</controllingFieldValue>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Invites</controllingFieldValue>
+            <valueName>Custom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Integration</controllingFieldValue>
+            <valueName>Feature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Integration</controllingFieldValue>
+            <controllingFieldValue>Checkout DIV</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Sticker/Widgets</controllingFieldValue>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Invites</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <valueName>Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <valueName>Reputation Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <controllingFieldValue>Collect Shop Reviews</controllingFieldValue>
+            <valueName>Review Collector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <valueName>Trustbadge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <controllingFieldValue>Display Shop Reviews</controllingFieldValue>
+            <valueName>Widget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Display Product Reviews</controllingFieldValue>
+            <valueName>Productfeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Display Product Reviews</controllingFieldValue>
+            <valueName>Productsticker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Cancellation confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Data update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>Upsell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>Winback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Display Shop Reviews</controllingFieldValue>
+            <valueName>API Display Shop Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Display Shop Reviews</controllingFieldValue>
+            <valueName>Review Sticker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Individual adjustment</controllingFieldValue>
+            <valueName>Review Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificate Page</controllingFieldValue>
+            <valueName>Screenshot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collect Product Reviews</controllingFieldValue>
+            <valueName>API Product Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collect Shop Reviews</controllingFieldValue>
+            <valueName>API Collect Shop Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collect Shop Reviews</controllingFieldValue>
+            <valueName>Automatic Collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collect Shop Reviews</controllingFieldValue>
+            <valueName>Review Button</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integration</controllingFieldValue>
+            <controllingFieldValue>Review Collector</controllingFieldValue>
+            <controllingFieldValue>Rich Snippets</controllingFieldValue>
+            <controllingFieldValue>Sticker</controllingFieldValue>
+            <valueName>Product Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <valueName>API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Review Collector</controllingFieldValue>
+            <controllingFieldValue>Rich Snippets</controllingFieldValue>
+            <controllingFieldValue>Sticker</controllingFieldValue>
+            <valueName>Shop Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traffic Package</controllingFieldValue>
+            <valueName>Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traffic Package</controllingFieldValue>
+            <valueName>Coupon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traffic Package</controllingFieldValue>
+            <valueName>Exit Intent Popup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer of contract</controllingFieldValue>
+            <valueName>Confirmation transfer has been processed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer of contract</controllingFieldValue>
+            <valueName>Deactivation due to delayed transfer of contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer of contract</controllingFieldValue>
+            <valueName>Explanation of transfer of contract costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer of contract</controllingFieldValue>
+            <valueName>Send transfer of contract form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upselling</controllingFieldValue>
+            <valueName>Additional domain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upselling</controllingFieldValue>
+            <valueName>Additional option</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Cancellation of payment agreement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Change of payment mehthod or frequency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Charge transfer of contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Copy of invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Correction of invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Debt collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Reactivations of account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Retry direct debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice / Payment reminder</controllingFieldValue>
+            <valueName>Update payment details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance of application</controllingFieldValue>
+            <valueName>Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance of application</controllingFieldValue>
+            <valueName>External sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance of application</controllingFieldValue>
+            <valueName>Shop offline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance of application</controllingFieldValue>
+            <valueName>Trading licence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acceptance of application</controllingFieldValue>
+            <valueName>VAT number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Send signed documents</controllingFieldValue>
+            <valueName>Additional agreement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Send signed documents</controllingFieldValue>
+            <valueName>Send contract documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Send signed documents</controllingFieldValue>
+            <valueName>Send signed documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Automatic reply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Collect reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>EIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>EXC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Google Integr.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Report reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support</controllingFieldValue>
+            <valueName>Shopprofile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wix Reviews App</controllingFieldValue>
+            <valueName>Interessent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wix Reviews App</controllingFieldValue>
+            <valueName>Produktfrage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wix Reviews App</controllingFieldValue>
+            <valueName>Technisches Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wix Reviews App</controllingFieldValue>
+            <valueName>Vertragliches (Verweis auf Wix)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>1st Lvl Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>2nd Lvl Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>2nd Lvl Consultance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>2nd Lvl IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>Clarification Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Support</controllingFieldValue>
+            <valueName>Escalation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success</controllingFieldValue>
+            <valueName>Adoption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success</controllingFieldValue>
+            <valueName>Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success</controllingFieldValue>
+            <valueName>Reengagement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success</controllingFieldValue>
+            <valueName>Success Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>ABMAHNUNG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>INKASSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>Legal Only Upsell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>Legal-Only Winback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>RENEWAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal Account Management</controllingFieldValue>
+            <valueName>TERMINBUCHUNG</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

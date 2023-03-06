@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_phone_must_be_filled_upon_creation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNEW(),
+ISBLANK(Email),
+ISBLANK(Phone),
+ISBLANK(MobilePhone)
+)</errorConditionFormula>
+    <errorMessage>Please enter an email address or (mobile) phone number.</errorMessage>
+</ValidationRule>

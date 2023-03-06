@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Support_Comp_Layout</fullName>
+    <fields>Subject</fields>
+    <fields>RecordTypeId</fields>
+    <fields>OwnerId</fields>
+    <fields>Questioner__c</fields>
+    <fields>Priority</fields>
+    <fields>Timings__c</fields>
+    <label>Salesforce Support Comp.Layout</label>
+</CompactLayout>

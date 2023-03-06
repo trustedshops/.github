@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Quote_Generation_price_invalid</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordTypeId = &#39;0120Y0000002iZt&#39;
+&amp;&amp;
+ISCHANGED(Lift_Quote_Total_Fee__c)
+&amp;&amp; 
+Lift_Quote_Total_Fee__c &gt;= 19000</errorConditionFormula>
+    <errorMessage>The Total Fee is too high, please correct this error and save again</errorMessage>
+</ValidationRule>

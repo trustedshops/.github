@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lift_probability__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( Orders_customer__c = true, 0,
+IF(Orders_last_year_rolling__c = 0, 0, MAX(1 - (Implied_Average_Basket__c / Median_Basket_converted__c), MIN
+(IF(Account__r.Average_Shopping_Basket__c = 0, 0, 
+IF((Account__r.zz_Transaction_volume_protections_p__c / Account__r.Average_Shopping_Basket__c / Orders_last_year_rolling__c) &gt; 0.25, Orders_last_year_rolling__c * Account__r.Average_Shopping_Basket__c / Account__r.zz_expected_turnover__c - 1, 0)), 1), 0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lift probability</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

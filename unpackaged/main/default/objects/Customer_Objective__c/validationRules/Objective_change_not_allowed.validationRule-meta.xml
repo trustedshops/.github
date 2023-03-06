@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objective_change_not_allowed</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Objective__c)</errorConditionFormula>
+    <errorDisplayField>Objective__c</errorDisplayField>
+    <errorMessage>Error! Please do not change the Objective, but create a new one instead. Thanks!</errorMessage>
+</ValidationRule>

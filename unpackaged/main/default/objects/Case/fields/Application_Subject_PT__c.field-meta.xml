@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Subject_PT__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Subject,
+&quot;Bem-vindo/a a Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),1,0),
+&quot;Obrigado pelo seu pedido de adesão - os seus dados estão agora a ser verificados&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),1,0),
+&quot;Registou-se com sucesso na Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;Bem-vindo à Trusted Shops!&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;O seu contacto pessoal na Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),5,0),
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Application Subject PT</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

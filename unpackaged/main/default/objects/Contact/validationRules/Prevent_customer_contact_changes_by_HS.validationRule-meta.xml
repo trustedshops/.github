@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_customer_contact_changes_by_HS</fullName>
+    <active>false</active>
+    <description>prevent Customer changes by HubSpot</description>
+    <errorConditionFormula>(Account_Record_Type__c=&#39;customer&#39;)
+&amp;&amp;
+ $User.Username = &#39;hubspot-api@trustedshops.com&#39;
+&amp;&amp;
+(ISCHANGED(Email)
+||
+ISCHANGED(FirstName)
+||
+ISCHANGED(LastName)
+||
+ISCHANGED(Phone)
+||
+ISCHANGED(Salutation)
+||
+ISCHANGED(MailingCity)
+||
+ISCHANGED(MailingCountry)
+||
+ISCHANGED(MailingStreet)
+||
+ISCHANGED(MailingPostalCode)
+)</errorConditionFormula>
+    <errorMessage>HubSpot is not allowed to change customer contact core data</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_date_Lead_Management__c</fullName>
+    <description>when the account was qualified by the lead management (new or mql accounts)</description>
+    <externalId>false</externalId>
+    <label>Qualification date Lead Management</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

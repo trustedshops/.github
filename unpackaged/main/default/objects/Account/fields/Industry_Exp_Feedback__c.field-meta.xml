@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Exp_Feedback__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry (Exp. Feedback)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Authorities_and_Public_Administration</fullName>
+                <default>false</default>
+                <label>Authorities and Public Administration</label>
+            </value>
+            <value>
+                <fullName>Consulting_Auditing_and_Tax</fullName>
+                <default>false</default>
+                <label>Consulting, Auditing and Tax</label>
+            </value>
+            <value>
+                <fullName>Education_and_Research</fullName>
+                <default>false</default>
+                <label>Education and Research</label>
+            </value>
+            <value>
+                <fullName>Chemicals_Raw_Materials_and_Mining</fullName>
+                <default>false</default>
+                <label>Chemicals, Raw Materials and Mining</label>
+            </value>
+            <value>
+                <fullName>Services_and_Handicrafts</fullName>
+                <default>false</default>
+                <label>Services and Handicrafts</label>
+            </value>
+            <value>
+                <fullName>Energy_and_Environment</fullName>
+                <default>false</default>
+                <label>Energy and Environment</label>
+            </value>
+            <value>
+                <fullName>Commerce_and_Trading</fullName>
+                <default>false</default>
+                <label>Commerce and Trading</label>
+            </value>
+            <value>
+                <fullName>Consumer_goods_and_FMCG</fullName>
+                <default>false</default>
+                <label>Consumer goods and FMCG</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Metal_and_Electronics</fullName>
+                <default>false</default>
+                <label>Metal and Electronics</label>
+            </value>
+            <value>
+                <fullName>Pharma_Health_Care</fullName>
+                <default>false</default>
+                <label>Pharma &amp; Health Care</label>
+            </value>
+            <value>
+                <fullName>Tourism_and_Gastronomy</fullName>
+                <default>false</default>
+                <label>Tourism and Gastronomy</label>
+            </value>
+            <value>
+                <fullName>Transport_and_Logistics</fullName>
+                <default>false</default>
+                <label>Transport and Logistics</label>
+            </value>
+            <value>
+                <fullName>Associations_and_Organisations</fullName>
+                <default>false</default>
+                <label>Associations and Organisations</label>
+            </value>
+            <value>
+                <fullName>Marketing_and_Advertising</fullName>
+                <default>false</default>
+                <label>Marketing and Advertising</label>
+            </value>
+            <value>
+                <fullName>Economics_and_Politics</fullName>
+                <default>false</default>
+                <label>Economics and Politics</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Internet_and_Tech</fullName>
+                <default>false</default>
+                <label>Internet and Tech</label>
+            </value>
+            <value>
+                <fullName>Financial services</fullName>
+                <default>false</default>
+                <label>Financial services</label>
+            </value>
+            <value>
+                <fullName>Insurances</fullName>
+                <default>false</default>
+                <label>Insurances</label>
+            </value>
+            <value>
+                <fullName>Real estate</fullName>
+                <default>false</default>
+                <label>Real estate</label>
+            </value>
+            <value>
+                <fullName>Finance_Insurance_and_Real_Estate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance, Insurance and Real Estate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

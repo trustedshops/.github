@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Lift_relevant__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND
+(Orders_last_year_rolling__c &gt; 0, 
+OR
+(AND(Implied_Average_Basket__c &lt; Median_Basket_converted__c, Orders_customer__c = false),
+AND
+(Account__r.Average_Shopping_Basket__c &gt; 0, 
+(Account__r.zz_Transaction_volume_protections_p__c / Account__r.Average_Shopping_Basket__c /  Orders_last_year_rolling__c) &gt; 0.25, 
+(Account__r.Average_Shopping_Basket__c * Orders_last_year_rolling__c) &gt;  Account__r.zz_expected_turnover__c),
+AND
+(Orders_customer__c = true,
+Orders_bought__c &lt; Orders_last_year_rolling__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lift relevant (new)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

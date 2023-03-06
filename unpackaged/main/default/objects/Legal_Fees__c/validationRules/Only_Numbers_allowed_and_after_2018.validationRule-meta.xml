@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Numbers_allowed_and_after_2018</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(AND(ISNUMBER( Year__c ) = true,  Year_as_number__c &gt;= 2018, Year_as_number__c &lt;=  YEAR(DATEVALUE(NOW()))), false, true)</errorConditionFormula>
+    <errorDisplayField>Year__c</errorDisplayField>
+    <errorMessage>Please make this field:only contain numbers AND is later than or equal to 2018 AND is not later than this year</errorMessage>
+</ValidationRule>

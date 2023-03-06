@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Left_the_company__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>informaton to not use this contact any more</description>
+    <externalId>false</externalId>
+    <inlineHelpText>only if the person is not working in the company any more</inlineHelpText>
+    <label>Left the company</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

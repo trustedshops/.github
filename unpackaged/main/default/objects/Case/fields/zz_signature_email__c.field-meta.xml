@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_signature_email__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($User.Id = &quot;0050Y000000oRHI&quot;, &quot;bizdev@trustedshops.de&quot;,
+IF(OR($User.UserRoleId = &quot;00E0Y000000xbpG&quot;, $User.UserRoleId = &quot;00E0Y000000xbpL&quot;,$User.UserRoleId = &quot;00E1v000001mTbJ&quot;, CONTAINS($UserRole.Name , &quot;High Touch&quot;),
+AND(ISPICKVAL(Account.Kundensegment__c, &quot;Key Account&quot;), $User.Alias =&quot;senge&quot;,$User.Alias =&quot;truohu&quot;, $User.Alias =&quot;trumsc&quot;)), &quot;keyaccount@trustedshops.com&quot;,
+IF(OR($User.UserRoleId = &quot;00E0Y000000i2fr&quot;, $User.UserRoleId = &quot;00E0Y000000i2fw&quot;,$User.Alias =&quot;trusgu2&quot;,$User.UserRoleId = &quot;00E1v000001mTap&quot;, $User.UserRoleId = &quot;00E1v000001mTb9&quot;), &quot;contract@trustedshops.com&quot;,
+IF(OR($Profile.Name = &quot;Finance Accounting&quot;, RecordType.Name = &quot;Finance&quot;), &quot;finance@trustedshops.com&quot;,
+CASE(RecordType.Name,
+&quot;Customer Support&quot;, &quot;members@trustedshops.com&quot;,
+&quot;Onboarding&quot;, &quot;onboarding@trustedshops.com&quot;,
+&quot;Product Integration&quot;, &quot;productintegration@trustedshops.com&quot;,
+&quot;Contract&quot;, &quot;contract@trustedshops.com&quot;,
+&quot;Risk&quot;, &quot;riskservices@trustedshops.com&quot;,
+&quot;members@trustedshops.com&quot;)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zz Signature Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

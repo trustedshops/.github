@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overview_of_accounts_no_activity</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.SALES</columns>
+    <columns>cumulated_similarweb_global_rank__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Has_Activity__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>notEqual</operation>
+        <value>Discarded,Graveyard,Cancelled</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Account.customer</value>
+    </filters>
+    <label>Overview of accounts no activity</label>
+</ListView>

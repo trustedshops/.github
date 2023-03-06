@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_with_TAKEDROP_as_partner</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>status__c</columns>
+    <columns>Outbound_type__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>registeredOffice__c</columns>
+    <columns>ACCOUNT.CURRENCY_ISO_CODE</columns>
+    <columns>Number_of_Open_Opps__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>Discarded_Date__c</columns>
+    <columns>RevScore__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Main_partner__c</field>
+        <operation>contains</operation>
+        <value>Takedrop</value>
+    </filters>
+    <label>Accounts with TAKEDROP as partner</label>
+</ListView>

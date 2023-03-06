@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Acceptance of application</fullName>
+                <default>false</default>
+                <label>Acceptance of application</label>
+            </value>
+            <value>
+                <fullName>Accession to Contract</fullName>
+                <default>false</default>
+                <label>Accession to Contract</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Approval of contract</fullName>
+                <default>false</default>
+                <label>Approval of contract</label>
+            </value>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Bad</fullName>
+                <default>false</default>
+                <label>Bad</label>
+            </value>
+            <value>
+                <fullName>Bug</fullName>
+                <default>false</default>
+                <label>Bug</label>
+            </value>
+            <value>
+                <fullName>Buyer Protection</fullName>
+                <default>false</default>
+                <label>Buyer Protection</label>
+            </value>
+            <value>
+                <fullName>Calculation of Rating</fullName>
+                <default>false</default>
+                <label>Calculation of Rating</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Certificate Page</fullName>
+                <default>false</default>
+                <label>Certificate Page</label>
+            </value>
+            <value>
+                <fullName>Checkout DIV</fullName>
+                <default>false</default>
+                <label>Checkout DIV</label>
+            </value>
+            <value>
+                <fullName>Classic</fullName>
+                <default>false</default>
+                <label>Classic</label>
+            </value>
+            <value>
+                <fullName>collect</fullName>
+                <default>false</default>
+                <label>collect</label>
+            </value>
+            <value>
+                <fullName>Collect Product Reviews</fullName>
+                <default>false</default>
+                <label>Collect Product Reviews</label>
+            </value>
+            <value>
+                <fullName>Collect Shop Reviews</fullName>
+                <default>false</default>
+                <label>Collect Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>Data</label>
+            </value>
+            <value>
+                <fullName>Data update</fullName>
+                <default>false</default>
+                <label>Data update</label>
+            </value>
+            <value>
+                <fullName>Debt collection/ Insolvency</fullName>
+                <default>false</default>
+                <label>Debt collection/ Insolvency</label>
+            </value>
+            <value>
+                <fullName>display</fullName>
+                <default>false</default>
+                <label>display</label>
+            </value>
+            <value>
+                <fullName>Display Product Reviews</fullName>
+                <default>false</default>
+                <label>Display Product Reviews</label>
+            </value>
+            <value>
+                <fullName>Display Shop Reviews</fullName>
+                <default>false</default>
+                <label>Display Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>DIV</fullName>
+                <default>false</default>
+                <label>DIV</label>
+            </value>
+            <value>
+                <fullName>Downgrade</fullName>
+                <default>false</default>
+                <label>Downgrade</label>
+            </value>
+            <value>
+                <fullName>Dunning</fullName>
+                <default>false</default>
+                <label>Dunning</label>
+            </value>
+            <value>
+                <fullName>Excellence</fullName>
+                <default>false</default>
+                <label>Excellence</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Feature Requests</fullName>
+                <default>false</default>
+                <label>Feature Requests</label>
+            </value>
+            <value>
+                <fullName>FREE/ Trial Kunde</fullName>
+                <default>false</default>
+                <label>FREE/ Trial Kunde</label>
+            </value>
+            <value>
+                <fullName>Good</fullName>
+                <default>false</default>
+                <label>Good</label>
+            </value>
+            <value>
+                <fullName>Google Integration</fullName>
+                <default>false</default>
+                <label>Google Integration</label>
+            </value>
+            <value>
+                <fullName>Guarantee frame (Absicherungsrahmen)</fullName>
+                <default>false</default>
+                <label>Guarantee frame (Absicherungsrahmen)</label>
+            </value>
+            <value>
+                <fullName>Import</fullName>
+                <default>false</default>
+                <label>Import</label>
+            </value>
+            <value>
+                <fullName>Import Prospect</fullName>
+                <default>false</default>
+                <label>Import Prospect</label>
+            </value>
+            <value>
+                <fullName>Individual adjustment</fullName>
+                <default>false</default>
+                <label>Individual adjustment</label>
+            </value>
+            <value>
+                <fullName>Insolvency</fullName>
+                <default>false</default>
+                <label>Insolvency</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>Invites</fullName>
+                <default>false</default>
+                <label>Invites</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Invoice / credit note</fullName>
+                <default>false</default>
+                <label>Invoice / credit note</label>
+            </value>
+            <value>
+                <fullName>Invoice / Payment reminder</fullName>
+                <default>false</default>
+                <label>Invoice / Payment reminder</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Legal Account Management</fullName>
+                <default>false</default>
+                <label>Legal Account Management</label>
+            </value>
+            <value>
+                <fullName>Legal Support</fullName>
+                <default>false</default>
+                <label>Legal Support</label>
+            </value>
+            <value>
+                <fullName>Lift successful</fullName>
+                <default>false</default>
+                <label>Lift successful</label>
+            </value>
+            <value>
+                <fullName>Local Reviews</fullName>
+                <default>false</default>
+                <label>Local Reviews</label>
+            </value>
+            <value>
+                <fullName>Manual Integration</fullName>
+                <default>false</default>
+                <label>Manual Integration</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Membership</fullName>
+                <default>false</default>
+                <label>Membership</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Modules</fullName>
+                <default>false</default>
+                <label>Modules</label>
+            </value>
+            <value>
+                <fullName>MyTS Login/ User</fullName>
+                <default>false</default>
+                <label>MyTS Login/ User</label>
+            </value>
+            <value>
+                <fullName>No issue found</fullName>
+                <default>false</default>
+                <label>No issue found</label>
+            </value>
+            <value>
+                <fullName>No Lift adjustment</fullName>
+                <default>false</default>
+                <label>No Lift adjustment</label>
+            </value>
+            <value>
+                <fullName>Not relevant</fullName>
+                <default>false</default>
+                <label>Not relevant</label>
+            </value>
+            <value>
+                <fullName>Old Guarantee</fullName>
+                <default>false</default>
+                <label>Old Guarantee</label>
+            </value>
+            <value>
+                <fullName>Optimization not successful</fullName>
+                <default>false</default>
+                <label>Optimization not successful</label>
+            </value>
+            <value>
+                <fullName>Optimization successful</fullName>
+                <default>false</default>
+                <label>Optimization successful</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Page Speed</fullName>
+                <default>false</default>
+                <label>Page Speed</label>
+            </value>
+            <value>
+                <fullName>Payment processing</fullName>
+                <default>false</default>
+                <label>Payment processing</label>
+            </value>
+            <value>
+                <fullName>Payment reminder</fullName>
+                <default>false</default>
+                <label>Payment reminder</label>
+            </value>
+            <value>
+                <fullName>Product Reviews</fullName>
+                <default>false</default>
+                <label>Product Reviews</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Q&amp;A</fullName>
+                <default>false</default>
+                <label>Q&amp;A</label>
+            </value>
+            <value>
+                <fullName>Quality indicators</fullName>
+                <default>false</default>
+                <label>Quality indicators</label>
+            </value>
+            <value>
+                <fullName>Reactivation</fullName>
+                <default>false</default>
+                <label>Reactivation</label>
+            </value>
+            <value>
+                <fullName>Relaunch (Contract/Auditor)</fullName>
+                <default>false</default>
+                <label>Relaunch (Contract/Auditor)</label>
+            </value>
+            <value>
+                <fullName>Relevant without solution</fullName>
+                <default>false</default>
+                <label>Relevant without solution</label>
+            </value>
+            <value>
+                <fullName>Relevant with solution</fullName>
+                <default>false</default>
+                <label>Relevant with solution</label>
+            </value>
+            <value>
+                <fullName>report (Reviews)</fullName>
+                <default>false</default>
+                <label>report (Reviews)</label>
+            </value>
+            <value>
+                <fullName>Report Product Reviews (Reviews)</fullName>
+                <default>false</default>
+                <label>Report Product Reviews (Reviews)</label>
+            </value>
+            <value>
+                <fullName>Report Shop Reviews (Reviews)</fullName>
+                <default>false</default>
+                <label>Report Shop Reviews (Reviews)</label>
+            </value>
+            <value>
+                <fullName>Reputation Manager</fullName>
+                <default>false</default>
+                <label>Reputation Manager</label>
+            </value>
+            <value>
+                <fullName>Request</fullName>
+                <default>false</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>Review Collector</fullName>
+                <default>false</default>
+                <label>Review Collector</label>
+            </value>
+            <value>
+                <fullName>Reviews</fullName>
+                <default>false</default>
+                <label>Reviews</label>
+            </value>
+            <value>
+                <fullName>Rich Snippets</fullName>
+                <default>false</default>
+                <label>Rich Snippets</label>
+            </value>
+            <value>
+                <fullName>Risk</fullName>
+                <default>false</default>
+                <label>Risk</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Send signed documents</fullName>
+                <default>false</default>
+                <label>Send signed documents</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Service Ticket</fullName>
+                <default>false</default>
+                <label>Service Ticket</label>
+            </value>
+            <value>
+                <fullName>Shop-Profile</fullName>
+                <default>false</default>
+                <label>Shop-Profile</label>
+            </value>
+            <value>
+                <fullName>Shop Reviews</fullName>
+                <default>false</default>
+                <label>Shop Reviews</label>
+            </value>
+            <value>
+                <fullName>sign in</fullName>
+                <default>false</default>
+                <label>sign in</label>
+            </value>
+            <value>
+                <fullName>sign out</fullName>
+                <default>false</default>
+                <label>sign out</label>
+            </value>
+            <value>
+                <fullName>SKU Migration</fullName>
+                <default>false</default>
+                <label>SKU Migration</label>
+            </value>
+            <value>
+                <fullName>Sticker</fullName>
+                <default>false</default>
+                <label>Sticker</label>
+            </value>
+            <value>
+                <fullName>Sticker/Widgets</fullName>
+                <default>false</default>
+                <label>Sticker/Widgets</label>
+            </value>
+            <value>
+                <fullName>Success</fullName>
+                <default>false</default>
+                <label>Success</label>
+            </value>
+            <value>
+                <fullName>Successful</fullName>
+                <default>false</default>
+                <label>Successful</label>
+            </value>
+            <value>
+                <fullName>Success Report</fullName>
+                <default>false</default>
+                <label>Success Report</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+                <label>Technical Issue</label>
+            </value>
+            <value>
+                <fullName>Traffic Package</fullName>
+                <default>false</default>
+                <label>Traffic Package</label>
+            </value>
+            <value>
+                <fullName>Transfer of contract</fullName>
+                <default>false</default>
+                <label>Transfer of contract</label>
+            </value>
+            <value>
+                <fullName>Trustbadge</fullName>
+                <default>false</default>
+                <label>Trustbadge</label>
+            </value>
+            <value>
+                <fullName>Unsuccessful</fullName>
+                <default>false</default>
+                <label>Unsuccessful</label>
+            </value>
+            <value>
+                <fullName>Upsell/Lift/Downgrade</fullName>
+                <default>false</default>
+                <label>Upsell/Lift/Downgrade</label>
+            </value>
+            <value>
+                <fullName>Upselling</fullName>
+                <default>false</default>
+                <label>Upselling</label>
+            </value>
+            <value>
+                <fullName>Winback</fullName>
+                <default>false</default>
+                <label>Winback</label>
+            </value>
+            <value>
+                <fullName>Wix Reviews App</fullName>
+                <default>false</default>
+                <label>Wix Reviews App</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>3rd party</controllingFieldValue>
+            <valueName>Wix Reviews App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Objectives</controllingFieldValue>
+            <controllingFieldValue>Winback</controllingFieldValue>
+            <valueName>Successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Objectives</controllingFieldValue>
+            <controllingFieldValue>Winback</controllingFieldValue>
+            <valueName>Unsuccessful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retention Top-Shop-Check</controllingFieldValue>
+            <valueName>No issue found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retention Top-Shop-Check</controllingFieldValue>
+            <valueName>Optimization not successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retention Top-Shop-Check</controllingFieldValue>
+            <valueName>Optimization successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerting</controllingFieldValue>
+            <valueName>Not relevant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerting</controllingFieldValue>
+            <valueName>Relevant without solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerting</controllingFieldValue>
+            <valueName>Relevant with solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <valueName>API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <valueName>Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <valueName>Feature Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Google Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Review</controllingFieldValue>
+            <valueName>Import</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <valueName>Invites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <controllingFieldValue>Guarantee</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Reputation Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Review</controllingFieldValue>
+            <valueName>Review Collector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <controllingFieldValue>Review</controllingFieldValue>
+            <valueName>Rich Snippets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shop Reviews</controllingFieldValue>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <valueName>Sticker/Widgets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Features</controllingFieldValue>
+            <controllingFieldValue>Modules</controllingFieldValue>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <valueName>Bug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Product Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Shop Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Features</controllingFieldValue>
+            <controllingFieldValue>Modules</controllingFieldValue>
+            <valueName>Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Features</controllingFieldValue>
+            <controllingFieldValue>Beyond eCommerce</controllingFieldValue>
+            <valueName>Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Accession to Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Approval of contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Dunning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Insolvency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Reactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Success Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Transfer of contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Upsell/Lift/Downgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract/Membership</controllingFieldValue>
+            <valueName>Winback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Legal Account Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Legal Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Success</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Reviews</controllingFieldValue>
+            <valueName>SKU Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Review</controllingFieldValue>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Local Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Review</controllingFieldValue>
+            <valueName>Q&amp;A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Review</controllingFieldValue>
+            <valueName>Sticker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Debt collection/ Insolvency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Invoice / credit note</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Payment processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Payment reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Team</controllingFieldValue>
+            <valueName>Service Ticket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lift</controllingFieldValue>
+            <valueName>Lift successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lift</controllingFieldValue>
+            <valueName>No Lift adjustment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <valueName>Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Buyer Protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <valueName>Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <valueName>Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C-Service</controllingFieldValue>
+            <valueName>Risk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Modules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Shop-Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Traffic Package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Trustbadge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Local Reviews</controllingFieldValue>
+            <valueName>Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Guarantee</controllingFieldValue>
+            <valueName>Classic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Guarantee</controllingFieldValue>
+            <valueName>Excellence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Guarantee</controllingFieldValue>
+            <valueName>Old Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Import</controllingFieldValue>
+            <valueName>Prospect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Import</controllingFieldValue>
+            <valueName>Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beyond eCommerce</controllingFieldValue>
+            <valueName>Membership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beyond eCommerce</controllingFieldValue>
+            <valueName>Technical Issue</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

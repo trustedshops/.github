@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Zendesk__c</fullName>
+    <externalId>false</externalId>
+    <label>Has Zendesk</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>no</fullName>
+                <default>true</default>
+                <label>no</label>
+            </value>
+            <value>
+                <fullName>yes</fullName>
+                <default>false</default>
+                <label>yes</label>
+            </value>
+            <value>
+                <fullName>Termination receipt</fullName>
+                <default>false</default>
+                <label>Termination receipt</label>
+            </value>
+            <value>
+                <fullName>Termination done</fullName>
+                <default>false</default>
+                <label>Termination done</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

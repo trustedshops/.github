@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Accounts_UK_Key_Account_new</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>is_key_account__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>campaign__c</columns>
+    <columns>Shop_Industries__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>GB</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Ready for Sales</value>
+    </filters>
+    <filters>
+        <field>is_key_account__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Outbound_type__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>contact_type__c</field>
+        <operation>equals</operation>
+        <value>Outbound</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>Lead</value>
+    </filters>
+    <filters>
+        <field>Shop_Industries__c</field>
+        <operation>equals</operation>
+        <value>Chemists &amp; cosmetics,DIY,Food,Furniture &amp; decorative accessories,Gardening supplies,Gifts,&quot;Hobbys, collecting &amp; freetime products&quot;,Household goods &amp; household equipment,Luxury foods,Pet supplies,Pharmaceuticals,&quot;Toys, baby &amp; children&quot;</value>
+    </filters>
+    <label>UK Key Account Ready for Sales New</label>
+    <sharedTo />
+</ListView>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Issue Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BP / No buyer protection integration</fullName>
+                <default>false</default>
+                <label>BP / No buyer protection integration</label>
+            </value>
+            <value>
+                <fullName>BP / Incorrect TS ID</fullName>
+                <default>false</default>
+                <label>BP / Incorrect TS ID</label>
+            </value>
+            <value>
+                <fullName>BP / Trustcard error</fullName>
+                <default>false</default>
+                <label>BP / Trustcard error</label>
+            </value>
+            <value>
+                <fullName>CMP / Audit criteria</fullName>
+                <default>false</default>
+                <label>CMP / Audit criteria</label>
+            </value>
+            <value>
+                <fullName>CMP / Membership terms</fullName>
+                <default>false</default>
+                <label>CMP / Membership terms</label>
+            </value>
+            <value>
+                <fullName>CMP / Reactivation</fullName>
+                <default>false</default>
+                <label>CMP / Reactivation</label>
+            </value>
+            <value>
+                <fullName>CMP / Website offline or not available</fullName>
+                <default>false</default>
+                <label>CMP / Website offline or not available</label>
+            </value>
+            <value>
+                <fullName>QI / Refund Indicator</fullName>
+                <default>false</default>
+                <label>QI / Refund Indicator</label>
+            </value>
+            <value>
+                <fullName>QI / Response Indicator</fullName>
+                <default>false</default>
+                <label>QI / Response Indicator</label>
+            </value>
+            <value>
+                <fullName>QI / Review Indicator</fullName>
+                <default>false</default>
+                <label>QI / Review Indicator</label>
+            </value>
+            <value>
+                <fullName>QI / Unresponsive shop</fullName>
+                <default>false</default>
+                <label>QI / Unresponsive shop</label>
+            </value>
+            <value>
+                <fullName>INF / Contract</fullName>
+                <default>false</default>
+                <label>INF / Contract</label>
+            </value>
+            <value>
+                <fullName>INF / Delayed payment</fullName>
+                <default>false</default>
+                <label>INF / Delayed payment</label>
+            </value>
+            <value>
+                <fullName>INF / Fake shop</fullName>
+                <default>false</default>
+                <label>INF / Fake shop</label>
+            </value>
+            <value>
+                <fullName>INF / Former member</fullName>
+                <default>false</default>
+                <label>INF / Former member</label>
+            </value>
+            <value>
+                <fullName>INF / Incomplete audit</fullName>
+                <default>false</default>
+                <label>INF / Incomplete audit</label>
+            </value>
+            <value>
+                <fullName>INF / Non-member (certifiable)</fullName>
+                <default>false</default>
+                <label>INF / Non-member (certifiable)</label>
+            </value>
+            <value>
+                <fullName>INF / Non-member (non-certifiable)</fullName>
+                <default>false</default>
+                <label>INF / Non-member (non-certifiable)</label>
+            </value>
+            <value>
+                <fullName>INF / Other</fullName>
+                <default>false</default>
+                <label>INF / Other</label>
+            </value>
+            <value>
+                <fullName>INF / Partner shop</fullName>
+                <default>false</default>
+                <label>INF / Partner shop</label>
+            </value>
+            <value>
+                <fullName>INF / Reviews only membership</fullName>
+                <default>false</default>
+                <label>INF / Reviews only membership</label>
+            </value>
+            <value>
+                <fullName>INF / Risk insolvency</fullName>
+                <default>false</default>
+                <label>INF / Risk insolvency</label>
+            </value>
+            <value>
+                <fullName>INF / Risk no financials received</fullName>
+                <default>false</default>
+                <label>INF / Risk no financials received</label>
+            </value>
+            <value>
+                <fullName>INF / Risk no protection framework</fullName>
+                <default>false</default>
+                <label>INF / Risk no protection framework</label>
+            </value>
+            <value>
+                <fullName>BP / BP parameter issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / BP parameter issue</label>
+            </value>
+            <value>
+                <fullName>BP / Incorrect BP model</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / Incorrect BP model</label>
+            </value>
+            <value>
+                <fullName>BP / Legacy integration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / Legacy integration</label>
+            </value>
+            <value>
+                <fullName>BP / Non-standard Trustcard</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / Non-standard Trustcard</label>
+            </value>
+            <value>
+                <fullName>BP / Other Excellence issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / Other Excellence issue</label>
+            </value>
+            <value>
+                <fullName>BP / Shop system error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / Shop system error</label>
+            </value>
+            <value>
+                <fullName>BP / TS backend error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP / TS backend error</label>
+            </value>
+            <value>
+                <fullName>Feasibility</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Feasibility</label>
+            </value>
+            <value>
+                <fullName>IP / Bankruptcy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Bankruptcy</label>
+            </value>
+            <value>
+                <fullName>IP / Consumer complaints</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Consumer complaints</label>
+            </value>
+            <value>
+                <fullName>IP / Credit underwriting decline</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Credit underwriting decline</label>
+            </value>
+            <value>
+                <fullName>IP / Insufficient financials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Insufficient financials</label>
+            </value>
+            <value>
+                <fullName>IP / Non-certified member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Non-certified member</label>
+            </value>
+            <value>
+                <fullName>IP / Offline shop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Offline shop</label>
+            </value>
+            <value>
+                <fullName>IP / Reviews-only shop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Reviews-only shop</label>
+            </value>
+            <value>
+                <fullName>IP / Unresponsive shop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IP / Unresponsive shop</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

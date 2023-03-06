@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_signature_url__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Contact.language__c ,
+&quot;de&quot;, &quot;www.trustedshops.de&quot;,
+&quot;en&quot;, &quot;www.trustedshops.co.uk&quot;,
+&quot;fr&quot;, &quot;www.trustedshops.fr&quot;,
+&quot;nl&quot;, &quot;www.trustedshops.nl&quot;,
+&quot;it&quot;, &quot;www.trustedshops.it&quot;,
+&quot;pl&quot;, &quot;www.trustedshops.pl&quot;,
+&quot;es&quot;, &quot;www.trustedshops.es&quot;,
+&quot;pt&quot;, &quot;www.trustedshops.pt&quot;,
+&quot;&quot;, IF(
+OR($UserRole.Name = &quot;CX Manager Market 1&quot;, AND(CONTAINS($UserRole.Name, &quot;Touch&quot;), CONTAINS($UserRole.Name,&quot;Market 1&quot;))),
+
+&quot;www.trustedshops.de&quot;,
+
+&quot;www.trustedshops.com&quot;),
+
+&quot;www.trustedshops.com&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zz Signature URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

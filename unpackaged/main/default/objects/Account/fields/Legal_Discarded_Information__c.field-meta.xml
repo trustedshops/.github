@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Discarded_Information__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal Discarded Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Legal_Discarded_Reason__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No (Valid) phone number</fullName>
+                <default>false</default>
+                <label>No (Valid) phone number</label>
+            </value>
+            <value>
+                <fullName>Repeatedly not reached</fullName>
+                <default>false</default>
+                <label>Repeatedly not reached</label>
+            </value>
+            <value>
+                <fullName>Too expensive</fullName>
+                <default>false</default>
+                <label>Too expensive</label>
+            </value>
+            <value>
+                <fullName>Cannot be covered with Legal packages</fullName>
+                <default>false</default>
+                <label>Cannot be covered with Legal packages</label>
+            </value>
+            <value>
+                <fullName>Several times not reached</fullName>
+                <default>false</default>
+                <label>Several times not reached</label>
+            </value>
+            <value>
+                <fullName>Shop is being planned</fullName>
+                <default>false</default>
+                <label>Shop is being planned</label>
+            </value>
+            <value>
+                <fullName>Shop is no longer active</fullName>
+                <default>false</default>
+                <label>Shop is no longer active</label>
+            </value>
+            <value>
+                <fullName>Business abandoned</fullName>
+                <default>false</default>
+                <label>Business abandoned</label>
+            </value>
+            <value>
+                <fullName>Does not fit the TS code</fullName>
+                <default>false</default>
+                <label>Does not fit the TS code</label>
+            </value>
+            <value>
+                <fullName>Service contractor</fullName>
+                <default>false</default>
+                <label>Service contractor</label>
+            </value>
+            <value>
+                <fullName>Feels legally secure</fullName>
+                <default>false</default>
+                <label>Feels legally secure</label>
+            </value>
+            <value>
+                <fullName>Ghosted / doesn’t answer anymore</fullName>
+                <default>false</default>
+                <label>Ghosted / doesn’t answer anymore</label>
+            </value>
+            <value>
+                <fullName>Not ready to talk</fullName>
+                <default>false</default>
+                <label>Not ready to talk</label>
+            </value>
+            <value>
+                <fullName>Satisfied with the Händlerbund</fullName>
+                <default>false</default>
+                <label>Satisfied with the Händlerbund</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to Händlerbund</fullName>
+                <default>false</default>
+                <label>Contractually bound to Händlerbund</label>
+            </value>
+            <value>
+                <fullName>Satisfied with IT-Recht Kanzlei</fullName>
+                <default>false</default>
+                <label>Satisfied with IT-Recht Kanzlei</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to IT-Recht Kanzlei</fullName>
+                <default>false</default>
+                <label>Contractually bound to IT-Recht Kanzlei</label>
+            </value>
+            <value>
+                <fullName>Satisfied with eRecht24</fullName>
+                <default>false</default>
+                <label>Satisfied with eRecht24</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to eRecht24</fullName>
+                <default>false</default>
+                <label>Contractually bound to eRecht24</label>
+            </value>
+            <value>
+                <fullName>Janolaw</fullName>
+                <default>false</default>
+                <label>Janolaw</label>
+            </value>
+            <value>
+                <fullName>Own lawyer</fullName>
+                <default>false</default>
+                <label>Own lawyer</label>
+            </value>
+            <value>
+                <fullName>Other solution / does not believe in TS Legal</fullName>
+                <default>false</default>
+                <label>Other solution / does not believe in TS Legal</label>
+            </value>
+            <value>
+                <fullName>Has an internal data protection officer</fullName>
+                <default>false</default>
+                <label>Has an internal data protection officer</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to external data protection officer</fullName>
+                <default>false</default>
+                <label>Contractually bound to external data protection officer</label>
+            </value>
+            <value>
+                <fullName>Satisfied with external data protection officer</fullName>
+                <default>false</default>
+                <label>Satisfied with external data protection officer</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to Cortina Consult</fullName>
+                <default>false</default>
+                <label>Contractually bound to Cortina Consult</label>
+            </value>
+            <value>
+                <fullName>Satisfied with Cortina Consult</fullName>
+                <default>false</default>
+                <label>Satisfied with Cortina Consult</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to datenschutz-ruhr.de</fullName>
+                <default>false</default>
+                <label>Contractually bound to datenschutz-ruhr.de</label>
+            </value>
+            <value>
+                <fullName>Satisfied with datenschutz-ruhr.de</fullName>
+                <default>false</default>
+                <label>Satisfied with datenschutz-ruhr.de</label>
+            </value>
+            <value>
+                <fullName>Contractually bound to</fullName>
+                <default>false</default>
+                <label>Contractually bound to</label>
+            </value>
+            <value>
+                <fullName>Agency contact</fullName>
+                <default>false</default>
+                <label>Agency contact</label>
+            </value>
+            <value>
+                <fullName>Duplicate Account</fullName>
+                <default>false</default>
+                <label>Duplicate Account</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>No (Valid) phone number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>Cannot be covered with Legal packages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>Several times not reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>Shop is being planned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>Shop is no longer active</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>Business abandoned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Quality</controllingFieldValue>
+            <valueName>Duplicate Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <valueName>Does not fit the TS code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected by TS</controllingFieldValue>
+            <valueName>Service contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Repeatedly not reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Too expensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Feels legally secure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Ghosted / doesn’t answer anymore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Not ready to talk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Satisfied with the Händlerbund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Contractually bound to Händlerbund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Satisfied with IT-Recht Kanzlei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Contractually bound to IT-Recht Kanzlei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Satisfied with eRecht24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Contractually bound to eRecht24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Janolaw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Own lawyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Legal)</controllingFieldValue>
+            <valueName>Other solution / does not believe in TS Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Has an internal data protection officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Contractually bound to external data protection officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Satisfied with external data protection officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Contractually bound to Cortina Consult</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Satisfied with Cortina Consult</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Contractually bound to datenschutz-ruhr.de</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Satisfied with datenschutz-ruhr.de</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Contractually bound to</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer says no (Datenschutz - Ultimate)</controllingFieldValue>
+            <valueName>Agency contact</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

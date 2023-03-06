@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>keyaccount_Closed</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>stopped_until__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>case_owner_team__c</field>
+        <operation>equals</operation>
+        <value>Key Account</value>
+    </filters>
+    <label>Team Key Account - Closed</label>
+    <sharedTo>
+        <role>CX_Team_Account_Management_High_Touch_1_Market_1</role>
+        <role>CX_Teamlead_Account_Management_Market_1</role>
+        <role>System_Administrators</role>
+        <role>Team_Tech_Touch_1_Market_1</role>
+        <role>Team_Tech_Touch_6_Market_1</role>
+        <roleAndSubordinatesInternal>Teamlead_High_Touch_1_Market_1</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

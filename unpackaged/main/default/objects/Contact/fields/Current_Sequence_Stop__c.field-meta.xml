@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Sequence_Stop__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>PO-3724 - checkbox set to false to stop sequences in outreach</description>
+    <externalId>false</externalId>
+    <label>Current Sequence Stop</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

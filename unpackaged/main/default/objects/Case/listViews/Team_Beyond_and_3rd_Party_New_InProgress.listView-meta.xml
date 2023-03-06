@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Beyond_and_3rd_Party_New_InProgress</fullName>
+    <booleanFilter>(1 OR 2 OR 3) AND 4 AND ((5 AND 6) OR 7 OR 8)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>Test_subject__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>case_owner_team__c</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Number_of_Emails__c</columns>
+    <columns>stopped_until__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner__c</field>
+        <operation>contains</operation>
+        <value>eCommerce</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Team Beyond eCommerce</value>
+    </filters>
+    <filters>
+        <field>Account_Owner__c</field>
+        <operation>contains</operation>
+        <value>3rd-party</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Number_of_Emails__c</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Whitelist__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Team Beyond and 3rd Party New/InProgress</label>
+    <sharedTo>
+        <group>Customer_Support</group>
+    </sharedTo>
+</ListView>

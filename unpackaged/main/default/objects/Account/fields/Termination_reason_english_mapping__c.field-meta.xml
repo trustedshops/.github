@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Termination_reason_english_mapping__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Termination Reason: &quot; 
++ CASE(Termination_Reason__c, 
+&quot;Beitragsanpassung (Lift)&quot;, &quot;Subscription adjustment (Lift)&quot;,
+&quot;Kostenreduktion&quot;, &quot;Price/Benefit&quot;,
+&quot;Aufgabe des Shops/Unternehmens&quot;, &quot;Giving-up of Shop/Company&quot;, 
+&quot;Kundenservice&quot;, &quot;Quality of service&quot;, 
+&quot;Prüfung/Monitoring&quot;, &quot;Audit&quot;,
+&quot;Sales&quot;, &quot;Sales&quot;,
+&quot;Vorsorgliche Kuendigung&quot;, &quot;Precautionary cancellation&quot;,
+&quot;Kein Grund genannt&quot;, &quot;No reason mentioned&quot;, 
+&quot;Änderungskündigung&quot;, &quot;Notice of termination pending a change of contract&quot;, 
+&quot;Garantierahmen/Bonität&quot;, &quot;Warranty limit/solvency&quot;, 
+&quot;Insolvenz&quot;, &quot;Insolvency&quot;,
+&quot;Qualität/Kundenservice&quot;, &quot;Compliance&quot;,
+&quot;Zahlungsverzug&quot;, &quot;Delay in payment&quot;,
+&quot;Sonstige&quot;, &quot;Others&quot;,
+&quot;Sonstige TS&quot;, &quot;Others TS&quot;, 
+&quot;Competitor&quot;, &quot;Competitor&quot;, 
+&quot;Review-Service&quot;, &quot;Review-Service&quot;, 
+&quot;Guarantee-Service&quot;, &quot;Guarantee-Service&quot;,
+&quot;&quot;)</formula>
+    <label>Termination reason english mapping</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lift_Automation_without_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Ready_to_expand_Automation_running__c)
+&amp;&amp;
+Ready_to_expand_Automation_running__c = true
+&amp;&amp;
+ISBLANK(Contact.Email)</errorConditionFormula>
+    <errorMessage>Please select a Contact with an Email Adress in order to start the Automation</errorMessage>
+</ValidationRule>

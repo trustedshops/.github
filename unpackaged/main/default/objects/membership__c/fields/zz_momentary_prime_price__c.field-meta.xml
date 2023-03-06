@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_momentary_prime_price__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Monthly Price: &quot; +  TEXT(momentary_prime_monthly_price__c) + &quot; &quot;+ CASE(currency__c, &quot;EUR&quot;, &quot;€&quot;, &quot;USD&quot;, &quot;$&quot;, &quot;PLN&quot;,&quot;PLN&quot;,&quot;CHF&quot;, &quot;CHF&quot;, &quot;GBP&quot;, &quot;GBP&quot;,&quot;€&quot;) + BR() +
+&quot;Yearly Price: &quot; +  TEXT(momentary_prime_monthly_price__c * 12) + &quot; &quot;+ CASE(currency__c, &quot;EUR&quot;, &quot;€&quot;, &quot;USD&quot;, &quot;$&quot;, &quot;PLN&quot;,&quot;PLN&quot;,&quot;CHF&quot;, &quot;CHF&quot;,&quot;GBP&quot;, &quot;GBP&quot;, &quot;€&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Momentary Prime Price</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

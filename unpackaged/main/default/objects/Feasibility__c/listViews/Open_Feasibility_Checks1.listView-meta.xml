@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Feasibility_Checks1</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Feasibility_Check_for__c</columns>
+    <columns>High_priority__c</columns>
+    <columns>Status__c</columns>
+    <columns>Result__c</columns>
+    <columns>Public_Comment__c</columns>
+    <columns>Comment_Feasibility__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Feasibility check in progress,Feasibility check completed</value>
+    </filters>
+    <filters>
+        <field>Result__c</field>
+        <operation>notEqual</operation>
+        <value>Ok,Not ok,Depends on:</value>
+    </filters>
+    <label>Open Feasibility Checks</label>
+    <sharedTo>
+        <role>Team_Compliance</role>
+    </sharedTo>
+</ListView>

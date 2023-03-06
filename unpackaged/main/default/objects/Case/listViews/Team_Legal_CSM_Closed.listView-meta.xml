@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Legal_CSM_Closed</fullName>
+    <booleanFilter>(1 OR 4) AND (2 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Whitelist__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>case_owner_team__c</field>
+        <operation>contains</operation>
+        <value>LegalCSM,Team Legal CSM</value>
+    </filters>
+    <label>Team Legal CSM - Closed</label>
+    <queue>Team_Customer_Success_Legal</queue>
+    <sharedTo>
+        <roleAndSubordinates>Legal_Customer_Support_Manager_Market_1</roleAndSubordinates>
+        <roleAndSubordinatesInternal>Legal_CX_Manager_Market_1</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

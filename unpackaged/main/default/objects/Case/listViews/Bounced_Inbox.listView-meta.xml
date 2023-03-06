@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bounced_Inbox</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Whitelist__c</columns>
+    <columns>CONTACT.ACCOUNT</columns>
+    <columns>contact_language__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>case_owner_team__c</field>
+        <operation>equals</operation>
+        <value>Customer Success</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Customer Success,Team Customer Success International,Team Customer Success DACH</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Whitelist__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Bounced Inbox</label>
+    <sharedTo>
+        <role>Director_Customer_Experience</role>
+        <role>System_Administrators</role>
+    </sharedTo>
+</ListView>

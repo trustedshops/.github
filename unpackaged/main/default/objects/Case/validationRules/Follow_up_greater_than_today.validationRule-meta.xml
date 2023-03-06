@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_up_greater_than_today</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(stopped_until__c) 
+&amp;&amp;
+stopped_until__c&lt;=TODAY()</errorConditionFormula>
+    <errorMessage>Please select a follow up date in the future (greater than today).</errorMessage>
+</ValidationRule>

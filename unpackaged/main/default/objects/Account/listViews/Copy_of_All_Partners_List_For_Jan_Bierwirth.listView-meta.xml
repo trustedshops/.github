@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_Partners_List_For_Jan_Bierwirth</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4) AND 5</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Number_of_Opps__c</columns>
+    <columns>number_of_accounts__c</columns>
+    <columns>Is_Active_CC_Partner__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.partner</value>
+    </filters>
+    <filters>
+        <field>Is_Active_CC_Partner__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Owner_Role__c</field>
+        <operation>equals</operation>
+        <value>Sales Manager Market 1,Team Sales 1 Market 1,Team Sales 2 Market 1,Team Sales 3 Market 1,Team Sales 4 Market 1,Team Sales 5 Market 1,Team Sales 6 Market 1</value>
+    </filters>
+    <filters>
+        <field>Owner_Role__c</field>
+        <operation>equals</operation>
+        <value>Teamlead Sales 1 Market 1,Teamlead Sales 2 Market 1,Teamlead Sales 3 Market 1,Teamlead Sales 4 Market 1,Teamlead Sales 5 Market 1,Teamlead Sales 6 Market 1,Team Partner Management 1 Market 1,Teamlead Partner Management 1 Market 1</value>
+    </filters>
+    <filters>
+        <field>Is_Active_CC_Partner__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Partners List for Jan Bierwirth</label>
+    <sharedTo>
+        <role>Team_Partner_Management_1_Market_1</role>
+    </sharedTo>
+</ListView>

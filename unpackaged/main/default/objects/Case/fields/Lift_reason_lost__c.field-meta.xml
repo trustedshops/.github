@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lift_reason_lost__c</fullName>
+    <externalId>false</externalId>
+    <label>Lift reason lost</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Andere Themen mit höherer Prio (z.B. Risk Thema)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Andere Themen mit höherer Prio (z.B. Risk Thema)</label>
+            </value>
+            <value>
+                <fullName>Avoiding cancellation</fullName>
+                <default>false</default>
+                <label>Avoiding cancellation</label>
+            </value>
+            <value>
+                <fullName>Bad custommer service</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bad custommer service</label>
+            </value>
+            <value>
+                <fullName>Bad price</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bad price</label>
+            </value>
+            <value>
+                <fullName>Created by mistake</fullName>
+                <default>false</default>
+                <label>Created by mistake</label>
+            </value>
+            <value>
+                <fullName>Downgrade</fullName>
+                <default>false</default>
+                <label>Downgrade</label>
+            </value>
+            <value>
+                <fullName>Forecasted turnover not lift relevant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Forecasted turnover not lift relevant</label>
+            </value>
+            <value>
+                <fullName>Forecast kaum höher als aktuelle Einstufung</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Forecast kaum höher als aktuelle Einstufung</label>
+            </value>
+            <value>
+                <fullName>Kunde meldet sich nicht zurück &gt; kein Zwangslift, da KS nicht hoch genug sind, um Zwangslift zu rechtfertigen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kunde meldet sich nicht zurück &gt; kein Zwangslift, da KS nicht hoch genug sind, um Zwangslift zu rechtfertigen</label>
+            </value>
+            <value>
+                <fullName>Nicht liftbar, weil z.B. Papiervertrag</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nicht liftbar, weil z.B. Papiervertrag</label>
+            </value>
+            <value>
+                <fullName>No potential</fullName>
+                <default>false</default>
+                <label>No potential</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Special agreement Existing Business</fullName>
+                <default>false</default>
+                <label>Special agreement Existing Business</label>
+            </value>
+            <value>
+                <fullName>Special agreement New Business</fullName>
+                <default>false</default>
+                <label>Special agreement New Business</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

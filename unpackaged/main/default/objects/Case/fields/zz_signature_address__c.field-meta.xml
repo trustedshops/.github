@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_signature_address__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Contact.language__c,
+
+&quot;de&quot;, &quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Köln, Deutschland&quot; +  BR() +
+&quot;Vertretungsberechtigter Vorstand: Jean-Marc Noël (Vorsitzender), Alastair Bruce, Michael Burdack, Vorsitzender des Aufsichtsrates: Ulrich Hafenbradl&quot; +  BR() +
+&quot;Handelsregister beim Amtsgericht Köln, HRB 113040&quot;,
+
+&quot;en&quot;, &quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Cologne, Germany&quot; +  BR() +
+&quot;Executive Board with power of representation: Jean-Marc Noël (Chairman), Alastair Bruce, Michael Burdack, Chairman of the Supervisory Board: Ulrich Hafenbradl&quot; +  BR() +
+&quot;Cologne Local Court, Commercial Register, HRB 113040&quot;,
+
+
+&quot;fr&quot;, &quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Cologne, Allemagne&quot; +  BR() +
+&quot;Conseil d’Administration : Jean-Marc Noël (Président Directeur Général), Alastair Bruce, Michael Burdack, Président du Conseil de Surveillance : Ulrich Hafenbradl&quot; + BR() +
+&quot;Tribunal d&#39;instance de Cologne, Registre du commerce, HRB 113040&quot;,
+
+
+&quot;es&quot;, &quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Colonia, Alemania&quot; +  BR() +
+&quot;Consejo de administración: Jean-Marc Noël (Presidente), Alastair Bruce, Michael Burdack, Presidente del consejo de vigilancia: Ulrich Hafenbradl&quot; +  BR() +
+&quot;Juzgado provincial de Colonia, Registro comercial (HRB) 113040&quot;,
+
+
+&quot;pl&quot;, &quot;Trusted Shops Sp. z o.o.&quot; +  BR() +
+&quot;ul. Skierniewicka 10 a, Renessaince Tower, 01‑230 Warszawa&quot; +  BR() +
+BR() +
+&quot;Główna siedziba Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Kolonia, Niemcy&quot; +  BR() +
+&quot;Zarząd reprezentujący Spółkę: Jean-Marc Noël (przewodniczący), Alastair Bruce, Michael Burdack, Przewodniczący rady nadzorczej: Ulrich Hafenbradl&quot;  +  BR() +
+&quot;Sąd Rejonowy w Kolonii, Rejestr Handlowy (HRB) 113040&quot;,
+
+&quot;nl&quot;, &quot;Trusted Shops Benelux N.V.&quot;+  BR() +
+&quot;Overhoeksplein 1, 1031 KS, Amsterdam, Nederland&quot; +  BR() +
+&quot;KvK-nummer: 74930915&quot;,
+
+&quot;it&quot;, &quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Colonia, Germania&quot; +  BR() +
+&quot;Amministratori con poteri di rappresentanza: Jean-Marc Noël (presidente), Alastair Bruce, Michael Burdack, Presidente del collegio sindacale: Ulrich Hafenbradl&quot; +  BR() +
+&quot;Tribunale di Colonia, Registro delle imprese (HRB) 113040&quot;,
+
+&quot;&quot;, IF(
+OR(AND(CONTAINS($UserRole.Name, &quot;Touch&quot;), CONTAINS($UserRole.Name, &quot;Market 1&quot;)), CONTAINS($UserRole.Name, &quot;Contract&quot;)),
+
+&quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Köln, Deutschland&quot; +  BR() +
+&quot;Vertretungsberechtigter Vorstand: Jean-Marc Noël (Vorsitzender), Alastair Bruce, Michael Burdack, Vorsitzender des Aufsichtsrates: Ulrich Hafenbradl&quot; +  BR() +
+&quot;Handelsregister beim Amtsgericht Köln, HRB 113040&quot;, 
+
+ IF(AND(CONTAINS($UserRole.Name, &quot;Touch&quot;), CONTAINS($UserRole.Name, &quot;Market 4&quot;)),&quot;Trusted Shops Sp. z o.o.&quot; +  BR() +
+&quot;ul. Skierniewicka 10 a, Renessaince Tower, 01‑230 Warszawa&quot; +  BR() +
+ BR() +
+&quot;Główna siedziba Trusted Shops AG&quot; +  BR() +
+&quot;Subbelrather Str. 15c, 50823 Kolonia, Niemcy&quot; +  BR() +
+&quot;Zarząd reprezentujący Spółkę: Jean-Marc Noël (przewodniczący), Alastair Bruce, Michael Burdack, Przewodniczący rady nadzorczej: Ulrich Hafenbradl&quot;  +  BR() +
+&quot;Sąd Rejonowy w Kolonii, Rejestr Handlowy (HRB) 113040&quot;,  
+
+&quot;Trusted Shops AG&quot;+  BR() +
+&quot;Subbelrather Str. 15c, 50823 Cologne, Germany&quot; +  BR() +
+&quot;Executive Board with power of representation: Jean-Marc Noël (Chairman), Alastair Bruce, Michael Burdack, Chairman of the Supervisory Board: Ulrich Hafenbradl&quot; +  BR() +
+&quot;Cologne Local Court, Commercial Register, HRB 113040&quot;))
+
+, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zz Signature Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

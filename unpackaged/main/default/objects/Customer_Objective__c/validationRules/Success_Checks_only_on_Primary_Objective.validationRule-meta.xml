@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Success_Checks_only_on_Primary_Objective</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISNEW()
+||
+ISCHANGED( Success_Check_On__c ))
+&amp;&amp;
+NOT(ISBLANK(Success_Check_On__c))
+&amp;&amp;
+ Primary__c = false</errorConditionFormula>
+    <errorMessage>Error! Success Checks are only allowed for Primary Customer Objectives. Thanks!</errorMessage>
+</ValidationRule>

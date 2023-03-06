@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_legal_api_User_MyTS_Lead_Pool</fullName>
+    <columns>Casesafe_Id__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>number_of_accounts__c</columns>
+    <columns>Last_assignment_to_legal_sales_rep__c</columns>
+    <columns>Legal_Sales_Responsible__c</columns>
+    <columns>Last_Legal_Activity__c</columns>
+    <columns>has_active_membership__c</columns>
+    <columns>Contracted_at__c</columns>
+    <columns>Contract_Value__c</columns>
+    <columns>zz_expected_turnover__c</columns>
+    <columns>Legal_Discarded_Reason__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.customer</value>
+    </filters>
+    <filters>
+        <field>Legal_Sales_Responsible__c</field>
+        <operation>equals</operation>
+        <value>legal-api User</value>
+    </filters>
+    <filters>
+        <field>Legal_Discarded_Reason__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>zz_expected_turnover__c</field>
+        <operation>equals</operation>
+        <value>EUR 750000</value>
+    </filters>
+    <filters>
+        <field>Effective_Date_of_Termination__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </filters>
+    <filters>
+        <field>Contracted_at__c</field>
+        <operation>greaterThan</operation>
+    </filters>
+    <filters>
+        <field>Last_Legal_Activity__c</field>
+        <operation>lessOrEqual</operation>
+        <value>7/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Legal_Account_Manager__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Legal_CSM__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Legal_legal-api User_MyTS Lead Pool</label>
+</ListView>

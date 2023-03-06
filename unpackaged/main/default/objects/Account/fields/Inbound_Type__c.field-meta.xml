@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inbound_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Inbound Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Callback</fullName>
+                <default>false</default>
+                <label>Callback</label>
+            </value>
+            <value>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+                <label>Chatter</label>
+            </value>
+            <value>
+                <fullName>Demoshop</fullName>
+                <default>false</default>
+                <label>Demoshop</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Free trial</fullName>
+                <default>false</default>
+                <label>Free trial</label>
+            </value>
+            <value>
+                <fullName>Contact form</fullName>
+                <default>false</default>
+                <label>HBS Contact form</label>
+            </value>
+            <value>
+                <fullName>LegalServices</fullName>
+                <default>false</default>
+                <label>LegalServices</label>
+            </value>
+            <value>
+                <fullName>Other units</fullName>
+                <default>false</default>
+                <label>Other units</label>
+            </value>
+            <value>
+                <fullName>Trade Fair</fullName>
+                <default>false</default>
+                <label>Trade Fair</label>
+            </value>
+            <value>
+                <fullName>Trustbadge</fullName>
+                <default>false</default>
+                <label>Trustbadge</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Scoring</fullName>
+                <default>false</default>
+                <label>Scoring</label>
+            </value>
+            <value>
+                <fullName>Chatter WhatsApp</fullName>
+                <default>false</default>
+                <label>Chatter WhatsApp</label>
+            </value>
+            <value>
+                <fullName>Legal_SEO</fullName>
+                <default>false</default>
+                <label>Legal_SEO</label>
+            </value>
+            <value>
+                <fullName>Legal_SEA/Ads</fullName>
+                <default>false</default>
+                <label>Legal_SEA/Ads</label>
+            </value>
+            <value>
+                <fullName>Legal_Webinar/Event</fullName>
+                <default>false</default>
+                <label>Legal_Webinar/Event</label>
+            </value>
+            <value>
+                <fullName>Legal_RT-FREE</fullName>
+                <default>false</default>
+                <label>Legal_RT-FREE</label>
+            </value>
+            <value>
+                <fullName>Legal_Call-Routing</fullName>
+                <default>false</default>
+                <label>Legal_Call-Routing</label>
+            </value>
+            <value>
+                <fullName>Legal_Contact form</fullName>
+                <default>false</default>
+                <label>Legal_Contact form</label>
+            </value>
+            <value>
+                <fullName>Legal_Campaign_Mailing_customers</fullName>
+                <default>false</default>
+                <label>Legal_Campaign_Mailing_customers</label>
+            </value>
+            <value>
+                <fullName>Legal_Campaign_content</fullName>
+                <default>false</default>
+                <label>Legal_Campaign_content</label>
+            </value>
+            <value>
+                <fullName>Legal_Social Media</fullName>
+                <default>false</default>
+                <label>Legal_Social Media</label>
+            </value>
+            <value>
+                <fullName>Legal_SME2Legal</fullName>
+                <default>false</default>
+                <label>Legal_SME2Legal</label>
+            </value>
+            <value>
+                <fullName>Legal_Föhlisch Kanzlei</fullName>
+                <default>false</default>
+                <label>Legal_Föhlisch Kanzlei</label>
+            </value>
+            <value>
+                <fullName>Legal_Winback</fullName>
+                <default>false</default>
+                <label>Legal_Winback</label>
+            </value>
+            <value>
+                <fullName>Legal_Empfehlung</fullName>
+                <default>false</default>
+                <label>Legal_Empfehlung</label>
+            </value>
+            <value>
+                <fullName>Open Profile</fullName>
+                <default>false</default>
+                <label>Open Profile</label>
+            </value>
+            <value>
+                <fullName>Website Check</fullName>
+                <default>false</default>
+                <label>Website Check</label>
+            </value>
+            <value>
+                <fullName>Legal_Abmahnung Ads</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Abmahnung Ads</label>
+            </value>
+            <value>
+                <fullName>Legal_Abmahnung SEO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Abmahnung SEO</label>
+            </value>
+            <value>
+                <fullName>Legal_Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Call</label>
+            </value>
+            <value>
+                <fullName>Legal_Certificate failed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Certificate failed</label>
+            </value>
+            <value>
+                <fullName>Legal_Content</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Content</label>
+            </value>
+            <value>
+                <fullName>Legal_Marketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Marketing</label>
+            </value>
+            <value>
+                <fullName>Legal_Partner Leads</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Partner Leads</label>
+            </value>
+            <value>
+                <fullName>Legal_Service Contact</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Service Contact</label>
+            </value>
+            <value>
+                <fullName>Legal_Social Media Ads</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Social Media Ads</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Callback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Chatter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Demoshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Free trial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Contact form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>LegalServices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Other units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Trade Fair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Trustbadge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Scoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Chatter WhatsApp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_SEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_SEA/Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Webinar/Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_RT-FREE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Call-Routing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Contact form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Campaign_Mailing_customers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Campaign_content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Social Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_SME2Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Föhlisch Kanzlei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Winback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Empfehlung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <valueName>Open Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <valueName>Website Check</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

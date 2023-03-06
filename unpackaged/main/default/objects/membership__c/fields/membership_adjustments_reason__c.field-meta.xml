@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>membership_adjustments_reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Lift Adjustment Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>PACKAGE_DOWNGRADE</fullName>
+                <default>false</default>
+                <label>Package downgrade</label>
+            </value>
+            <value>
+                <fullName>COSTS_ANALYSIS</fullName>
+                <default>false</default>
+                <label>Post calculation</label>
+            </value>
+            <value>
+                <fullName>TURNOVER_DOWNGRADE</fullName>
+                <default>false</default>
+                <label>Turnover downgrade</label>
+            </value>
+            <value>
+                <fullName>UPGRADE</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

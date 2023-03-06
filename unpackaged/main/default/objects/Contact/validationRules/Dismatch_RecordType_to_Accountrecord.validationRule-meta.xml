@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dismatch_RecordType_to_Accountrecord</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(RecordTypeId),
+OR(
+AND(Account.RecordType.Id  = &#39;0120Y000000VZN3&#39;, RecordTypeId != &#39;0120Y000000R2Nx&#39;),
+AND(Account.RecordType.Id  = &#39;0120Y000000VZN5&#39;, RecordTypeId != &#39;0120Y000000R2Ny&#39;),
+AND(Account.RecordType.Id  = &#39;0120Y000000VZN4&#39;, RecordTypeId != &#39;0121v000000FuqC&#39;),
+AND(Account.RecordType.Id  = &#39;0120Y0000002q3M&#39;, RecordTypeId != &#39;0121v000000FuqH&#39;),
+AND(Account.RecordType.Id  = &#39;0121v000000NSGe&#39;, RecordTypeId != &#39;0121v000000NRvO&#39;)))</errorConditionFormula>
+    <errorMessage>The Contact Record Type does not fit to the Account Record Type. Please review the Contact.</errorMessage>
+</ValidationRule>

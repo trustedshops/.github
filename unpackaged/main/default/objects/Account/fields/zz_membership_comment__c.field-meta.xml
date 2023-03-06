@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_membership_comment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(uses_the_eTrusted_platform__c = false,  NOT(ISBLANK(next_eTrusted_Migration_Date__c))),&quot;eTrusted Migration: &quot; + TEXT(next_eTrusted_Migration_Date__c) +BR(), &quot;&quot;) +
+IF(zz_membership_cancelled__c != &quot;&quot;, zz_membership_cancelled__c + BR() , &quot;&quot;) + 
+IF(TRIM(Termination_reason_english_mapping__c) != &quot;Termination Reason:&quot;, Termination_reason_english_mapping__c +BR(), &quot;&quot;) +
+IF(AND(NOT(ISPICKVAL(status__c, &#39;Cancelled&#39;)), zz_certificates_disabled__c != &quot;&quot;), IMAGE(&quot;/resource/Invalid_Certificate&quot;, &quot;Certificate disabled&quot;) + &quot; &quot; + zz_certificates_disabled__c + BR(), &quot;&quot;) +  
+IF(AND(NOT(ISPICKVAL(status__c, &#39;Cancelled&#39;)), zz_current_lift_case_status__c != &quot;&quot;), zz_current_lift_case_status__c + BR(), &quot;&quot;) +
+IF(OR(ISPICKVAL( special_right_of_cancellation__c, &quot;Yes&quot;),ISPICKVAL( special_right_of_cancellation__c, &quot;Yes - Already Granted&quot;)), &quot;Special right of cancellation: Yes&quot; + BR(), IF(ISPICKVAL( special_right_of_cancellation__c, &quot;No&quot;), &quot;Special right of cancellation: No&quot; + BR(), &quot;&quot;)) +
+IF(AND(NOT(ISPICKVAL(status__c, &#39;Cancelled&#39;)), NOT(ISBLANK(TEXT(Engagement_Status__c)))), &quot;Enagement Status: &quot; + TEXT(Engagement_Status__c) + BR(), &quot;&quot;) +
+IF(NOT(ISBLANK(Main_partner__c)), &quot;Agency: &quot; + Main_partner__r.Name, &quot;&quot;)</formula>
+    <label>Critical Membership Information</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

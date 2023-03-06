@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_modified_for_sync_HBS__c</fullName>
+    <description>date time field to get a change in SF and start the sync back into Hubspot</description>
+    <externalId>false</externalId>
+    <label>Last modified for sync HBS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

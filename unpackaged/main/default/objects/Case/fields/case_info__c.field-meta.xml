@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>case_info__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  CaseNumber  != &quot;&quot;, &quot;Case Number: &quot; +    CaseNumber  + BR(), &quot;&quot;) +  
+IF( SuppliedEmail != &quot;&quot;, &quot;Email: &quot; +   SuppliedEmail + BR(), &quot;&quot;) + 
+ IF( Account.customer_number__c !=&quot;&quot;, &quot;Customer Number: &quot; + Account.customer_number__c + BR(), &quot;&quot;) +  
+IF(  IsStopped  = TRUE, &quot;Stopped Until: &quot; +    TEXT(stopped_until__c) , &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Info</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

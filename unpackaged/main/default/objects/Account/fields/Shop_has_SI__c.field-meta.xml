@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop_has_SI__c</fullName>
+    <externalId>false</externalId>
+    <label>Shop has SI</label>
+    <summarizedField>shop__c.Has_SI__c</summarizedField>
+    <summaryForeignKey>shop__c.company_id__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

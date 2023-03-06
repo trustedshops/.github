@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Subject_DE__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Subject, 
+&quot;Herzlich willkommen bei Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),1,0),
+&quot;Vielen Dank für Ihren Mitgliedschaftsantrag - Ihre Angaben werden nun geprüft&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),1,0),
+&quot;Vielen Dank für Ihre Anmeldung&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),2,0),
+&quot;Herzlichen Glückwunsch, Sie sind dabei&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;Willkommen bei Trusted Shops!&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;Herzlich willkommen! Jetzt geht es los mit Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),4,0),
+&quot;Herzlichen Glückwunsch, noch mehr Leistungen für Ihre Mitgliedschaft&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),3,0),
+&quot;Herzlichen Glückwunsch, noch mehr Domains für Ihre Mitgliedschaft&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),3,0),
+&quot;Wir sind für Sie da: Ihre persönlichen Ansprechpartner bei Trusted Shops&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),5,0),
+&quot;Lernen Sie unser Team kennen&quot;, if(OR(SuppliedEmail=&quot;members@trustedshops.com&quot;, SuppliedEmail=&quot;members@e.trustedshops.com&quot;, SuppliedEmail=&quot;marketing@e.trustedshops.com&quot;),5,0),
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Application Subject DE</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

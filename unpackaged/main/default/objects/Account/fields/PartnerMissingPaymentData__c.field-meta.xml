@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerMissingPaymentData__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+ISBLANK(Name),
+ISBLANK(BillingStreet),
+ISBLANK(BillingPostalCode),
+ISBLANK(BillingCity),
+ISBLANK(BillingCountry),
+ISBLANK(vat_number__c),
+ISPICKVAL(legalForm_id__c,&quot;&quot;),
+ISBLANK(PartnerPaymentBank__c),
+ISBLANK(PartnerPaymentIBAN__c),
+ISBLANK(PartnerPaymentBIC__c),
+ISBLANK(Credit_Note_Recipient_Name__c),
+ISBLANK(Credit_Note_Recipient_Email__c),
+IF(BillingCountry = &#39;DE&#39;,ISPICKVAL(TaxExempt__c,&quot;&quot;),false))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PartnerMissingPaymentData</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

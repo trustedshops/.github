@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Participating_Beta_Test_Message__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( INCLUDES ( Participating_in_Beta_Test_for__c, &quot;Smart Review Assistant&quot; ), &quot;This customer is a Beta Tester for the Smart Review Assistance Product&quot;,null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Participating Beta-Test Message</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

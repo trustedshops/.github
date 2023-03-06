@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_QuoteGeneration_price_tier_issue</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordTypeId = &#39;0120Y0000002iZt&#39;
+&amp;&amp;
+OR(
+ISCHANGED(Lift_Quote_Total_Fee__c),
+ISCHANGED( Lift_Quote_annual_revenue_tier__c )
+)
+&amp;&amp; 
+Lift_Quote_Total_Fee__c &gt;  Lift_Quote_annual_revenue_tier__c</errorConditionFormula>
+    <errorMessage>Please check Fee and Tier:
+Fee = price the customer has to pay.
+Tier = the annual turnover of the customer</errorMessage>
+</ValidationRule>

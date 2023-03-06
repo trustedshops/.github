@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Owner_Change_Risk_Legal</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+OR(
+PRIORVALUE(RecordTypeId) = &#39;0121v000000Ftnz&#39;,
+PRIORVALUE(RecordTypeId) = &#39;0121v0000015yEp&#39;),
+AND(
+NOT($Profile.Name = &#39;Risk Manager&#39;),
+NOT($Profile.Name = &#39;Finance Manager&#39;),
+NOT($Profile.Name = &#39;Legal CX Manager&#39;),
+NOT($Profile.Name = &#39;Legal Sales Manager&#39;),
+NOT($Profile.Name = &#39;Legal Lead Manager&#39;),
+NOT($Profile.Name = &#39;Legal Account Manager&#39;),
+NOT(CONTAINS($Profile.Name, &#39;System Administrator&#39;))
+))</errorConditionFormula>
+    <errorMessage>Please contact the responsible team in order to change the case owner.</errorMessage>
+</ValidationRule>

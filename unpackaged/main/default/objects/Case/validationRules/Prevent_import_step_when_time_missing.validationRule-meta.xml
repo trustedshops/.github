@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_import_step_when_time_missing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED( Import_Status__c ), OR(ISPICKVAL(Import_Status__c, &#39;Inform Stakeholder&#39;)) 
+&amp;&amp;
+ISNULL( Import_time_stemp__c ))</errorConditionFormula>
+    <errorMessage>Field Import Date is missing</errorMessage>
+</ValidationRule>

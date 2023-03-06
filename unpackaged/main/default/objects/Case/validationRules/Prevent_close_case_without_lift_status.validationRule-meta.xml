@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_close_case_without_lift_status</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(
+ISCHANGED(Status),
+RecordTypeId = &#39;0120Y0000002iZt&#39;,
+ISPICKVAL(Status, &#39;Closed&#39;),
+AND
+(NOT(ISPICKVAL(Lift_Status__c, &#39;Lift successful&#39;)),
+NOT(ISPICKVAL(Lift_Status__c, &#39;No Lift adjustment&#39;)))),
+AND(
+ISCHANGED(Status),
+RecordTypeId = &#39;0120Y0000002iZw&#39;,
+ISPICKVAL(Status, &#39;Closed&#39;),
+AND
+(NOT(ISPICKVAL(Upsell_Status__c, &#39;Closed Lost&#39;)),
+NOT(ISPICKVAL(Upsell_Status__c, &#39;Closed Won&#39;)))))</errorConditionFormula>
+    <errorMessage>Please check status field</errorMessage>
+</ValidationRule>

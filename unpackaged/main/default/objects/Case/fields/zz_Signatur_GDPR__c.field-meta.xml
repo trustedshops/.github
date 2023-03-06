@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zz_Signatur_GDPR__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(Contact.language__c,
+&quot;de&quot;,IF(CONTAINS($UserRole.Name, &quot;Legal&quot;), HYPERLINK(&quot;https://legal.trustedshops.com/privacy&quot;, &quot;Datenschutzinformationen&quot;,&quot;_self&quot;), HYPERLINK(&quot;https://www.trustedshops.de/impressum#datenschutz&quot;,&quot;Datenschutzinformationen&quot;,&quot;_self&quot;)),
+&quot;en&quot;,HYPERLINK(&quot;https://business.trustedshops.com/consent&quot;, &quot;Data privacy&quot;,&quot;_self&quot;),
+&quot;fr&quot;,HYPERLINK(&quot;https://business.trustedshops.com/consent&quot;, &quot;Protection des Données&quot;,&quot;_self&quot;),
+&quot;nl&quot;,HYPERLINK(&quot;https://business.trustedshops.com/consent&quot;, &quot; Privacyverklaring&quot;,&quot;_self&quot;),
+&quot;it&quot;,HYPERLINK(&quot;https://business.trustedshops.com/consent&quot;, &quot;Dichiarazione sulla privacy&quot;,&quot;_self&quot;),
+&quot;pl&quot;,HYPERLINK(&quot;https://business.trustedshops.com/consent&quot;, &quot;Polityka prywatnosci&quot;,&quot;_self&quot;),
+&quot;es&quot;, HYPERLINK(&quot;https://business.trustedshops.com/consent&quot;, &quot;Protección de datos&quot;,&quot;_self&quot;),
+&quot;&quot;,
+IF(
+CONTAINS($UserRole.Name, &quot;Legal&quot;), HYPERLINK(&quot;https://legal.trustedshops.com/privacy&quot;, &quot;Datenschutzinformationen&quot;,&quot;_self&quot;),
+IF(
+AND(NOT(CONTAINS($UserRole.Name, &quot;Legal&quot;)), OR($UserRole.Name = &quot;CX Manager Market 1&quot;, CONTAINS($UserRole.Name, &quot;High Touch 1 Market 1&quot;), CONTAINS($UserRole.Name, &quot;Account Management&quot;),
+CONTAINS($UserRole.Name, &quot;Mid Touch 1 Market 1&quot;), CONTAINS($UserRole.Name, &quot;Tech Touch 1 Market 1&quot;), CONTAINS($UserRole.Name, &quot;Contract&quot;))),
+HYPERLINK(&quot;https://www.trustedshops.de/impressum#datenschutz&quot;, &quot;Datenschutzinformationen&quot;,&quot;_self&quot;),&quot;&quot;)),&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zz_Signatur_GDPR</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

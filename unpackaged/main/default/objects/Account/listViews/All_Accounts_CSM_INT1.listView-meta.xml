@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Accounts_CSM_INT1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>number_of_accounts__c</columns>
+    <columns>Contract_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Accounts CSM INT</label>
+</ListView>

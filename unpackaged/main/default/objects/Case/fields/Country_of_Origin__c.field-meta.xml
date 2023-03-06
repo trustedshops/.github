@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_of_Origin__c</fullName>
+    <description>so that the list can be clearer and we can find easier the emails that needs to be handled by everyone( because sometimes there is a subject in EN by Internal but the email is FR This would avoid problems in the General inbox when we tried to assign cases to CSMs in order to not miss some tickets from our market</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Account.Herkunftsland_der_Rechtsform__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Country of Origin</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_close_case_without_lift_reason_l</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(
+ISCHANGED(Status),
+RecordTypeId = &#39;0120Y0000002iZt&#39;,
+ISPICKVAL(Status, &#39;Closed&#39;),
+ISPICKVAL( Lift_Status__c , &#39;No Lift adjustment&#39;),
+ISPICKVAL(Lift_reason_lost__c, &#39;&#39;)),
+AND(
+ISCHANGED(Status),
+RecordTypeId = &#39;0120Y0000002iZw&#39;,
+ISPICKVAL(Status, &#39;Closed&#39;),
+ISPICKVAL(Upsell_Status__c , &#39;Closed Lost&#39;),
+ISPICKVAL(Upsell_reason_lost__c, &#39;&#39;)))</errorConditionFormula>
+    <errorMessage>Please fill out the Reason Lost Detail</errorMessage>
+</ValidationRule>

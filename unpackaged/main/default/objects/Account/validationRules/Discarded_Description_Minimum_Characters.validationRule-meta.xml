@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discarded_Description_Minimum_Characters</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( status__c , &quot;Discarded&quot;) &amp;&amp;
+ISCHANGED(discarded_reason__c) &amp;&amp;
+TEXT(discarded_reason__c) &lt;&gt; &quot;Lead Quality&quot; &amp;&amp;
+TEXT(discarded_reason__c) &lt;&gt; &quot;Rejected By TS&quot; &amp;&amp;
+OR(
+  ISBLANK(Discarded_Description__c),   
+  LEN(Discarded_Description__c) &lt; 25,
+  REGEX(Discarded_Description__c, &quot;.*(.)\\1{2,}.*&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Discarded_Description__c</errorDisplayField>
+    <errorMessage>Please provide at least 25 characters for a valid discarded description which does not contain multiple characters in a row. (Ex: &quot;xxxxxx&quot; or &quot;.......&quot;)</errorMessage>
+</ValidationRule>

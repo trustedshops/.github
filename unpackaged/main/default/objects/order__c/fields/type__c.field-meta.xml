@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>type__c</fullName>
+    <externalId>false</externalId>
+    <label>TS Application Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ADD_DOMAIN</fullName>
+                <default>false</default>
+                <label>ADD_DOMAIN</label>
+            </value>
+            <value>
+                <fullName>ADD_PRODUCTS</fullName>
+                <default>false</default>
+                <label>ADD_PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>MEMBERSHIP_UPGRADE</fullName>
+                <default>false</default>
+                <label>MEMBERSHIP_UPGRADE</label>
+            </value>
+            <value>
+                <fullName>MEMBERSHIP</fullName>
+                <default>false</default>
+                <label>Membership,In Membership</label>
+            </value>
+            <value>
+                <fullName>RATING</fullName>
+                <default>false</default>
+                <label>Rating</label>
+            </value>
+            <value>
+                <fullName>RESEARCH</fullName>
+                <default>false</default>
+                <label>RESEARCH</label>
+            </value>
+            <value>
+                <fullName>UPDATE_CC</fullName>
+                <default>false</default>
+                <label>UPDATE_CC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

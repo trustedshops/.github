@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_cannot_create_Contact_on_other_acc</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT($User.ignore_validation_rules__c),
+ISNEW() || ISCHANGED(LastModifiedDate),
+$Profile.Name = &quot;Sales Representative&quot; || $Profile.Name = &quot;Teamlead Inside Sales&quot;,
+$User.Id &lt;&gt; Account.OwnerId
+)</errorConditionFormula>
+    <errorMessage>You cannot create or edit Contacts on Accounts you don&#39;t own.</errorMessage>
+</ValidationRule>

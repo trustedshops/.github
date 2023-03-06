@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Winback_successful__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>set if Termination Date has been removed from an Account</description>
+    <externalId>false</externalId>
+    <label>Winback successful</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

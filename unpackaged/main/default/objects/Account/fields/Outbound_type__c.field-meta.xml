@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outbound_type__c</fullName>
+    <description>new accounts created by the LM</description>
+    <externalId>false</externalId>
+    <label>Outbound type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>ODG_IH</fullName>
+                <default>false</default>
+                <label>ODG_IH</label>
+            </value>
+            <value>
+                <fullName>Recycled</fullName>
+                <default>false</default>
+                <label>Recycled</label>
+            </value>
+            <value>
+                <fullName>E-Mails Campaigns</fullName>
+                <default>false</default>
+                <label>E-Mail Campaigns</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Individual Mailing</fullName>
+                <default>false</default>
+                <label>Individual Mailing</label>
+            </value>
+            <value>
+                <fullName>Legal_11880_cold</fullName>
+                <default>false</default>
+                <label>Legal_11880_cold</label>
+            </value>
+            <value>
+                <fullName>Legal_tools_cold</fullName>
+                <default>false</default>
+                <label>Legal_tools_cold</label>
+            </value>
+            <value>
+                <fullName>Legal_Partner_Agency Leads</fullName>
+                <default>false</default>
+                <label>Legal_Partner_Agency Leads</label>
+            </value>
+            <value>
+                <fullName>Legal_Campaign_cold</fullName>
+                <default>false</default>
+                <label>Legal_Campaign_cold</label>
+            </value>
+            <value>
+                <fullName>Legal_Recycling Pool Leads</fullName>
+                <default>false</default>
+                <label>Legal_Recycling Pool Leads</label>
+            </value>
+            <value>
+                <fullName>Legal_Campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_Campaign</label>
+            </value>
+            <value>
+                <fullName>Legal_RT-Free</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal_RT-Free</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>New</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>ODG_IH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>Recycled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>BEYOND_ECOMMERCE</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <controllingFieldValue>THIRD_PARTY</controllingFieldValue>
+            <valueName>E-Mails Campaigns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>EXPERIENCE_FEEDBACK</controllingFieldValue>
+            <valueName>Individual Mailing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_11880_cold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_tools_cold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Partner_Agency Leads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Campaign_cold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STANDARD</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
+            <valueName>Legal_Recycling Pool Leads</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

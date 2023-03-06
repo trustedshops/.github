@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_Survey_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Trigger for Marketing Cloud Batch Mailings triggerd by Survey invite creation</description>
+    <externalId>false</externalId>
+    <label>MC Survey Trigger</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_lift_relevant__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( company_id__r.Min_1_Shop_has_SI__c &gt;0 &amp;&amp;  Zuora_Expected_Turnover__c &lt;  turnover_by_average_basket__c , true, 
+ IF(company_id__r.Min_1_Shop_has_SI__c =0 &amp;&amp; Zuora_Expected_Turnover__c &lt; turnover_by_average_shopping_basket__c , true, false) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is lift relevant</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

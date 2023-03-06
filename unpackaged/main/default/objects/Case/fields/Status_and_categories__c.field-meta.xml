@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_and_categories__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Status, &quot;Closed&quot;, &quot;Status: Closed&quot;,&quot;Rejected&quot;, &quot;Status: Rejected&quot;,&quot;New&quot;, &quot;Status: New&quot;, &quot;On Hold&quot;, &quot;Status: On Hold (until &quot; + TEXT( stopped_until__c) + &quot;)&quot;,&quot;In Progress&quot;, &quot;Status: In Progress&quot;, &quot;&quot;)+ BR()+
+CASE(Category__c,&quot;Product Reviews&quot;,&quot;Category: Product Reviews&quot;,&quot;Shop Reviews&quot;,&quot;Category: Shop Reviews&quot;,&quot;&quot;)+ BR()+
+CASE(Sub_Category__c,&quot;Import&quot;,&quot;Sub category: Import&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status and categories</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

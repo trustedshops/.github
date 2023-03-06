@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Owner_Change_for_Sales_Reps</fullName>
+    <active>true</active>
+    <description>Sales Reps should not be able to change the Account Owner. Exception: API User</description>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+!ISPICKVAL(Legal_Status__c,&quot;Discarded&quot;),!ISPICKVAL(status__c,&quot;Discarded&quot;), 
+OwnerId &lt;&gt; &quot;0050Y000001GxvY&quot;,$User.ignore_validation_rules__c = false,
+CONTAINS($UserRole.Name,&quot;Team Sales&quot;),
+NOT(CONTAINS($UserRole.Name,&quot;Sales 6 Market 1&quot;)),
+NOT($Profile.Name = &#39;Experience Feedback Manager&#39;),
+NOT($RecordType.Name = &#39;Partner&#39;)
+)</errorConditionFormula>
+    <errorMessage>You cannot assign this Account to someone else. Please contact Lead Management.</errorMessage>
+</ValidationRule>

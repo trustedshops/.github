@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recyclage_Auto_Fr_Monika</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9 AND 10</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Discarded_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Lead Management</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.LAST_ACTIVITY</field>
+        <operation>lessThan</operation>
+        <value>10/1/2021</value>
+    </filters>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>Discarded</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.prospect</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>FR</value>
+    </filters>
+    <filters>
+        <field>Discarded_Date__c</field>
+        <operation>lessThan</operation>
+        <value>2/3/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>number_of_accounts__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>is_key_account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Discarded_Information__c</field>
+        <operation>equals</operation>
+        <value>Does not believe in TS effect,Happy with competitor,Too expensive</value>
+    </filters>
+    <filters>
+        <field>Discarded_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2018 12:00 AM</value>
+    </filters>
+    <label>Recyclage Auto - Fr Anita</label>
+</ListView>

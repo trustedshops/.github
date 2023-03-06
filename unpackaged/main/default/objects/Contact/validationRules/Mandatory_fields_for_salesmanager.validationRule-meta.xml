@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_fields_for_salesmanager</fullName>
+    <active>true</active>
+    <description>Sales Manager can&#39;t save contact with default last name &amp; without salutation</description>
+    <errorConditionFormula>AND(ISNEW(),
+OR(
+CONTAINS(LastName,&#39;[LastName if available]&#39;),
+ISPICKVAL(Salutation, &quot;&quot;)
+),
+CONTAINS($Profile.Name, &#39;Sales Manager&#39;))</errorConditionFormula>
+    <errorMessage>Please update last name and/or salutation field.</errorMessage>
+</ValidationRule>

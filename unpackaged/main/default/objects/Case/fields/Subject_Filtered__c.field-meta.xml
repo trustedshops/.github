@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_Filtered__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(OR(CreatedBy.Alias = &#39;autocase&#39;,zz_Recipient_First_Mail__c = &#39;shop@trustedshops.com&#39;), OR(CONTAINS(Subject, &quot;Automatische Antwort:&quot;), 
+CONTAINS(Subject, &quot;Delivery Status Notification (Failure)&quot;),
+CONTAINS(Subject, &quot;Undelivered Mail Returned to Sender&quot;),
+CONTAINS(Subject, &quot;Abwesend:&quot;),
+CONTAINS(Subject, &quot;Abwesend&quot;),
+CONTAINS(Subject, &quot;Abwesenheit&quot;),
+CONTAINS(Subject, &quot;Abwesenheit/ out of office&quot;),
+CONTAINS(Subject, &quot;(Autoresponder) Abwesenheitsmeldung / Out of office&quot;),
+CONTAINS(Subject, &quot;Automatic Reply:&quot;),
+CONTAINS(Subject, &quot;Automatic reply:&quot;),
+CONTAINS(Subject, &quot;AUTO:&quot;),
+CONTAINS(Subject, &quot;Automatisch antwoord:&quot;),
+CONTAINS(Subject, &quot;Abwesenheitsnotiz&quot;),
+CONTAINS(Subject, &quot;helpdesk&quot;),
+CONTAINS(Subject, &quot;Out of office&quot;),
+CONTAINS(Subject, &quot;Out of Office&quot;),
+CONTAINS(Subject, &quot;out of office&quot;),
+CONTAINS(Subject, &quot;Autoreply&quot;),
+CONTAINS(Subject, &quot;AUTOREPLY&quot;),
+CONTAINS(Subject, &quot;Vielen Dank für Ihre Nachricht!&quot;),
+CONTAINS(Subject, &quot;Automatyczna odpowiedź&quot;),
+CONTAINS(Subject, &quot;Réponse automatique&quot;),
+CONTAINS(Subject, &quot;Bericht ontvangen!&quot;),
+CONTAINS(Subject, &quot;Support-Ticket geöffnet&quot;),
+CONTAINS(Subject, &quot;TEST - intern onboarding&quot;),
+CONTAINS(Subject, &quot;TEST - extern onboarding&quot;),
+CONTAINS(Subject, &quot;TEST - intern activation&quot;),
+CONTAINS(Subject, &quot;TEST - extern activation&quot;),
+CONTAINS(Subject, &quot;Spam Quarantine Report&quot;)
+)), true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Subject Filtered?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

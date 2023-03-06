@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Customer_Success_Inbox</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND ((6 AND 7) OR 8 OR 9)</booleanFilter>
+    <columns>Account_Owner__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Test_subject__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Last_Email__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>contact_language__c</columns>
+    <columns>Number_of_Emails__c</columns>
+    <columns>Customer_Segmentation__c</columns>
+    <columns>zz_Recipient_First_Mail__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>case_owner_team__c</field>
+        <operation>equals</operation>
+        <value>Customer Success,Team Customer Success International</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Customer Success,Team Customer Success DACH,Team Customer Success,Api User</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notContain</operation>
+        <value>Audit Cancellation,Trusted Shops Buyer Protection</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>notEqual</operation>
+        <value>Website Form</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Number_of_Emails__c</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Whitelist__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Subject_Filtered__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Team Customer Success - Inbox</label>
+    <sharedTo>
+        <role>Director_Sales</role>
+        <role>Sales_Manager_Market_1</role>
+        <role>Sales_Manager_Market_5</role>
+        <role>System_Administrators</role>
+        <roleAndSubordinates>CX_Teamlead_Account_Management_Market_5</roleAndSubordinates>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_1_Market_8</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_1</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_2</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_3</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_4</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_5</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CX_Teamlead_Account_Management_Market_6</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_High_Touch_1_Market_1</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Mid_Touch_1_Market_1</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_1_Market_1</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_1_Market_2</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_1_Market_3</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_1_Market_4</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_1_Market_5</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_1_Market_6</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Teamlead_Tech_Touch_6_Market_1</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>payment_type__c</fullName>
+    <externalId>false</externalId>
+    <label>TS Application Paymenttype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CLICKANDBUY</fullName>
+                <default>false</default>
+                <label>\ Click&amp;Buy (Firstgate)</label>
+            </value>
+            <value>
+                <fullName>AMAZON_PAYMENTS</fullName>
+                <default>false</default>
+                <label>AMAZON_PAYMENTS</label>
+            </value>
+            <value>
+                <fullName>CASH_ON_DELIVERY</fullName>
+                <default>false</default>
+                <label>Cash on delivery</label>
+            </value>
+            <value>
+                <fullName>CHEQUE</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+            <value>
+                <fullName>CREDIT_CARD</fullName>
+                <default>false</default>
+                <label>Credit Card</label>
+            </value>
+            <value>
+                <fullName>INKASSO</fullName>
+                <default>false</default>
+                <label>Debt collection</label>
+            </value>
+            <value>
+                <fullName>DIRECT_DEBIT</fullName>
+                <default>false</default>
+                <label>Direct Debit</label>
+            </value>
+            <value>
+                <fullName>DIRECT_E_BANKING</fullName>
+                <default>false</default>
+                <label>DIRECTebanking.com</label>
+            </value>
+            <value>
+                <fullName>DOTPAY</fullName>
+                <default>false</default>
+                <label>Dotpay [PL]</label>
+            </value>
+            <value>
+                <fullName>FINANCING</fullName>
+                <default>false</default>
+                <label>Financing</label>
+            </value>
+            <value>
+                <fullName>GIROPAY</fullName>
+                <default>false</default>
+                <label>Giropay</label>
+            </value>
+            <value>
+                <fullName>GOOGLE_CHECKOUT</fullName>
+                <default>false</default>
+                <label>Google Checkout</label>
+            </value>
+            <value>
+                <fullName>IMRG_SETTLEMENT</fullName>
+                <default>false</default>
+                <label>IMRG Settlement</label>
+            </value>
+            <value>
+                <fullName>INSOLVENZ</fullName>
+                <default>false</default>
+                <label>insolvenz</label>
+            </value>
+            <value>
+                <fullName>INVOICE</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>LEASING</fullName>
+                <default>false</default>
+                <label>Leasing</label>
+            </value>
+            <value>
+                <fullName>SHOP_CARD</fullName>
+                <default>false</default>
+                <label>Online Shop Payment Card</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>other</label>
+            </value>
+            <value>
+                <fullName>PAYBOX</fullName>
+                <default>false</default>
+                <label>Paybox</label>
+            </value>
+            <value>
+                <fullName>CASH_ON_PICKUP</fullName>
+                <default>false</default>
+                <label>Payment on pickup</label>
+            </value>
+            <value>
+                <fullName>PAYPAL</fullName>
+                <default>false</default>
+                <label>PayPal</label>
+            </value>
+            <value>
+                <fullName>PREPAYMENT</fullName>
+                <default>false</default>
+                <label>Prepayment / Transfer</label>
+            </value>
+            <value>
+                <fullName>PRZELEWY24</fullName>
+                <default>false</default>
+                <label>Przelewy24 [PL]</label>
+            </value>
+            <value>
+                <fullName>PLATNOSCI</fullName>
+                <default>false</default>
+                <label>Płatności [PL]</label>
+            </value>
+            <value>
+                <fullName>MONEYBOOKERS</fullName>
+                <default>false</default>
+                <label>Skrill</label>
+            </value>
+            <value>
+                <fullName>T_PAY</fullName>
+                <default>false</default>
+                <label>T-Pay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

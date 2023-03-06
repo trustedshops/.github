@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transfer_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Marked for Transfer
+|| No Transfer - (no Customer Nr)
+|| Transferred successfully - (202 - Accepted)
+|| Transfer failed - (400 - Bad Request) &amp; (401 – Unauthorized)
+|| Error - unexpected Erros</inlineHelpText>
+    <label>Transfer-Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Marked for Transfer</fullName>
+                <default>true</default>
+                <label>Marked for Transfer</label>
+            </value>
+            <value>
+                <fullName>Transferred successfully</fullName>
+                <default>false</default>
+                <label>Transferred successfully</label>
+            </value>
+            <value>
+                <fullName>Transfer failed</fullName>
+                <default>false</default>
+                <label>Transfer failed</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>No Transfer</fullName>
+                <default>false</default>
+                <label>No Transfer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

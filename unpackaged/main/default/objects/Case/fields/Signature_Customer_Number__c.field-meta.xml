@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signature_Customer_Number__c</fullName>
+    <description>checks Contact Language first, then takes the COO of the Account, else Result is en</description>
+    <externalId>false</externalId>
+    <formula>CASE( Contact.language__c, 
+&quot;de&quot;, &quot;Ihre Kundennummer: &quot;+ Account.customer_number__c, 
+&quot;en&quot;, &quot;Your customer number: &quot;+ Account.customer_number__c, 
+&quot;es&quot;, &quot;Su número de cliente: &quot; + Account.customer_number__c, 
+&quot;fr&quot;, &quot;Votre numéro de client : &quot; + Account.customer_number__c, 
+&quot;it&quot;, &quot;Il tuo numero cliente: &quot; + Account.customer_number__c, 
+&quot;nl&quot;, &quot;Jouw klantnummer: &quot; + Account.customer_number__c, 
+&quot;pl&quot;, &quot;Twój numer klienta: &quot; + Account.customer_number__c, 
+&quot;pt&quot;, &quot;O teu número de cliente: &quot; + Account.customer_number__c, 
+CASE(Account.Herkunftsland_der_Rechtsform__c, 
+&quot;de&quot;, &quot;Ihre Kundennummer: &quot;+ Account.customer_number__c, 
+&quot;gb&quot;, &quot;Your customer number: &quot;+ Account.customer_number__c, 
+&quot;es&quot;, &quot;Su número de cliente: &quot; + Account.customer_number__c, 
+&quot;fr&quot;, &quot;Votre numéro de client : &quot; + Account.customer_number__c, 
+&quot;it&quot;, &quot;Il tuo numero cliente: &quot; + Account.customer_number__c, 
+&quot;nl&quot;, &quot;Jouw klantnummer: &quot; + Account.customer_number__c, 
+&quot;pl&quot;, &quot;Twój numer klienta: &quot; + Account.customer_number__c, 
+&quot;pt&quot;, &quot;O teu número de cliente: &quot; + Account.customer_number__c, 
+&quot;Your customer number: &quot;+ Account.customer_number__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Signature Customer Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

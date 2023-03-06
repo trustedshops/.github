@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upsell_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Upsell Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospect - 10</fullName>
+                <default>false</default>
+                <label>Prospect - 10</label>
+            </value>
+            <value>
+                <fullName>Need analysis - 25</fullName>
+                <default>false</default>
+                <label>Need analysis - 25</label>
+            </value>
+            <value>
+                <fullName>Proposal sent - 35</fullName>
+                <default>false</default>
+                <label>Proposal sent - 35</label>
+            </value>
+            <value>
+                <fullName>Negoti. &amp; Commit - 50</fullName>
+                <default>false</default>
+                <label>Negoti. &amp; Commit - 50</label>
+            </value>
+            <value>
+                <fullName>Listen &amp; resolve - 80</fullName>
+                <default>false</default>
+                <label>Listen &amp; resolve - 80</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <label>Closed Won</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

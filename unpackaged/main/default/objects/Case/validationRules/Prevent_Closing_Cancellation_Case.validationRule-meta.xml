@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Closing_Cancellation_Case</fullName>
+    <active>true</active>
+    <description>Prevent Closing Cancellation Case if the linked Contact is not the correct one</description>
+    <errorConditionFormula>ISCHANGED(Sub_Category__c)
+&amp;&amp;
+ ISPICKVAL(Sub_Category__c, &#39;Cancellation&#39;)
+&amp;&amp;
+ ISBLANK(ContactId ) = false
+&amp;&amp;
+(
+ ISBLANK( AccountId ) 
+||
+ Account.RecordType.DeveloperName != &#39;customer&#39;
+)
+&amp;&amp;
+ $User.zz_ignore_DuplicateRules__c = false</errorConditionFormula>
+    <errorMessage>Please make sure there is a Contact linked to this Cancellation Case and that this is a Contact from a Customer Account</errorMessage>
+</ValidationRule>

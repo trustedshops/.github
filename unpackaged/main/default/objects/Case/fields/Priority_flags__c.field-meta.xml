@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_flags__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Profile.Name = &quot;CX Manager&quot;||$Profile.Name = &quot;Finance Manager&quot; ||$Profile.Name = &quot;Technical Success Manager&quot; ,
+IMAGE(CASE(Priority,&quot;High&quot;,&quot;/img/samples/flag_red.gif&quot;,&quot;Callback&quot;,&quot;/img/samples/flag_yellow.gif&quot;,&quot;/s.gif&quot;),&quot;PriorityFlag&quot;), IMAGE(CASE(Priority,&quot;Low&quot;,&quot;/img/samples/flag_green.gif&quot;,&quot;Medium&quot;,&quot;/img/samples/flag_yellow.gif&quot;,&quot;High&quot;,&quot;/img/samples/flag_red.gif&quot;,&quot;Callback&quot;,&quot;/img/samples/flag_yellow.gif&quot;,&quot;/s.gif&quot;),&quot;PriorityFlag&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priority flags</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
